@@ -1,33 +1,30 @@
 languages:
-  - item: JavaScript (ES6)
+  - item: JavaScript (ES6+)
   - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
-  - item: Python
+  - item: PHP
   - item: SQL
-  - item: R
+  - item: HTML/CSS/Sass
 
 frameworks:
-  - item: Ember & Glimmer
   - item: React
+  - item: Node.js & Express
+  - item: WordPress (Core & Gutenberg)
+  - item: Apache Flink
+  - item: Redux Toolkit
   - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
 
 tools:
-  - item: Bash
+  - item: Docker
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
-  - item: Postman
+  - item: Redis
+  - item: Nginx
   - item: MongoDB
+  - item: Apache Kafka
+  - item: RabbitMQ
+  - item: Postman
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+architecture:
+  - item: Microservices
+  - item: High-Throughput Systems (10Cr/day)
+  - item: Real-time Analytics
+  - item: Open Source Maintenance
