@@ -11,7 +11,7 @@ frameworks:
   - item: WordPress (Core & Gutenberg)
   - item: Apache Flink
   - item: Redux Toolkit
-  - item: Jekyll
+  - item: WP CLI
 
 tools:
   - item: Docker
