@@ -1,10 +1,10 @@
 - name: rtCamp
   url: "#"
   description: 
-    Currently serving as a WordPress Engineer and a 2-time Noteworthy Contributor for the WordPress 6.8 "Cecil" and 6.9 releases.
-    Recognized for 90+ props and over 170+ merged contributions to WordPress Core and Gutenberg, focusing on critical bug fixes, i18n/i10n improvements, and accessibility.
-    Architected CI/CD improvements by adding smoke tests for Storybooks and optimized the build process by converting legacy packages to TypeScript and fine-tuning Webpack configurations.
-    Maintained the Nginx-helper plugin, extending its purging logic for WooCommerce environments across 100,000+ active installations.
+    - Currently serving as a WordPress Engineer and a 2-time Noteworthy Contributor for the WordPress 6.8 "Cecil" and 6.9 releases.
+    - Recognized for 90+ props and over 170+ merged contributions to WordPress Core and Gutenberg, focusing on critical bug fixes, i18n/i10n improvements, and accessibility.
+    - Architected CI/CD improvements by adding smoke tests for Storybooks and optimized the build process by converting legacy packages to TypeScript and fine-tuning Webpack configurations.
+    - Maintained the Nginx-helper plugin, extending its purging logic for WooCommerce environments across 100,000+ active installations.
   used:
     - thing: WordPress Core
     - thing: Gutenberg
@@ -22,11 +22,11 @@
 - name: Adsolut Media (Lead Backend Intern)
   url: "#"
   description: 
-    Led a team of four as a Backend Systems Architect to build a high-scale Ads Monetization Platform from the ground up.
-    Designed a microservices architecture handling 10Cr (100M) requests per day, managing concurrent loads of 50,000 requests per minute.
-    Engineered a real-time analytics engine using Apache Kafka and Apache Flink to process video player events with a sub-2-minute live delay.
-    Improved system performance by 75%, reducing data fetching latency from 600ms to 150ms via strategic Redis caching and MongoDB indexing.
-    Integrated RabbitMQ to handle asynchronous file generation for dynamic player configurations and ads.xml proliferation.
+    - Led a team of four as a Backend Systems Architect to build a high-scale Ads Monetization Platform from the ground up.
+    - Designed a microservices architecture handling 10Cr (100M) requests per day, managing concurrent loads of 50,000 requests per minute.
+    - Engineered a real-time analytics engine using Apache Kafka and Apache Flink to process video player events with a sub-2-minute live delay.
+    - Improved system performance by 75%, reducing data fetching latency from 600ms to 150ms via strategic Redis caching and MongoDB indexing.
+    - Integrated RabbitMQ to handle asynchronous file generation for dynamic player configurations and ads.xml proliferation.
   used:
     - thing: Node.js
     - thing: Express.js
@@ -58,10 +58,10 @@
 - name: Adsolut Media (Full-Stack Intern)
   url: "#"
   description: 
-    Developed 5 real-time CRUD applications automating internal startup tasks and enhancing overall workflow efficiency.
-    Built an automated RSS-based feed system that dynamically scraped data from YouTube and auto-downloaded missing video assets to local servers.
-    Managed high-volume data proliferation using rate-limiting strategies to maintain stability with external APIs.
-    Implemented a complex CRM system featuring remote file transfer and instant JSON file generation for streamlined document outlining.
+    - Served as a Frontend Developer Intern for a prominent remote HR CRM platform.
+    - Resolved over 60+ complex issues within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
+    - Optimized enterprise-level data tables using AG-Grid and handled intricate styling regressions using SCSS and CSS.
+    - Collaborated in a professional remote environment to maintain code quality standards and fix critical bugs affecting the recruitment workflow.
   used:
     - thing: React.js
     - thing: Node.js
@@ -74,9 +74,9 @@
 - name: Arkay Apps
   url: "#"
   description: 
-    Developed frontend CRUD operational components for a live project serving a user base of over 100,000 end users.
-    Built and integrated an automated WhatsApp Receipt Generator interface that utilized the WhatsApp Business API to send personalized payment confirmations instantly.
-    Focused on improving user experience for data collection forms and ensuring seamless data flow between the frontend and automated communication modules.
+    - Developed frontend CRUD operational components for a live project serving a user base of over 100,000 end users.
+    - Built and integrated an automated WhatsApp Receipt Generator interface that utilized the WhatsApp Business API to send personalized payment confirmations instantly.
+    - Focused on improving user experience for data collection forms and ensuring seamless data flow between the frontend and automated communication modules.
   used:
     - thing: React.js
     - thing: JavaScript
