@@ -6,9 +6,9 @@
       margin-bottom: 10px;
     }
     &__description_list {
-      list-style: disc;
-      li{
-        padding: 0px 10px;
+      list-style: disc !important;
+      li {
+        padding: 0px 10px !important;
       }
     }
     p {
