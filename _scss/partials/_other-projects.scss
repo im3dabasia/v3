@@ -5,6 +5,12 @@
     &__name {
       margin-bottom: 10px;
     }
+    &__description_list {
+      list-style: disc;
+      li{
+        padding: 0px 10px;
+      }
+    }
     p {
       font-size: 0.9rem;
       margin-bottom: 20px;
