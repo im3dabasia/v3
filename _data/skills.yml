@@ -1,30 +1,34 @@
-languages:
-  - item: JavaScript (ES6+)
-  - item: TypeScript
-  - item: PHP
-  - item: SQL
-  - item: HTML/CSS/Sass
-
-frameworks:
+frontend:
   - item: React
-  - item: Node.js & Express
-  - item: WordPress (Core & Gutenberg)
-  - item: Apache Flink
+  - item: Gutenberg Block development/FSE
+  - item: JavaScript/TypeScript
+  - item: Webpack
+  - item: Jest
+  - item: Playwright
+  - item: React component testing
   - item: Redux Toolkit
+
+backend:
+  - item: PHP
+  - item: Node.js & Express
+  - item: WordPress Plugin 
   - item: WP CLI
 
-tools:
-  - item: Docker
-  - item: Git & Github
-  - item: Redis
-  - item: Nginx
+databases:
+  - item: MySQL
   - item: MongoDB
-  - item: Apache Kafka
+  - item: PostgreSQL
+  - item: Redis
   - item: RabbitMQ
-  - item: Postman
 
-architecture:
-  - item: Microservices
-  - item: High-Throughput Systems (10Cr/day)
-  - item: Real-time Analytics
-  - item: Open Source Maintenance
+others:
+  - item: Core Web Vitals Optimisation
+  - item: Core Web Vitals Optimisation
+  - item: Performance Optimisation
+  - item: Web Accessibility
+  - item: Docker Integration 
+  - item: GitHub Actions/Ansible
+  - item: Prometheus/Graffana
+  - item: Nginx
+  
+  
