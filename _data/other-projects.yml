@@ -42,11 +42,11 @@
 
 - name: Recruiterflow
   url: "#"
-  description: 
-    Served as a Frontend Developer Intern for a prominent remote HR CRM platform.
-    Resolved over 60+ complex issues within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
-    Optimized enterprise-level data tables using AG-Grid and handled intricate styling regressions using SCSS and CSS.
-    Collaborated in a professional remote environment to maintain code quality standards and fix critical bugs affecting the recruitment workflow.
+  description:
+    - Served as a Frontend Developer Intern for a prominent remote HR CRM platform.
+    - Resolved over 60+ complex issues within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
+    - Optimized enterprise-level data tables using AG-Grid and handled intricate styling regressions using SCSS and CSS.
+    - Collaborated in a professional remote environment to maintain code quality standards and fix critical bugs affecting the recruitment workflow.
   used:
     - thing: React
     - thing: Redux
