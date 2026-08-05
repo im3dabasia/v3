@@ -1,7 +1,7 @@
 - name: rtCamp
   url: "#"
   description: 
-    - Currently serving as a WordPress Engineer and a <strong>2-time Noteworthy Contributor</strong> for the WordPress 6.8 "Cecil" and 6.9 releases.
+    - Currently serving as a Software Engineer and a <strong>2-time Noteworthy Contributor</strong> for the WordPress 6.8 "Cecil" and 6.9 releases.
     - Recognized for <strong>90+ props</strong> and over <strong>170+ merged contributions</strong> to WordPress Core and Gutenberg, focusing on critical bug fixes, i18n/i10n improvements, and accessibility.
     - <strong>Architected CI/CD improvements</strong> by adding smoke tests for Storybooks and optimized the build process by converting legacy packages to TypeScript and fine-tuning Webpack configurations.
     - Maintained the Nginx-helper plugin, extending its purging logic for WooCommerce environments across <strong>100,000+ active installations</strong>.
