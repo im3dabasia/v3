@@ -1,3 +1,40 @@
+// Slow, uneven morphs. The two shapes are deliberately out of phase with
+// each other so the blob never settles into an obvious loop.
+@keyframes portrait-morph {
+  0%,
+  100% {
+    border-radius: 62% 38% 46% 54% / 58% 44% 56% 42%;
+  }
+  33% {
+    border-radius: 40% 60% 63% 37% / 41% 57% 43% 59%;
+  }
+  66% {
+    border-radius: 54% 46% 35% 65% / 62% 39% 61% 38%;
+  }
+}
+
+// The auras sit at the same box as the photo, so they have to be scaled well
+// past it to spill out into a halo rather than hide behind it.
+@keyframes portrait-drift-a {
+  0%,
+  100% {
+    transform: translate(-4%, 2%) scale(1.3) rotate(0deg);
+  }
+  50% {
+    transform: translate(4%, -5%) scale(1.46) rotate(16deg);
+  }
+}
+
+@keyframes portrait-drift-b {
+  0%,
+  100% {
+    transform: translate(5%, -3%) scale(1.22) rotate(0deg);
+  }
+  50% {
+    transform: translate(-5%, 6%) scale(1.38) rotate(-18deg);
+  }
+}
+
 .intro {
   padding: 120px 100px;
   height: 100vh;
@@ -6,6 +43,7 @@
   justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
   @include weird-medium {
     padding: 120px 70px;
   }
@@ -132,5 +170,73 @@
         color: $white;
       }
     }
+  }
+  // Portrait sitting in the empty half of the hero. Positioned absolutely so
+  // it stays out of the column flow that spaces the three text blocks, and
+  // only shown where there is genuinely room beside the 700px tagline.
+  &__portrait {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    @include thirteen {
+      display: none;
+    }
+
+    &__aura,
+    &__photo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    // Two blurred colour fields drifting behind the photo, in the accents the
+    // rest of the site already uses.
+    &__aura {
+      border-radius: 46% 54% 51% 49% / 52% 47% 53% 48%;
+      filter: blur(40px);
+      will-change: transform;
+      &--one {
+        background: $blue;
+        opacity: 0.3;
+        animation: portrait-drift-a 15s ease-in-out infinite;
+      }
+      &--two {
+        // A lighter shade of the same blue rather than a second hue — two
+        // different hues blend to a muddy third colour where they overlap.
+        background: #7fd0ff;
+        opacity: 0.45;
+        animation: portrait-drift-b 19s ease-in-out infinite;
+      }
+    }
+
+    &__photo {
+      object-fit: cover;
+      border-radius: 62% 38% 46% 54% / 58% 44% 56% 42%;
+      animation: portrait-morph 17s ease-in-out infinite;
+    }
+  }
+}
+
+body.night .intro__portrait {
+  // The auras carry the dark background rather than white, so they need a
+  // little more presence to read against it.
+  .intro__portrait__aura--one {
+    opacity: 0.34;
+  }
+  .intro__portrait__aura--two {
+    opacity: 0.22;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro__portrait__photo,
+  .intro__portrait__aura {
+    animation: none;
   }
 }
