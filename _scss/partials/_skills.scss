@@ -1,15 +1,20 @@
 .skills {
   .skillz {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     @include weird-medium {
       flex-wrap: wrap;
+      gap: 25px;
     }
     &__category {
+      // Equal columns rather than content-sized ones, so the gutters stay
+      // even no matter how much text a category holds. min-width: 0 lets a
+      // column shrink below the width of its longest item and wrap instead
+      // of pushing its neighbours apart.
+      flex: 1 1 0;
+      min-width: 0;
       @include weird-medium {
-        width: 47%;
-        margin-right: 5px;
-        margin-bottom: 25px;
+        flex: 1 1 calc(50% - 25px);
       }
       &__label {
         font-weight: 700;

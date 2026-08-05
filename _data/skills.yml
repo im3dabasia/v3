@@ -23,7 +23,6 @@ databases:
 
 others:
   - item: Core Web Vitals Optimisation
-  - item: Core Web Vitals Optimisation
   - item: Performance Optimisation
   - item: Web Accessibility
   - item: Docker Integration 
