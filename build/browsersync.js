@@ -1,41 +1,62 @@
-const browserSync  = require('browser-sync').create();
-const cp           = require('child_process');
+import { spawn } from 'node:child_process';
+import browserSyncLib from 'browser-sync';
+import gulp from 'gulp';
+import { styles } from './sass.js';
+import { scripts } from './scripts.js';
 
-const jekyll       = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+const browserSync = browserSyncLib.create();
 
-const scssPath     = '_scss/**/*.scss';
-const jsPath       = '_scripts/*.js';
-const templatePath = ['*.html', '+(_includes|_layouts)/*.html', '*.yml', '_data/*.yml', '_posts/*'];
+// Jekyll is a Ruby gem and may not be on PATH (e.g. when it is installed
+// against a Homebrew ruby). Set JEKYLL to point at the binary directly.
+const jekyll =
+  process.env.JEKYLL || (process.platform === 'win32' ? 'jekyll.bat' : 'jekyll');
 
-module.exports = gulp => {
+const scssPath = '_scss/**/*.scss';
+const jsPath = '_scripts/*.js';
+const templatePath = [
+  '*.html',
+  '+(_includes|_layouts)/*.html',
+  '*.yml',
+  '_data/*.yml',
+  '_posts/*',
+];
 
-  // run `jekyll build`
-  gulp.task('jekyll-build', done => {
-    return cp.spawn(jekyll, ['build'], {stdio: 'inherit'})
-      .on('close', done);
-  });
+function runJekyll(args, done) {
+  spawn(jekyll, args, { stdio: 'inherit' })
+    .on('error', err =>
+      done(
+        new Error(
+          `Could not run "${jekyll}". Install it with \`gem install jekyll\` ` +
+            `or set JEKYLL to the full path of the binary. (${err.message})`
+        )
+      )
+    )
+    .on('close', code =>
+      done(code === 0 ? undefined : new Error(`jekyll exited with code ${code}`))
+    );
+}
 
-  // run `jekyll build` with _config_dev.yml
-  gulp.task('jekyll-dev', done => {
-    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
-      .on('close', done);
-  });
+export function jekyllBuild(done) {
+  runJekyll(['build'], done);
+}
 
-  // Rebuild Jekyll then reload the page
-  gulp.task('jekyll-rebuild', ['jekyll-dev'], () => {
-    browserSync.reload();
-  });
+export function jekyllDev(done) {
+  runJekyll(['build', '--config', '_config.yml,_config_dev.yml'], done);
+}
 
-  gulp.task('serve', ['jekyll-dev'], () => {
-    browserSync.init({
-      server: {
-        baseDir: '_site'
-      }
-    });
+function reload(done) {
+  browserSync.reload();
+  done();
+}
 
-    gulp.watch(scssPath, ['sass', browserSync.reload]);
-    gulp.watch(jsPath, ['scripts', browserSync.reload]);
-    gulp.watch(templatePath, ['jekyll-rebuild']);
-  });
+const jekyllRebuild = gulp.series(jekyllDev, reload);
 
-};
+export function serve(done) {
+  browserSync.init({ server: { baseDir: '_site' } });
+
+  gulp.watch(scssPath, gulp.series(styles, reload));
+  gulp.watch(jsPath, gulp.series(scripts, reload));
+  gulp.watch(templatePath, jekyllRebuild);
+
+  done();
+}

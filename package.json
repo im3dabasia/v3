@@ -1,28 +1,39 @@
 {
-  "name": "brittanychiang.com",
+  "name": "eshaandabasiya.com",
   "version": "0.0.0",
   "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "type": "module",
   "main": "gulpfile.js",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "css": "gulp sass"
   },
-  "author": "Brittany Chiang",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "author": "Eshaan Dabasiya",
   "license": "ISC",
   "devDependencies": {
-    "@nuscout/eslint-config": "^0.2.1",
-    "browser-sync": "^2.24.5",
-    "gulp": "3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "3.9.4",
-    "gulp-eslint": "5.0.0",
-    "gulp-imagemin": "4.1.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "3.0.0"
+    "@eslint/js": "^9.39.1",
+    "autoprefixer": "^10.4.21",
+    "browser-sync": "^3.0.4",
+    "cssnano": "^7.1.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "gulp": "^5.0.1",
+    "gulp-eslint-new": "^2.4.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.95.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
+    "url": "https://github.com/im3dabasia/v3"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io"
+  "homepage": "https://eshaandabasiya.com"
 }

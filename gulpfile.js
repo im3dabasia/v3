@@ -1,13 +1,18 @@
-'use strict';
+import gulp from 'gulp';
+import { styles } from './build/sass.js';
+import { scripts } from './build/scripts.js';
+import { images } from './build/images.js';
+import { jekyllBuild, jekyllDev, serve as startServer } from './build/browsersync.js';
 
-const gulp    = require('gulp');
-const sass    = require('./build/sass');
-const scripts = require('./build/scripts');
-const images  = require('./build/images');
-const sync    = require('./build/browsersync');
+// Individual tasks, so `gulp sass` and friends still work.
+export { styles as sass, scripts, images, jekyllBuild, jekyllDev };
 
-[sass, scripts, images, sync].forEach(task => {
-  task(gulp);
-});
+// Assets first, then Jekyll, so the build picks up freshly compiled CSS.
+export const build = gulp.series(
+  gulp.parallel(styles, scripts, images),
+  jekyllBuild
+);
 
-gulp.task('build', ['sass', 'scripts', 'images', 'jekyll-build']);
+export const serve = gulp.series(styles, scripts, jekyllDev, startServer);
+
+export default build;
