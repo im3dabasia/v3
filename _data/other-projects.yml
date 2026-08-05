@@ -1,10 +1,10 @@
 - name: rtCamp
   url: "#"
   description: 
-    - Currently serving as a WordPress Engineer and a 2-time Noteworthy Contributor for the WordPress 6.8 "Cecil" and 6.9 releases.
-    - Recognized for 90+ props and over 170+ merged contributions to WordPress Core and Gutenberg, focusing on critical bug fixes, i18n/i10n improvements, and accessibility.
-    - Architected CI/CD improvements by adding smoke tests for Storybooks and optimized the build process by converting legacy packages to TypeScript and fine-tuning Webpack configurations.
-    - Maintained the Nginx-helper plugin, extending its purging logic for WooCommerce environments across 100,000+ active installations.
+    - Currently serving as a WordPress Engineer and a <strong>2-time Noteworthy Contributor</strong> for the WordPress 6.8 "Cecil" and 6.9 releases.
+    - Recognized for <strong>90+ props</strong> and over <strong>170+ merged contributions</strong> to WordPress Core and Gutenberg, focusing on critical bug fixes, i18n/i10n improvements, and accessibility.
+    - <strong>Architected CI/CD improvements</strong> by adding smoke tests for Storybooks and optimized the build process by converting legacy packages to TypeScript and fine-tuning Webpack configurations.
+    - Maintained the Nginx-helper plugin, extending its purging logic for WooCommerce environments across <strong>100,000+ active installations</strong>.
   used:
     - thing: WordPress Core
     - thing: Gutenberg
@@ -22,10 +22,10 @@
 - name: Adsolut Media (Lead Backend Intern)
   url: https://drive.google.com/file/d/1mPJGmv9mIn_ttaoM384j5dqq9XdogY3L/view?usp=sharing
   description: 
-    - Led a team of four as a Backend Systems Architect to build a high-scale Ads Monetization Platform from the ground up.
-    - Designed a microservices architecture handling 10Cr (100M) requests per day, managing concurrent loads of 50,000 requests per minute.
-    - Engineered a real-time analytics engine using Apache Kafka and Apache Flink to process video player events with a sub-2-minute live delay.
-    - Improved system performance by 75%, reducing data fetching latency from 600ms to 150ms via strategic Redis caching and MongoDB indexing.
+    - <strong>Led a team of four</strong> as a Backend Systems Architect to build a high-scale Ads Monetization Platform from the ground up.
+    - Designed a microservices architecture handling <strong>10Cr (100M) requests per day</strong>, managing concurrent loads of <strong>50,000 requests per minute</strong>.
+    - Engineered a <strong>real-time analytics engine</strong> using Apache Kafka and Apache Flink to process video player events with a <strong>sub-2-minute live delay</strong>.
+    - Improved system performance by <strong>75%</strong>, reducing data fetching latency from <strong>600ms to 150ms</strong> via strategic Redis caching and MongoDB indexing.
     - Integrated RabbitMQ to handle asynchronous file generation for dynamic player configurations and ads.xml proliferation.
   used:
     - thing: Node.js
@@ -44,8 +44,8 @@
   url: https://drive.google.com/file/d/10Z6U2Nk8-Wb8Sq7SuRvi5_YShQIQhx7h/view?usp=sharing
   description:
     - Served as a Frontend Developer Intern for a prominent remote HR CRM platform.
-    - Resolved over 60+ complex issues within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
-    - Optimized enterprise-level data tables using AG-Grid and handled intricate styling regressions using SCSS and CSS.
+    - Resolved over <strong>60+ complex issues</strong> within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
+    - Optimized <strong>enterprise-level data tables</strong> using AG-Grid and handled intricate styling regressions using SCSS and CSS.
     - Collaborated in a professional remote environment to maintain code quality standards and fix critical bugs affecting the recruitment workflow.
   used:
     - thing: React
@@ -59,8 +59,8 @@
   url: https://drive.google.com/file/d/161IQa3l-aaFnXZQuTK3s71H0nuqyOspj/view?usp=sharing
   description: 
     - Served as a Frontend Developer Intern for a prominent remote HR CRM platform.
-    - Resolved over 60+ complex issues within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
-    - Optimized enterprise-level data tables using AG-Grid and handled intricate styling regressions using SCSS and CSS.
+    - Resolved over <strong>60+ complex issues</strong> within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
+    - Optimized <strong>enterprise-level data tables</strong> using AG-Grid and handled intricate styling regressions using SCSS and CSS.
     - Collaborated in a professional remote environment to maintain code quality standards and fix critical bugs affecting the recruitment workflow.
   used:
     - thing: React.js
@@ -74,8 +74,8 @@
 - name: Arkay Apps
   url: "#"
   description: 
-    - Developed frontend CRUD operational components for a live project serving a user base of over 100,000 end users.
-    - Built and integrated an automated WhatsApp Receipt Generator interface that utilized the WhatsApp Business API to send personalized payment confirmations instantly.
+    - Developed frontend CRUD operational components for a live project serving a user base of over <strong>100,000 end users</strong>.
+    - Built and integrated an automated <strong>WhatsApp Receipt Generator</strong> interface that utilized the WhatsApp Business API to send personalized payment confirmations instantly.
     - Focused on improving user experience for data collection forms and ensuring seamless data flow between the frontend and automated communication modules.
   used:
     - thing: React.js
