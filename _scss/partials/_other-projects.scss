@@ -9,6 +9,12 @@
       list-style: disc !important;
       li {
         padding: 0px 10px !important;
+        // Points wrap over several lines, so they need more space between
+        // them than there is between the lines inside one point.
+        margin-bottom: 12px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
       }
     }
     p {
