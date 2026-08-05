@@ -57,19 +57,24 @@
 
 - name: Adsolut Media (Full-Stack Intern)
   url: https://drive.google.com/file/d/161IQa3l-aaFnXZQuTK3s71H0nuqyOspj/view?usp=sharing
-  description: 
-    - Served as a Frontend Developer Intern for a prominent remote HR CRM platform.
-    - Resolved over <strong>60+ complex issues</strong> within a massive, highly-maintained codebase, primarily focusing on React-Redux state synchronization and core jQuery stability.
-    - Optimized <strong>enterprise-level data tables</strong> using AG-Grid and handled intricate styling regressions using SCSS and CSS.
-    - Collaborated in a professional remote environment to maintain code quality standards and fix critical bugs affecting the recruitment workflow.
+  description:
+    - Built a <strong>fully customisable YouTube feed ingestion service</strong> that pulled videos from multiple channel feeds on user-defined schedules — daily, weekly or monthly — with filters for video count, duration and file size.
+    - Engineered an <strong>asynchronous batch processing pipeline</strong> around FFmpeg to download and transcode videos without blocking the feeds, with request scheduling that kept long-running jobs stable under YouTube's rate limits.
+    - Delivered a <strong>Google Drive-style media library</strong>, pairing a browsable React interface with the storage layer holding every video pulled from the feeds.
+    - Automated <strong>sellers.json generation</strong> for ad players from a dashboard, taking hand-edited files out of the deployment pipeline so ad configuration changes could ship without a redeploy.
+    - Shipped across <strong>four internal products</strong> — a video VAST validator, the sellers platform, the company CRM and the YouTube feed playlist — building React and Tailwind interfaces on MongoDB, deployed behind Nginx.
   used:
     - thing: React.js
     - thing: Node.js
-    - thing: RSS Feeds
+    - thing: MongoDB
+    - thing: FFmpeg
     - thing: YouTube API
+    - thing: RSS Feeds
+    - thing: Async Processing
     - thing: Cron Jobs
     - thing: Rate Limiting
-    - thing: JSON Generation
+    - thing: Tailwind CSS
+    - thing: Nginx
 
 - name: Arkay Apps
   url: "#"
