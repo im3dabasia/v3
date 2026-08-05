@@ -1,0 +1,6330 @@
+{
+  "repo": "WordPress/gutenberg",
+  "author": "im3dabasia",
+  "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
+  "total": 200,
+  "merged": 99,
+  "open": 73,
+  "closed": 28,
+  "types": [
+    {
+      "name": "Enhancement",
+      "count": 59
+    },
+    {
+      "name": "Code Quality",
+      "count": 45
+    },
+    {
+      "name": "Bug",
+      "count": 34
+    },
+    {
+      "name": "Developer Documentation",
+      "count": 15
+    },
+    {
+      "name": "Automated Testing",
+      "count": 8
+    },
+    {
+      "name": "Experimental",
+      "count": 7
+    },
+    {
+      "name": "Build Tooling",
+      "count": 6
+    },
+    {
+      "name": "Task",
+      "count": 4
+    },
+    {
+      "name": "Security",
+      "count": 3
+    },
+    {
+      "name": "Performance",
+      "count": 2
+    },
+    {
+      "name": "Regression",
+      "count": 2
+    },
+    {
+      "name": "Copy",
+      "count": 1
+    },
+    {
+      "name": "Feature",
+      "count": 1
+    },
+    {
+      "name": "New API",
+      "count": 1
+    }
+  ],
+  "packages": [
+    {
+      "name": "Components",
+      "count": 38
+    },
+    {
+      "name": "Block editor",
+      "count": 8
+    },
+    {
+      "name": "Block library",
+      "count": 8
+    },
+    {
+      "name": "Editor",
+      "count": 8
+    },
+    {
+      "name": "Edit Site",
+      "count": 5
+    },
+    {
+      "name": "Core data",
+      "count": 2
+    },
+    {
+      "name": "Edit Post",
+      "count": 2
+    },
+    {
+      "name": "Format library",
+      "count": 2
+    },
+    {
+      "name": "Base styles",
+      "count": 1
+    },
+    {
+      "name": "Blocks",
+      "count": 1
+    },
+    {
+      "name": "Compose",
+      "count": 1
+    },
+    {
+      "name": "DataViews",
+      "count": 1
+    },
+    {
+      "name": "Fields",
+      "count": 1
+    },
+    {
+      "name": "Hooks",
+      "count": 1
+    },
+    {
+      "name": "HTML entities",
+      "count": 1
+    },
+    {
+      "name": "Icons",
+      "count": 1
+    },
+    {
+      "name": "Keycodes",
+      "count": 1
+    },
+    {
+      "name": "Lazy import",
+      "count": 1
+    },
+    {
+      "name": "Redux Routine",
+      "count": 1
+    },
+    {
+      "name": "Rich text",
+      "count": 1
+    },
+    {
+      "name": "Sync",
+      "count": 1
+    },
+    {
+      "name": "Url",
+      "count": 1
+    }
+  ],
+  "prs": [
+    {
+      "number": 80501,
+      "title": "Block Supports: Guard against non-string attribute values to avoid fatal errors",
+      "url": "https://github.com/WordPress/gutenberg/pull/80501",
+      "state": "merged",
+      "created_at": "2026-07-21T06:06:45Z",
+      "dated_at": "2026-08-04T23:24:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 81141,
+      "title": "Fix: Add missing `target` to the webpack dev server proxy config",
+      "url": "https://github.com/WordPress/gutenberg/pull/81141",
+      "state": "merged",
+      "created_at": "2026-08-04T09:55:44Z",
+      "dated_at": "2026-08-04T10:31:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Tool",
+          "name": "WP Scripts",
+          "full": "[Tool] WP Scripts",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 81075,
+      "title": "Global Styles: Prevent editor crash when a preset is missing a slug",
+      "url": "https://github.com/WordPress/gutenberg/pull/81075",
+      "state": "open",
+      "created_at": "2026-08-03T11:49:59Z",
+      "dated_at": "2026-08-03T11:49:59Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Global Styles",
+          "full": "Global Styles",
+          "color": "#2100b7",
+          "rgb": "33 0 183",
+          "text": "#2100b7",
+          "text_night": "#8d7cda"
+        },
+        {
+          "group": "Feature",
+          "name": "Font Library",
+          "full": "[Feature] Font Library",
+          "color": "#e0c503",
+          "rgb": "224 197 3",
+          "text": "#7d6e02",
+          "text_night": "#e0c503"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 80950,
+      "title": "Table of Contents: Show a placeholder in templates that don't render a single post",
+      "url": "https://github.com/WordPress/gutenberg/pull/80950",
+      "state": "open",
+      "created_at": "2026-07-30T11:30:25Z",
+      "dated_at": "2026-07-30T11:30:25Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Table of contents (experimental)",
+          "full": "[Block] Table of contents (experimental)",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 0
+    },
+    {
+      "number": 80821,
+      "title": "Templates: Register post-type and taxonomy hierarchy templates as reserved types",
+      "url": "https://github.com/WordPress/gutenberg/pull/80821",
+      "state": "open",
+      "created_at": "2026-07-29T05:16:44Z",
+      "dated_at": "2026-07-29T05:16:44Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Templates API",
+          "full": "[Feature] Templates API",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 0
+    },
+    {
+      "number": 80731,
+      "title": "Block Style Variations: Remove variation styles when a dynamic block renders no markup",
+      "url": "https://github.com/WordPress/gutenberg/pull/80731",
+      "state": "open",
+      "created_at": "2026-07-27T10:47:03Z",
+      "dated_at": "2026-07-27T10:47:03Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Performance",
+          "full": "[Type] Performance",
+          "color": "#f3f4fe",
+          "rgb": "243 244 254",
+          "text": "#737378",
+          "text_night": "#f3f4fe"
+        },
+        {
+          "group": "Feature",
+          "name": "Block Style Variations",
+          "full": "[Feature] Block Style Variations",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80347,
+      "title": "Fix: Update webpack-dev-server to ^5.2.1 to help with dep alerts",
+      "url": "https://github.com/WordPress/gutenberg/pull/80347",
+      "state": "merged",
+      "created_at": "2026-07-16T09:10:57Z",
+      "dated_at": "2026-07-22T09:42:14Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 80472,
+      "title": "Components: migrate FormTokenField to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80472",
+      "state": "merged",
+      "created_at": "2026-07-20T11:26:28Z",
+      "dated_at": "2026-07-22T04:22:13Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 80474,
+      "title": "Components: migrate SearchControl to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80474",
+      "state": "merged",
+      "created_at": "2026-07-20T11:44:53Z",
+      "dated_at": "2026-07-21T12:26:03Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80514,
+      "title": "Components: Migrate ZStack styles from Emotion to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80514",
+      "state": "open",
+      "created_at": "2026-07-21T10:34:44Z",
+      "dated_at": "2026-07-21T10:34:44Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80512,
+      "title": "Components: Migrate ProgressBar styles from Emotion to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80512",
+      "state": "open",
+      "created_at": "2026-07-21T10:32:28Z",
+      "dated_at": "2026-07-21T10:32:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80511,
+      "title": "Components: Migrate Spinner styles from Emotion to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80511",
+      "state": "open",
+      "created_at": "2026-07-21T10:27:05Z",
+      "dated_at": "2026-07-21T10:27:05Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 80473,
+      "title": "Components: migrate GradientPicker, ColorPalette to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80473",
+      "state": "open",
+      "created_at": "2026-07-20T11:37:13Z",
+      "dated_at": "2026-07-20T11:37:13Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80471,
+      "title": "Components: migrate ComboboxControl to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80471",
+      "state": "open",
+      "created_at": "2026-07-20T11:20:28Z",
+      "dated_at": "2026-07-20T11:20:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80348,
+      "title": "Fix: Critical error websocket-driver fix",
+      "url": "https://github.com/WordPress/gutenberg/pull/80348",
+      "state": "merged",
+      "created_at": "2026-07-16T09:11:01Z",
+      "dated_at": "2026-07-16T13:55:14Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "npm Packages",
+          "full": "npm Packages",
+          "color": "#c14d47",
+          "rgb": "193 77 71",
+          "text": "#c14d47",
+          "text_night": "#cb6863"
+        },
+        {
+          "group": "Type",
+          "name": "Security",
+          "full": "[Type] Security",
+          "color": "#dd6c0f",
+          "rgb": "221 108 15",
+          "text": "#bb5b0d",
+          "text_night": "#dd6c0f"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80102,
+      "title": "Fix: Critical error related to simple-git",
+      "url": "https://github.com/WordPress/gutenberg/pull/80102",
+      "state": "merged",
+      "created_at": "2026-07-10T11:36:25Z",
+      "dated_at": "2026-07-16T04:12:00Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "npm Packages",
+          "full": "npm Packages",
+          "color": "#c14d47",
+          "rgb": "193 77 71",
+          "text": "#c14d47",
+          "text_night": "#cb6863"
+        },
+        {
+          "group": "Type",
+          "name": "Security",
+          "full": "[Type] Security",
+          "color": "#dd6c0f",
+          "rgb": "221 108 15",
+          "text": "#bb5b0d",
+          "text_night": "#dd6c0f"
+        }
+      ],
+      "comments": 8
+    },
+    {
+      "number": 80250,
+      "title": "Notes: Feature to discover unread notes ",
+      "url": "https://github.com/WordPress/gutenberg/pull/80250",
+      "state": "open",
+      "created_at": "2026-07-14T12:16:12Z",
+      "dated_at": "2026-07-14T12:16:12Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Status",
+          "name": "In Progress",
+          "full": "[Status] In Progress",
+          "color": "#0052cc",
+          "rgb": "0 82 204",
+          "text": "#0052cc",
+          "text_night": "#578ddd"
+        },
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 80117,
+      "title": "Fix: Add schema warnings in values which are unitless in theme.json",
+      "url": "https://github.com/WordPress/gutenberg/pull/80117",
+      "state": "open",
+      "created_at": "2026-07-10T15:33:49Z",
+      "dated_at": "2026-07-10T15:33:49Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Developer Experience",
+          "full": "Developer Experience",
+          "color": "#29ed9a",
+          "rgb": "41 237 154",
+          "text": "#178456",
+          "text_night": "#29ed9a"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 79886,
+      "title": "Build: Fix non-breaking npm audit vulnerability alerts",
+      "url": "https://github.com/WordPress/gutenberg/pull/79886",
+      "state": "merged",
+      "created_at": "2026-07-06T07:44:08Z",
+      "dated_at": "2026-07-09T07:36:37Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "npm Packages",
+          "full": "npm Packages",
+          "color": "#c14d47",
+          "rgb": "193 77 71",
+          "text": "#c14d47",
+          "text_night": "#cb6863"
+        },
+        {
+          "group": "Type",
+          "name": "Security",
+          "full": "[Type] Security",
+          "color": "#dd6c0f",
+          "rgb": "221 108 15",
+          "text": "#bb5b0d",
+          "text_night": "#dd6c0f"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80001,
+      "title": "Components: migrate StyledLabel to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80001",
+      "state": "open",
+      "created_at": "2026-07-08T12:01:35Z",
+      "dated_at": "2026-07-08T12:01:35Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Post",
+          "full": "[Package] Edit Post",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 79933,
+      "title": "Feat: Skip Performance CI tests for docs and workflows files",
+      "url": "https://github.com/WordPress/gutenberg/pull/79933",
+      "state": "open",
+      "created_at": "2026-07-07T11:36:11Z",
+      "dated_at": "2026-07-07T11:36:11Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Performance",
+          "full": "[Type] Performance",
+          "color": "#f3f4fe",
+          "rgb": "243 244 254",
+          "text": "#737378",
+          "text_night": "#f3f4fe"
+        },
+        {
+          "group": null,
+          "name": "GitHub Actions",
+          "full": "GitHub Actions",
+          "color": "#000000",
+          "rgb": "0 0 0",
+          "text": "#000000",
+          "text_night": "#878787"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 79857,
+      "title": "Feat: Migrating the block-editor store to TS ",
+      "url": "https://github.com/WordPress/gutenberg/pull/79857",
+      "state": "open",
+      "created_at": "2026-07-03T18:34:19Z",
+      "dated_at": "2026-07-03T18:34:19Z",
+      "labels": [
+        {
+          "group": "Package",
+          "name": "Blocks",
+          "full": "[Package] Blocks",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 0
+    },
+    {
+      "number": 76519,
+      "title": "Icons: Add category for icons ",
+      "url": "https://github.com/WordPress/gutenberg/pull/76519",
+      "state": "closed",
+      "created_at": "2026-03-16T05:15:55Z",
+      "dated_at": "2026-06-29T15:12:24Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Status",
+          "name": "Blocked",
+          "full": "[Status] Blocked",
+          "color": "#0052cc",
+          "rgb": "0 82 204",
+          "text": "#0052cc",
+          "text_night": "#578ddd"
+        },
+        {
+          "group": "Feature",
+          "name": "Icons",
+          "full": "[Feature] Icons",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 79547,
+      "title": "feat: Update validation for title and content in the dashboard widget",
+      "url": "https://github.com/WordPress/gutenberg/pull/79547",
+      "state": "open",
+      "created_at": "2026-06-25T13:57:44Z",
+      "dated_at": "2026-06-25T13:57:44Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "Widgets Screen",
+          "full": "[Feature] Widgets Screen",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 79486,
+      "title": "TypeScript: Migrate format-library package to TS",
+      "url": "https://github.com/WordPress/gutenberg/pull/79486",
+      "state": "open",
+      "created_at": "2026-06-24T12:21:22Z",
+      "dated_at": "2026-06-24T12:21:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Format library",
+          "full": "[Package] Format library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Rich text",
+          "full": "[Package] Rich text",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 78165,
+      "title": "Block Library: unwrap Classic block migration notice experiment",
+      "url": "https://github.com/WordPress/gutenberg/pull/78165",
+      "state": "merged",
+      "created_at": "2026-05-11T13:41:50Z",
+      "dated_at": "2026-06-24T10:04:19Z",
+      "labels": [
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Classic",
+          "full": "[Block] Classic",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 70618,
+      "title": "Migrate compose package to TypeScript ",
+      "url": "https://github.com/WordPress/gutenberg/pull/70618",
+      "state": "merged",
+      "created_at": "2025-07-04T10:50:43Z",
+      "dated_at": "2026-06-19T09:48:55Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Compose",
+          "full": "[Package] Compose",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 10
+    },
+    {
+      "number": 79344,
+      "title": "feat: Update the build blocks manifest to exclude experimental blocks in build ",
+      "url": "https://github.com/WordPress/gutenberg/pull/79344",
+      "state": "open",
+      "created_at": "2026-06-19T09:13:03Z",
+      "dated_at": "2026-06-19T09:13:03Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 77829,
+      "title": "Testing: Remove condition from 'autosave' e2e test",
+      "url": "https://github.com/WordPress/gutenberg/pull/77829",
+      "state": "closed",
+      "created_at": "2026-04-30T07:51:08Z",
+      "dated_at": "2026-06-18T13:15:41Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": "Feature",
+          "name": "Saving",
+          "full": "[Feature] Saving",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 79211,
+      "title": "Standardize 'Back' and 'Go back' labels",
+      "url": "https://github.com/WordPress/gutenberg/pull/79211",
+      "state": "open",
+      "created_at": "2026-06-16T05:43:27Z",
+      "dated_at": "2026-06-16T05:43:27Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 79144,
+      "title": "[WIP] Fix code based on review comment from PR #79046",
+      "url": "https://github.com/WordPress/gutenberg/pull/79144",
+      "state": "closed",
+      "created_at": "2026-06-12T08:20:05Z",
+      "dated_at": "2026-06-12T08:21:50Z",
+      "labels": [],
+      "comments": 1
+    },
+    {
+      "number": 79140,
+      "title": "Editor: Improve text/background color discoverability in toolbar",
+      "url": "https://github.com/WordPress/gutenberg/pull/79140",
+      "state": "open",
+      "created_at": "2026-06-12T07:23:59Z",
+      "dated_at": "2026-06-12T07:23:59Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Format library",
+          "full": "[Package] Format library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 79046,
+      "title": "Release Tools: Update YAML CI Workflow to use Work Space",
+      "url": "https://github.com/WordPress/gutenberg/pull/79046",
+      "state": "open",
+      "created_at": "2026-06-09T10:46:31Z",
+      "dated_at": "2026-06-09T10:46:31Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        },
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78764,
+      "title": "feat: Migrate the browserlintrc file to `packages/postcss-plugins-preset`",
+      "url": "https://github.com/WordPress/gutenberg/pull/78764",
+      "state": "merged",
+      "created_at": "2026-05-28T07:09:58Z",
+      "dated_at": "2026-06-05T11:14:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Tool",
+          "name": "Browserslist config",
+          "full": "[Tool] Browserslist config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78964,
+      "title": "[WIP] Content Types: Add more fields in post type",
+      "url": "https://github.com/WordPress/gutenberg/pull/78964",
+      "state": "open",
+      "created_at": "2026-06-05T02:14:38Z",
+      "dated_at": "2026-06-05T02:14:38Z",
+      "labels": [],
+      "comments": 0
+    },
+    {
+      "number": 75497,
+      "title": "Blocks: Allow the `Loginout` block as an inner block in the `Navigation Submenu` block",
+      "url": "https://github.com/WordPress/gutenberg/pull/75497",
+      "state": "merged",
+      "created_at": "2026-02-13T04:28:56Z",
+      "dated_at": "2026-06-04T09:36:17Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Login/out",
+          "full": "[Block] Login/out",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Block",
+          "name": "Submenu",
+          "full": "[Block] Submenu",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 78878,
+      "title": "feat: Add dry-run optional param in cherry-pick script",
+      "url": "https://github.com/WordPress/gutenberg/pull/78878",
+      "state": "open",
+      "created_at": "2026-06-02T11:32:18Z",
+      "dated_at": "2026-06-02T11:32:18Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78809,
+      "title": "Content Types: Hide Quick Edit action when quick edit is false",
+      "url": "https://github.com/WordPress/gutenberg/pull/78809",
+      "state": "closed",
+      "created_at": "2026-05-29T11:31:15Z",
+      "dated_at": "2026-06-01T08:28:42Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": null,
+          "name": "Content types (experimental)",
+          "full": "Content types (experimental)",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78761,
+      "title": "feat: Migrate performance results to tools release",
+      "url": "https://github.com/WordPress/gutenberg/pull/78761",
+      "state": "merged",
+      "created_at": "2026-05-28T05:58:16Z",
+      "dated_at": "2026-05-29T05:53:50Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": null,
+          "name": "GitHub Actions",
+          "full": "GitHub Actions",
+          "color": "#000000",
+          "rgb": "0 0 0",
+          "text": "#000000",
+          "text_night": "#878787"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78668,
+      "title": "Content Types: Remove \"show in REST API\"",
+      "url": "https://github.com/WordPress/gutenberg/pull/78668",
+      "state": "open",
+      "created_at": "2026-05-26T09:10:19Z",
+      "dated_at": "2026-05-26T09:10:19Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": null,
+          "name": "Content types (experimental)",
+          "full": "Content types (experimental)",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 78497,
+      "title": " Fix: Register user-defined taxonomies after user-defined post types",
+      "url": "https://github.com/WordPress/gutenberg/pull/78497",
+      "state": "merged",
+      "created_at": "2026-05-21T08:25:11Z",
+      "dated_at": "2026-05-25T10:30:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Content types (experimental)",
+          "full": "Content types (experimental)",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78629,
+      "title": "Content Types: Add checkbox for deletion of terms ",
+      "url": "https://github.com/WordPress/gutenberg/pull/78629",
+      "state": "open",
+      "created_at": "2026-05-25T09:45:28Z",
+      "dated_at": "2026-05-25T09:45:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": null,
+          "name": "Content types (experimental)",
+          "full": "Content types (experimental)",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 78424,
+      "title": "Editor: Fix the view Revisions menu item to show editor revisions page",
+      "url": "https://github.com/WordPress/gutenberg/pull/78424",
+      "state": "open",
+      "created_at": "2026-05-19T04:38:55Z",
+      "dated_at": "2026-05-19T04:38:55Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Site Editor",
+          "full": "[Feature] Site Editor",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Fields",
+          "full": "[Package] Fields",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78392,
+      "title": "Env: bin/cherry-pick: exit early when gh CLI is not available",
+      "url": "https://github.com/WordPress/gutenberg/pull/78392",
+      "state": "open",
+      "created_at": "2026-05-18T09:35:35Z",
+      "dated_at": "2026-05-18T09:35:35Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78341,
+      "title": "Content Type: Handle duplicate slug generation for CPT's and Taxonomies ",
+      "url": "https://github.com/WordPress/gutenberg/pull/78341",
+      "state": "open",
+      "created_at": "2026-05-15T12:02:48Z",
+      "dated_at": "2026-05-15T12:02:48Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Content types (experimental)",
+          "full": "Content types (experimental)",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 78285,
+      "title": "Content Type: Add `menu_icon ` and `menu_position` fields",
+      "url": "https://github.com/WordPress/gutenberg/pull/78285",
+      "state": "open",
+      "created_at": "2026-05-14T10:31:47Z",
+      "dated_at": "2026-05-14T10:31:47Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": null,
+          "name": "Content types (experimental)",
+          "full": "Content types (experimental)",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 0
+    },
+    {
+      "number": 78096,
+      "title": "Experiments: deprecate Classic block UI and add Convert to Blocks action",
+      "url": "https://github.com/WordPress/gutenberg/pull/78096",
+      "state": "closed",
+      "created_at": "2026-05-08T11:21:34Z",
+      "dated_at": "2026-05-08T13:56:06Z",
+      "labels": [
+        {
+          "group": "Status",
+          "name": "Duplicate",
+          "full": "[Status] Duplicate",
+          "color": "#0052cc",
+          "rgb": "0 82 204",
+          "text": "#0052cc",
+          "text_night": "#578ddd"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Classic",
+          "full": "[Block] Classic",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 78010,
+      "title": "Components: Add props for `Toolspanel` (isShownOnFirstRender)",
+      "url": "https://github.com/WordPress/gutenberg/pull/78010",
+      "state": "open",
+      "created_at": "2026-05-06T11:07:18Z",
+      "dated_at": "2026-05-06T11:07:18Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Design Tools",
+          "full": "[Feature] Design Tools",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 77902,
+      "title": "Add runtime configuration support to wp-env JSON files",
+      "url": "https://github.com/WordPress/gutenberg/pull/77902",
+      "state": "open",
+      "created_at": "2026-05-04T06:53:02Z",
+      "dated_at": "2026-05-04T06:53:02Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Tool",
+          "name": "Env",
+          "full": "[Tool] Env",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 71099,
+      "title": "Migrate sync package to TypeScript ",
+      "url": "https://github.com/WordPress/gutenberg/pull/71099",
+      "state": "closed",
+      "created_at": "2025-08-06T14:22:01Z",
+      "dated_at": "2026-04-29T10:43:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Sync",
+          "full": "[Package] Sync",
+          "color": "#ededed",
+          "rgb": "237 237 237",
+          "text": "#707070",
+          "text_night": "#ededed"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 77742,
+      "title": "Cover: Enable background image controls",
+      "url": "https://github.com/WordPress/gutenberg/pull/77742",
+      "state": "open",
+      "created_at": "2026-04-28T12:14:59Z",
+      "dated_at": "2026-04-28T12:14:59Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 77640,
+      "title": "Widgets: Add `widget.json` metadata schema",
+      "url": "https://github.com/WordPress/gutenberg/pull/77640",
+      "state": "open",
+      "created_at": "2026-04-24T06:28:38Z",
+      "dated_at": "2026-04-24T06:28:38Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "New API",
+          "full": "[Type] New API",
+          "color": "#c10392",
+          "rgb": "193 3 146",
+          "text": "#c10392",
+          "text_night": "#d659b7"
+        },
+        {
+          "group": "Feature",
+          "name": "Dashboard",
+          "full": "[Feature] Dashboard",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70233,
+      "title": "Components: Add `hideLabelFromVision` prop to `ToggleControl` ",
+      "url": "https://github.com/WordPress/gutenberg/pull/70233",
+      "state": "closed",
+      "created_at": "2025-05-28T05:11:15Z",
+      "dated_at": "2026-04-16T23:08:25Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Needs Accessibility Feedback",
+          "full": "Needs Accessibility Feedback",
+          "color": "#ffbcbd",
+          "rgb": "255 188 189",
+          "text": "#8e6969",
+          "text_night": "#ffbcbd"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 69726,
+      "title": "Components: Add disabled prop to `CheckBoxControl`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69726",
+      "state": "closed",
+      "created_at": "2025-03-27T09:56:04Z",
+      "dated_at": "2026-04-16T22:43:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 76079,
+      "title": "Icons: Enforce strict name validation in `register` method",
+      "url": "https://github.com/WordPress/gutenberg/pull/76079",
+      "state": "merged",
+      "created_at": "2026-03-03T11:39:52Z",
+      "dated_at": "2026-03-31T16:04:13Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Icons",
+          "full": "[Feature] Icons",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 76787,
+      "title": "Icons: Move `IconPickerModal` into block-editor for reusability",
+      "url": "https://github.com/WordPress/gutenberg/pull/76787",
+      "state": "open",
+      "created_at": "2026-03-24T15:35:37Z",
+      "dated_at": "2026-03-24T15:35:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Icon",
+          "full": "[Block] Icon",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Feature",
+          "name": "Icons",
+          "full": "[Feature] Icons",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 9
+    },
+    {
+      "number": 76394,
+      "title": "Guidelines: Refactor components and improve TypeScript typing",
+      "url": "https://github.com/WordPress/gutenberg/pull/76394",
+      "state": "merged",
+      "created_at": "2026-03-11T11:45:38Z",
+      "dated_at": "2026-03-23T05:18:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": "Feature",
+          "name": "Guidelines",
+          "full": "[Feature] Guidelines",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 76676,
+      "title": "Content Guidelines: Add frontend test coverage",
+      "url": "https://github.com/WordPress/gutenberg/pull/76676",
+      "state": "open",
+      "created_at": "2026-03-19T11:42:54Z",
+      "dated_at": "2026-03-19T11:42:54Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Guidelines",
+          "full": "[Feature] Guidelines",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 76436,
+      "title": "Content Guidelines: Use `Notice` from `@wordpress/components` instead of `@wordpress/ui`",
+      "url": "https://github.com/WordPress/gutenberg/pull/76436",
+      "state": "closed",
+      "created_at": "2026-03-12T11:15:05Z",
+      "dated_at": "2026-03-13T04:35:01Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Guidelines",
+          "full": "[Feature] Guidelines",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 76382,
+      "title": "WP Admin: Update Connectors screen footer text for consistency.",
+      "url": "https://github.com/WordPress/gutenberg/pull/76382",
+      "state": "merged",
+      "created_at": "2026-03-11T05:00:29Z",
+      "dated_at": "2026-03-12T14:14:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Type",
+          "name": "Copy",
+          "full": "[Type] Copy",
+          "color": "#e868f9",
+          "rgb": "232 104 249",
+          "text": "#a64bb2",
+          "text_night": "#e868f9"
+        },
+        {
+          "group": null,
+          "name": "Backported to WP Core",
+          "full": "Backported to WP Core",
+          "color": "#491d8e",
+          "rgb": "73 29 142",
+          "text": "#491d8e",
+          "text_night": "#9981c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Connectors screen",
+          "full": "[Feature] Connectors screen",
+          "color": "#3dfdc1",
+          "rgb": "61 253 193",
+          "text": "#1f8263",
+          "text_night": "#3dfdc1"
+        }
+      ],
+      "comments": 12
+    },
+    {
+      "number": 76401,
+      "title": "Content Guidelines: Eliminate redux store and use core-store ",
+      "url": "https://github.com/WordPress/gutenberg/pull/76401",
+      "state": "open",
+      "created_at": "2026-03-11T15:14:13Z",
+      "dated_at": "2026-03-11T15:14:13Z",
+      "labels": [
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": "Feature",
+          "name": "Guidelines",
+          "full": "[Feature] Guidelines",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 76035,
+      "title": "fix: A11y issue in play/pause of the audio player in playlist block",
+      "url": "https://github.com/WordPress/gutenberg/pull/76035",
+      "state": "open",
+      "created_at": "2026-03-02T08:02:22Z",
+      "dated_at": "2026-03-02T08:02:22Z",
+      "labels": [
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Playlist",
+          "full": "[Block] Playlist",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 75955,
+      "title": "Preserve note selection on browser tab switch",
+      "url": "https://github.com/WordPress/gutenberg/pull/75955",
+      "state": "merged",
+      "created_at": "2026-02-26T12:34:11Z",
+      "dated_at": "2026-02-27T13:21:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 75847,
+      "title": "Address remaining review feedback from WebAssembly support detection",
+      "url": "https://github.com/WordPress/gutenberg/pull/75847",
+      "state": "closed",
+      "created_at": "2026-02-24T04:47:17Z",
+      "dated_at": "2026-02-27T11:32:26Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Task",
+          "full": "[Type] Task",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Client Side Media",
+          "full": "[Feature] Client Side Media",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 75861,
+      "title": "Editor: Fix Revisions field/button visibility on first edit in the post editor",
+      "url": "https://github.com/WordPress/gutenberg/pull/75861",
+      "state": "open",
+      "created_at": "2026-02-24T11:31:09Z",
+      "dated_at": "2026-02-24T11:31:09Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "History",
+          "full": "[Feature] History",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 75364,
+      "title": "Snackbar: `CSS` fix for positioning in large screens",
+      "url": "https://github.com/WordPress/gutenberg/pull/75364",
+      "state": "closed",
+      "created_at": "2026-02-10T06:05:51Z",
+      "dated_at": "2026-02-20T15:04:44Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Font Library",
+          "full": "[Feature] Font Library",
+          "color": "#e0c503",
+          "rgb": "224 197 3",
+          "text": "#7d6e02",
+          "text_night": "#e0c503"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70589,
+      "title": "Storybook: Replace implicit actions with explicit ones ",
+      "url": "https://github.com/WordPress/gutenberg/pull/70589",
+      "state": "closed",
+      "created_at": "2025-07-02T05:45:46Z",
+      "dated_at": "2025-11-23T09:41:24Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 69892,
+      "title": "Webpack: Remove `IS_GUTENBERG_PLUGIN` conditionals from `PHP` files",
+      "url": "https://github.com/WordPress/gutenberg/pull/69892",
+      "state": "closed",
+      "created_at": "2025-04-12T09:52:29Z",
+      "dated_at": "2025-11-18T15:19:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 69903,
+      "title": "Tooling: Fix `base-styles` rebuilds during `npm run dev` workflow",
+      "url": "https://github.com/WordPress/gutenberg/pull/69903",
+      "state": "closed",
+      "created_at": "2025-04-15T08:36:31Z",
+      "dated_at": "2025-11-18T15:15:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": "Package",
+          "name": "Base styles",
+          "full": "[Package] Base styles",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70951,
+      "title": "Handle label fallback for dropdownMenu",
+      "url": "https://github.com/WordPress/gutenberg/pull/70951",
+      "state": "merged",
+      "created_at": "2025-07-29T04:08:56Z",
+      "dated_at": "2025-11-02T01:30:45Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 71480,
+      "title": "Accordion Header: Fix RTL toggle button layout",
+      "url": "https://github.com/WordPress/gutenberg/pull/71480",
+      "state": "merged",
+      "created_at": "2025-09-03T08:22:03Z",
+      "dated_at": "2025-09-03T09:32:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Internationalization (i18n)",
+          "full": "Internationalization (i18n)",
+          "color": "#e881e2",
+          "rgb": "232 129 226",
+          "text": "#995595",
+          "text_night": "#e881e2"
+        },
+        {
+          "group": "Block",
+          "name": "Accordion",
+          "full": "[Block] Accordion",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 71208,
+      "title": "Display names for Context providers",
+      "url": "https://github.com/WordPress/gutenberg/pull/71208",
+      "state": "merged",
+      "created_at": "2025-08-14T08:48:47Z",
+      "dated_at": "2025-09-03T08:14:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Developer Experience",
+          "full": "Developer Experience",
+          "color": "#29ed9a",
+          "rgb": "41 237 154",
+          "text": "#178456",
+          "text_night": "#29ed9a"
+        }
+      ],
+      "comments": 11
+    },
+    {
+      "number": 71411,
+      "title": "Buttons: Add support for text color at the `Buttons` block level",
+      "url": "https://github.com/WordPress/gutenberg/pull/71411",
+      "state": "open",
+      "created_at": "2025-08-29T09:55:57Z",
+      "dated_at": "2025-08-29T09:55:57Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Buttons",
+          "full": "[Block] Buttons",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69380,
+      "title": "Video: Enable autoplay for video on `iOS` devices",
+      "url": "https://github.com/WordPress/gutenberg/pull/69380",
+      "state": "merged",
+      "created_at": "2025-03-03T06:24:21Z",
+      "dated_at": "2025-08-20T05:33:36Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Video",
+          "full": "[Block] Video",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 71235,
+      "title": "Stylelint: Consolidate Lint rules for simplification ",
+      "url": "https://github.com/WordPress/gutenberg/pull/71235",
+      "state": "open",
+      "created_at": "2025-08-18T10:01:32Z",
+      "dated_at": "2025-08-18T10:01:32Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 71138,
+      "title": "List Block: Add support for `core/image` and `core/gallery` inner blocks to List Item Block",
+      "url": "https://github.com/WordPress/gutenberg/pull/71138",
+      "state": "open",
+      "created_at": "2025-08-08T11:34:18Z",
+      "dated_at": "2025-08-08T11:34:18Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "List",
+          "full": "[Block] List",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69117,
+      "title": "E2E Tests: Split large Navigation tests into smaller tests ",
+      "url": "https://github.com/WordPress/gutenberg/pull/69117",
+      "state": "merged",
+      "created_at": "2025-02-10T12:43:18Z",
+      "dated_at": "2025-08-07T07:37:17Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Block",
+          "name": "Navigation",
+          "full": "[Block] Navigation",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 70466,
+      "title": "Migrate `keycodes` package to TypeScript",
+      "url": "https://github.com/WordPress/gutenberg/pull/70466",
+      "state": "merged",
+      "created_at": "2025-06-18T08:03:23Z",
+      "dated_at": "2025-08-05T09:11:39Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Keycodes",
+          "full": "[Package] Keycodes",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70326,
+      "title": "Components: add `placement` prop to replace `position` in `RangeControl`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70326",
+      "state": "merged",
+      "created_at": "2025-06-05T05:29:30Z",
+      "dated_at": "2025-07-29T04:56:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 70686,
+      "title": "Migrate `redux-routine` package to TS",
+      "url": "https://github.com/WordPress/gutenberg/pull/70686",
+      "state": "merged",
+      "created_at": "2025-07-11T05:50:02Z",
+      "dated_at": "2025-07-22T14:39:10Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Redux Routine",
+          "full": "[Package] Redux Routine",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70456,
+      "title": "Migrate Icons package to `TypeScript`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70456",
+      "state": "merged",
+      "created_at": "2025-06-17T11:16:07Z",
+      "dated_at": "2025-07-22T14:26:43Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Icons",
+          "full": "[Package] Icons",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70496,
+      "title": "Migrate `@packages/url` package to TypeScript",
+      "url": "https://github.com/WordPress/gutenberg/pull/70496",
+      "state": "merged",
+      "created_at": "2025-06-23T14:04:42Z",
+      "dated_at": "2025-07-18T10:25:55Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Url",
+          "full": "[Package] Url",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70507,
+      "title": "Migrate `packages/block-serialization-default-parser` package to TypeScript",
+      "url": "https://github.com/WordPress/gutenberg/pull/70507",
+      "state": "closed",
+      "created_at": "2025-06-24T09:07:19Z",
+      "dated_at": "2025-07-17T20:50:36Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 70096,
+      "title": "Components: Fix label and placeholder handling in `LinkControlSearchInput`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70096",
+      "state": "merged",
+      "created_at": "2025-05-12T04:33:29Z",
+      "dated_at": "2025-07-16T07:16:03Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 70488,
+      "title": "Migrate `hooks` package to TypeScript",
+      "url": "https://github.com/WordPress/gutenberg/pull/70488",
+      "state": "merged",
+      "created_at": "2025-06-20T18:50:09Z",
+      "dated_at": "2025-07-11T05:13:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Hooks",
+          "full": "[Package] Hooks",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 70475,
+      "title": "Migrate `lazy-import` package to `TypeScript`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70475",
+      "state": "merged",
+      "created_at": "2025-06-19T13:30:16Z",
+      "dated_at": "2025-07-10T07:29:45Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Lazy import",
+          "full": "[Package] Lazy import",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70534,
+      "title": "Fix: Prevent empty markup rendering in frontend for verse block",
+      "url": "https://github.com/WordPress/gutenberg/pull/70534",
+      "state": "open",
+      "created_at": "2025-06-26T13:31:03Z",
+      "dated_at": "2025-06-26T13:31:03Z",
+      "labels": [],
+      "comments": 6
+    },
+    {
+      "number": 70120,
+      "title": "Components: Add direction prop for `RadioControl` component",
+      "url": "https://github.com/WordPress/gutenberg/pull/70120",
+      "state": "closed",
+      "created_at": "2025-05-14T12:48:00Z",
+      "dated_at": "2025-06-24T17:26:03Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 69326,
+      "title": "TypeScript: Converts HtmlEntities Package to TS",
+      "url": "https://github.com/WordPress/gutenberg/pull/69326",
+      "state": "merged",
+      "created_at": "2025-02-26T13:13:30Z",
+      "dated_at": "2025-06-20T05:15:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "HTML entities",
+          "full": "[Package] HTML entities",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 70382,
+      "title": "E2E Tests: Minor code quality improvement in some tests",
+      "url": "https://github.com/WordPress/gutenberg/pull/70382",
+      "state": "merged",
+      "created_at": "2025-06-11T05:24:21Z",
+      "dated_at": "2025-06-12T01:18:32Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70361,
+      "title": "block-attributes: Add `role` attribute explanation ",
+      "url": "https://github.com/WordPress/gutenberg/pull/70361",
+      "state": "merged",
+      "created_at": "2025-06-09T08:59:01Z",
+      "dated_at": "2025-06-11T06:32:41Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 67965,
+      "title": "Author Block: Refactor Settings panel to use Toolspanel",
+      "url": "https://github.com/WordPress/gutenberg/pull/67965",
+      "state": "merged",
+      "created_at": "2024-12-13T09:51:22Z",
+      "dated_at": "2025-06-09T10:55:40Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Post Author",
+          "full": "[Block] Post Author",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 69141,
+      "title": "E2E Tests: Add test case for `Link` color support",
+      "url": "https://github.com/WordPress/gutenberg/pull/69141",
+      "state": "merged",
+      "created_at": "2025-02-11T12:29:15Z",
+      "dated_at": "2025-06-05T10:18:51Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 70288,
+      "title": "Components: Add fallback units for input slider in `BoxControl`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70288",
+      "state": "open",
+      "created_at": "2025-06-02T09:16:24Z",
+      "dated_at": "2025-06-02T09:16:24Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70259,
+      "title": "[Pullquote Block]: Reduce CSS specificity for the default cite element.",
+      "url": "https://github.com/WordPress/gutenberg/pull/70259",
+      "state": "closed",
+      "created_at": "2025-05-29T09:45:55Z",
+      "dated_at": "2025-05-29T10:31:50Z",
+      "labels": [],
+      "comments": 1
+    },
+    {
+      "number": 69077,
+      "title": "Cover Block: Add `E2E` Test for `FocalPointPicker`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69077",
+      "state": "merged",
+      "created_at": "2025-02-06T11:53:26Z",
+      "dated_at": "2025-05-27T11:30:57Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70214,
+      "title": "Components: Improve accessibility, discoverability of `ColorPicker` inputs",
+      "url": "https://github.com/WordPress/gutenberg/pull/70214",
+      "state": "open",
+      "created_at": "2025-05-26T06:29:46Z",
+      "dated_at": "2025-05-26T06:29:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Needs Accessibility Feedback",
+          "full": "Needs Accessibility Feedback",
+          "color": "#ffbcbd",
+          "rgb": "255 188 189",
+          "text": "#8e6969",
+          "text_night": "#ffbcbd"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70183,
+      "title": " Add support for CSS Units `lh` and `rlh`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70183",
+      "state": "open",
+      "created_at": "2025-05-22T10:06:24Z",
+      "dated_at": "2025-05-22T10:06:24Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Design Tools",
+          "full": "[Feature] Design Tools",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70156,
+      "title": "Fix `URLPopover` input handling to properly update value",
+      "url": "https://github.com/WordPress/gutenberg/pull/70156",
+      "state": "merged",
+      "created_at": "2025-05-19T06:12:39Z",
+      "dated_at": "2025-05-20T10:20:51Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70165,
+      "title": "Query: Add `role` attribute to content in block.json for `Query Loop` related blocks",
+      "url": "https://github.com/WordPress/gutenberg/pull/70165",
+      "state": "open",
+      "created_at": "2025-05-20T04:35:02Z",
+      "dated_at": "2025-05-20T04:35:02Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Query Pagination",
+          "full": "[Block] Query Pagination",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70133,
+      "title": "Editor: Add label in`TextareaControl` in CollabSidebar",
+      "url": "https://github.com/WordPress/gutenberg/pull/70133",
+      "state": "merged",
+      "created_at": "2025-05-15T13:06:30Z",
+      "dated_at": "2025-05-16T13:58:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 70108,
+      "title": "Stylelint: Customise warning for `CSS` variables used outside `components` package ",
+      "url": "https://github.com/WordPress/gutenberg/pull/70108",
+      "state": "merged",
+      "created_at": "2025-05-13T10:10:31Z",
+      "dated_at": "2025-05-14T12:49:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 70076,
+      "title": "Components: Update `ColorPicker` dropdown to display RGBA/HSLA labels when alpha is enabled",
+      "url": "https://github.com/WordPress/gutenberg/pull/70076",
+      "state": "closed",
+      "created_at": "2025-05-07T10:31:44Z",
+      "dated_at": "2025-05-09T09:23:14Z",
+      "labels": [],
+      "comments": 4
+    },
+    {
+      "number": 70057,
+      "title": "Stylelint: Customise warning message for `flex-direction` warning",
+      "url": "https://github.com/WordPress/gutenberg/pull/70057",
+      "state": "merged",
+      "created_at": "2025-05-05T11:50:02Z",
+      "dated_at": "2025-05-06T14:31:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 69640,
+      "title": "Components: Fix Styling for `TextControl`and `TextAreaControl` in dark themes",
+      "url": "https://github.com/WordPress/gutenberg/pull/69640",
+      "state": "merged",
+      "created_at": "2025-03-20T07:08:44Z",
+      "dated_at": "2025-05-05T13:21:35Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 70021,
+      "title": "Components: Fix double border in `ItemGroup` when last item is focused",
+      "url": "https://github.com/WordPress/gutenberg/pull/70021",
+      "state": "merged",
+      "created_at": "2025-04-30T11:33:19Z",
+      "dated_at": "2025-05-03T02:51:35Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "UI Components",
+          "full": "[Feature] UI Components",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 70005,
+      "title": "Update and stabilize `userCanCreatePages ` to `canUserCreatePages`",
+      "url": "https://github.com/WordPress/gutenberg/pull/70005",
+      "state": "closed",
+      "created_at": "2025-04-28T11:16:08Z",
+      "dated_at": "2025-05-01T04:47:37Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "Backwards Compatibility",
+          "full": "Backwards Compatibility",
+          "color": "#655104",
+          "rgb": "101 81 4",
+          "text": "#655104",
+          "text_night": "#9a8c5a"
+        },
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 69203,
+      "title": "ColorPicker: Add tests for `ColorPicker` Alpha slider",
+      "url": "https://github.com/WordPress/gutenberg/pull/69203",
+      "state": "merged",
+      "created_at": "2025-02-14T16:17:24Z",
+      "dated_at": "2025-04-25T07:35:14Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 9
+    },
+    {
+      "number": 69970,
+      "title": "Components: Refactor `ToggleGroupControl` and  Auto-generate `README.md`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69970",
+      "state": "open",
+      "created_at": "2025-04-23T11:48:09Z",
+      "dated_at": "2025-04-23T11:48:09Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Needs Decision",
+          "full": "Needs Decision",
+          "color": "#1d76db",
+          "rgb": "29 118 219",
+          "text": "#1d76db",
+          "text_night": "#408be1"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69933,
+      "title": "Automated testing: Fix browser installation for Storybook smoke tests",
+      "url": "https://github.com/WordPress/gutenberg/pull/69933",
+      "state": "closed",
+      "created_at": "2025-04-18T06:25:41Z",
+      "dated_at": "2025-04-18T13:35:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69590,
+      "title": "Stylelint: Migrate configuration from `JSON` to `JavaScript` format",
+      "url": "https://github.com/WordPress/gutenberg/pull/69590",
+      "state": "merged",
+      "created_at": "2025-03-17T09:48:49Z",
+      "dated_at": "2025-04-17T13:36:17Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 9
+    },
+    {
+      "number": 69297,
+      "title": "File Block: Add Option to Show File Size",
+      "url": "https://github.com/WordPress/gutenberg/pull/69297",
+      "state": "closed",
+      "created_at": "2025-02-24T17:37:18Z",
+      "dated_at": "2025-04-17T07:55:58Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "File",
+          "full": "[Block] File",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69296,
+      "title": "File Block: Add Option to Show File Type",
+      "url": "https://github.com/WordPress/gutenberg/pull/69296",
+      "state": "closed",
+      "created_at": "2025-02-24T17:35:11Z",
+      "dated_at": "2025-04-17T07:55:03Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "File",
+          "full": "[Block] File",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69914,
+      "title": "Documentation: Fix missing `CSS` import in data basics tutorial code",
+      "url": "https://github.com/WordPress/gutenberg/pull/69914",
+      "state": "merged",
+      "created_at": "2025-04-16T11:18:44Z",
+      "dated_at": "2025-04-17T03:10:08Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68733,
+      "title": "Fix: Prevent `FontSizePicker` crash when no font size exists",
+      "url": "https://github.com/WordPress/gutenberg/pull/68733",
+      "state": "merged",
+      "created_at": "2025-01-17T06:44:10Z",
+      "dated_at": "2025-04-16T09:31:13Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Typography",
+          "full": "[Feature] Typography",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 69679,
+      "title": "Automated Testing: Add GitHub Actions workflow for Storybook smoke testing",
+      "url": "https://github.com/WordPress/gutenberg/pull/69679",
+      "state": "merged",
+      "created_at": "2025-03-24T15:21:38Z",
+      "dated_at": "2025-04-10T14:34:28Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 69870,
+      "title": "CustomSelectControlV2: Make disabled cursor style consistent",
+      "url": "https://github.com/WordPress/gutenberg/pull/69870",
+      "state": "open",
+      "created_at": "2025-04-09T17:05:54Z",
+      "dated_at": "2025-04-09T17:05:54Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Needs Accessibility Feedback",
+          "full": "Needs Accessibility Feedback",
+          "color": "#ffbcbd",
+          "rgb": "255 188 189",
+          "text": "#8e6969",
+          "text_night": "#ffbcbd"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69844,
+      "title": "Components: Add size prop to `RangeControl`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69844",
+      "state": "open",
+      "created_at": "2025-04-07T12:57:44Z",
+      "dated_at": "2025-04-07T12:57:44Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69816,
+      "title": "Remove `@shopify/web-worker` Dependency from `packages/upload-media`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69816",
+      "state": "merged",
+      "created_at": "2025-04-04T06:52:13Z",
+      "dated_at": "2025-04-04T11:25:25Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Media",
+          "full": "[Feature] Media",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69814,
+      "title": "List Block: Add Marker color option to enhance list styling",
+      "url": "https://github.com/WordPress/gutenberg/pull/69814",
+      "state": "closed",
+      "created_at": "2025-04-04T05:12:30Z",
+      "dated_at": "2025-04-04T07:20:21Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "List",
+          "full": "[Block] List",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69785,
+      "title": "Code Quality: Fix Documentation inconsistencies in `Block Parser` classes",
+      "url": "https://github.com/WordPress/gutenberg/pull/69785",
+      "state": "merged",
+      "created_at": "2025-04-01T09:38:44Z",
+      "dated_at": "2025-04-02T07:19:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": null,
+          "name": "No Core Sync Required",
+          "full": "No Core Sync Required",
+          "color": "#f37e1e",
+          "rgb": "243 126 30",
+          "text": "#ae5a15",
+          "text_night": "#f37e1e"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69773,
+      "title": "Site Editor: Add `+ button` to add new entity like `page`, `pattern`, `template`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69773",
+      "state": "open",
+      "created_at": "2025-03-31T13:09:05Z",
+      "dated_at": "2025-03-31T13:09:05Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
+          "group": "Feature",
+          "name": "Site Editor",
+          "full": "[Feature] Site Editor",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68631,
+      "title": "Global Styles: Fix incorrect usage of ItemGroup in the Background image panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/68631",
+      "state": "merged",
+      "created_at": "2025-01-13T09:45:57Z",
+      "dated_at": "2025-03-28T14:25:14Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 11
+    },
+    {
+      "number": 68741,
+      "title": "Details: Enable all non-interactive formats",
+      "url": "https://github.com/WordPress/gutenberg/pull/68741",
+      "state": "merged",
+      "created_at": "2025-01-17T10:32:36Z",
+      "dated_at": "2025-03-28T07:29:32Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Details",
+          "full": "[Block] Details",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 8
+    },
+    {
+      "number": 69715,
+      "title": " ToggleGroupControl: Document and add disabled prop in types.ts",
+      "url": "https://github.com/WordPress/gutenberg/pull/69715",
+      "state": "open",
+      "created_at": "2025-03-26T12:09:52Z",
+      "dated_at": "2025-03-26T12:09:52Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68633,
+      "title": "Global Styles: Prevent Unwanted ItemGroup List Rendering in Border Panel ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68633",
+      "state": "merged",
+      "created_at": "2025-01-13T10:20:55Z",
+      "dated_at": "2025-03-26T04:58:25Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 18
+    },
+    {
+      "number": 69670,
+      "title": "Developer Documentation: Update `VS Code` settings in contribution guide",
+      "url": "https://github.com/WordPress/gutenberg/pull/69670",
+      "state": "merged",
+      "created_at": "2025-03-24T06:18:51Z",
+      "dated_at": "2025-03-24T11:45:11Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69651,
+      "title": "PostCommentsForm: Fix submit button width regression",
+      "url": "https://github.com/WordPress/gutenberg/pull/69651",
+      "state": "merged",
+      "created_at": "2025-03-21T11:21:15Z",
+      "dated_at": "2025-03-24T09:30:23Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Regression",
+          "full": "[Type] Regression",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Block",
+          "name": "Comments Form",
+          "full": "[Block] Comments Form",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": null,
+          "name": "Backported to WP Core",
+          "full": "Backported to WP Core",
+          "color": "#491d8e",
+          "rgb": "73 29 142",
+          "text": "#491d8e",
+          "text_night": "#9981c0"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69135,
+      "title": "Component: Extract `getNodeText` to its own file and add unit tests",
+      "url": "https://github.com/WordPress/gutenberg/pull/69135",
+      "state": "merged",
+      "created_at": "2025-02-11T06:53:24Z",
+      "dated_at": "2025-03-20T09:19:49Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69606,
+      "title": "Stylelint: Relax `at-rule-empty-line-before` for `SCSS`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69606",
+      "state": "open",
+      "created_at": "2025-03-18T09:12:08Z",
+      "dated_at": "2025-03-18T09:12:08Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 67097,
+      "title": "Fix Media & Text block preview alignment on larger devices",
+      "url": "https://github.com/WordPress/gutenberg/pull/67097",
+      "state": "merged",
+      "created_at": "2024-11-19T06:04:42Z",
+      "dated_at": "2025-03-18T06:19:33Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        }
+      ],
+      "comments": 12
+    },
+    {
+      "number": 69540,
+      "title": "Components: Fixed broken className test for `NumberControl`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69540",
+      "state": "merged",
+      "created_at": "2025-03-12T05:44:42Z",
+      "dated_at": "2025-03-14T03:04:31Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 69564,
+      "title": "Global Styles: Add support for loading `CSS` from external files in `theme.json`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69564",
+      "state": "open",
+      "created_at": "2025-03-13T17:24:38Z",
+      "dated_at": "2025-03-13T17:24:38Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69546,
+      "title": "BlockEditor: Resolve `MediaReplaceFlow` UI text inconsistency",
+      "url": "https://github.com/WordPress/gutenberg/pull/69546",
+      "state": "merged",
+      "created_at": "2025-03-12T13:40:51Z",
+      "dated_at": "2025-03-12T18:43:06Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 69441,
+      "title": "ARIA: Fix invalid `DropdownMenu` children structure",
+      "url": "https://github.com/WordPress/gutenberg/pull/69441",
+      "state": "merged",
+      "created_at": "2025-03-05T16:57:30Z",
+      "dated_at": "2025-03-06T12:28:55Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69410,
+      "title": "ESLint: Implement `ARIA` Menu Pattern Enforcement via Linting for `DropdownMenu`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69410",
+      "state": "open",
+      "created_at": "2025-03-04T12:35:28Z",
+      "dated_at": "2025-03-04T12:35:28Z",
+      "labels": [],
+      "comments": 0
+    },
+    {
+      "number": 68826,
+      "title": "Font size picker: Fix i10n and a11y for `HeaderLabel`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68826",
+      "state": "closed",
+      "created_at": "2025-01-22T10:13:59Z",
+      "dated_at": "2025-03-03T09:03:51Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "UI Components",
+          "full": "[Feature] UI Components",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69372,
+      "title": "Components: Split `MenuItem` label and description for accessibility",
+      "url": "https://github.com/WordPress/gutenberg/pull/69372",
+      "state": "open",
+      "created_at": "2025-02-28T17:26:07Z",
+      "dated_at": "2025-02-28T17:26:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69361,
+      "title": "ESLint: Fix `dependency-group` rule to correctly enforce import grouping",
+      "url": "https://github.com/WordPress/gutenberg/pull/69361",
+      "state": "open",
+      "created_at": "2025-02-27T18:16:46Z",
+      "dated_at": "2025-02-27T18:16:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Tool",
+          "name": "ESLint plugin",
+          "full": "[Tool] ESLint plugin",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 68561,
+      "title": "TextControl: Fix text direction for URL and email fields in block editor for RTL languages",
+      "url": "https://github.com/WordPress/gutenberg/pull/68561",
+      "state": "merged",
+      "created_at": "2025-01-09T09:05:19Z",
+      "dated_at": "2025-02-24T13:28:23Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "l10n",
+          "full": "l10n",
+          "color": "#08b8c3",
+          "rgb": "8 184 195",
+          "text": "#057981",
+          "text_night": "#08b8c3"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 69289,
+      "title": "Components: Ensure Consistent Button Focus Styling Across `ItemGroup Button` and `Button`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69289",
+      "state": "open",
+      "created_at": "2025-02-24T08:35:14Z",
+      "dated_at": "2025-02-24T08:35:14Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 11
+    },
+    {
+      "number": 68840,
+      "title": "Dataviews: Fix alignment issue of \"Title\" column header",
+      "url": "https://github.com/WordPress/gutenberg/pull/68840",
+      "state": "merged",
+      "created_at": "2025-01-22T17:57:18Z",
+      "dated_at": "2025-02-23T06:46:09Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "DataViews",
+          "full": "[Package] DataViews",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69264,
+      "title": "Tests: Add Component Tests for DuotonePicker Component",
+      "url": "https://github.com/WordPress/gutenberg/pull/69264",
+      "state": "open",
+      "created_at": "2025-02-20T12:31:16Z",
+      "dated_at": "2025-02-20T12:31:16Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 69248,
+      "title": "Inserter: Align Quick Inserter Patterns with Block Directory UI",
+      "url": "https://github.com/WordPress/gutenberg/pull/69248",
+      "state": "open",
+      "created_at": "2025-02-19T16:52:52Z",
+      "dated_at": "2025-02-19T16:52:52Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "Inserter",
+          "full": "[Feature] Inserter",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
+          "group": "Feature",
+          "name": "Block Directory",
+          "full": "[Feature] Block Directory",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 69223,
+      "title": "ColorPicker: Add component test for Copy button with clipboard mocking",
+      "url": "https://github.com/WordPress/gutenberg/pull/69223",
+      "state": "open",
+      "created_at": "2025-02-17T17:07:22Z",
+      "dated_at": "2025-02-17T17:07:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 9
+    },
+    {
+      "number": 69188,
+      "title": "Audio: Show notice when inserting a non-audio URL in the `Audio` block",
+      "url": "https://github.com/WordPress/gutenberg/pull/69188",
+      "state": "open",
+      "created_at": "2025-02-13T12:34:37Z",
+      "dated_at": "2025-02-13T12:34:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Audio",
+          "full": "[Block] Audio",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 68958,
+      "title": "ESLint: Improve lint regex for preventing \"toggle\" word usage in translation ready functions ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68958",
+      "state": "merged",
+      "created_at": "2025-01-30T07:28:03Z",
+      "dated_at": "2025-02-13T02:52:05Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "Internationalization (i18n)",
+          "full": "Internationalization (i18n)",
+          "color": "#e881e2",
+          "rgb": "232 129 226",
+          "text": "#995595",
+          "text_night": "#e881e2"
+        },
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 10
+    },
+    {
+      "number": 68894,
+      "title": "ESLint: Add rule to prevent usage of the word 'sidebar' in translatable strings",
+      "url": "https://github.com/WordPress/gutenberg/pull/68894",
+      "state": "merged",
+      "created_at": "2025-01-27T10:36:59Z",
+      "dated_at": "2025-02-12T13:02:51Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        }
+      ],
+      "comments": 9
+    },
+    {
+      "number": 69030,
+      "title": "NPM Package: Introduce `@wordpress/ts-config`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69030",
+      "state": "open",
+      "created_at": "2025-02-04T16:53:08Z",
+      "dated_at": "2025-02-04T16:53:08Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Feature",
+          "full": "[Type] Feature",
+          "color": "#2e8daa",
+          "rgb": "46 141 170",
+          "text": "#277790",
+          "text_night": "#3f96b1"
+        },
+        {
+          "group": null,
+          "name": "Developer Experience",
+          "full": "Developer Experience",
+          "color": "#29ed9a",
+          "rgb": "41 237 154",
+          "text": "#178456",
+          "text_night": "#29ed9a"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68931,
+      "title": "Query: Sync \"Max pages to show\" setting between Query and Pagination blocks",
+      "url": "https://github.com/WordPress/gutenberg/pull/68931",
+      "state": "open",
+      "created_at": "2025-01-29T05:03:13Z",
+      "dated_at": "2025-01-29T05:03:13Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Query Loop",
+          "full": "[Block] Query Loop",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 0
+    },
+    {
+      "number": 68836,
+      "title": "Fix Duplicate Entries for 19.7.0 in changelog.txt",
+      "url": "https://github.com/WordPress/gutenberg/pull/68836",
+      "state": "merged",
+      "created_at": "2025-01-22T16:41:07Z",
+      "dated_at": "2025-01-27T16:16:48Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 8
+    },
+    {
+      "number": 68839,
+      "title": "Editor: children prop to accept `ReactNode`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68839",
+      "state": "merged",
+      "created_at": "2025-01-22T17:25:04Z",
+      "dated_at": "2025-01-27T09:12:35Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 68498,
+      "title": "Components: Remove unnecessary `Tooltip` component from linked `button`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68498",
+      "state": "merged",
+      "created_at": "2025-01-06T07:25:14Z",
+      "dated_at": "2025-01-24T14:02:31Z",
+      "labels": [
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68385,
+      "title": "Box Control: Add Runtime Check & Conditional Types for `presets` and `presetKey` Props",
+      "url": "https://github.com/WordPress/gutenberg/pull/68385",
+      "state": "merged",
+      "created_at": "2024-12-30T11:13:39Z",
+      "dated_at": "2025-01-22T16:43:11Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 68807,
+      "title": "Components: Fix placeholder color inconsistency across `SearchControl`, `TextControl`, `Inputcontrol`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68807",
+      "state": "open",
+      "created_at": "2025-01-21T13:12:45Z",
+      "dated_at": "2025-01-21T13:12:45Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 68706,
+      "title": "Lint: Fix broken URL reference for `stylelint` user guide configuration ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68706",
+      "state": "merged",
+      "created_at": "2025-01-16T07:48:30Z",
+      "dated_at": "2025-01-16T10:35:21Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": "Tool",
+          "name": "WP Scripts",
+          "full": "[Tool] WP Scripts",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 68702,
+      "title": "StoryBook: Add story for BlockSettingsMenu",
+      "url": "https://github.com/WordPress/gutenberg/pull/68702",
+      "state": "open",
+      "created_at": "2025-01-16T07:25:46Z",
+      "dated_at": "2025-01-16T07:25:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68423,
+      "title": "Nux: Standardize reduced motion handling using media queries",
+      "url": "https://github.com/WordPress/gutenberg/pull/68423",
+      "state": "merged",
+      "created_at": "2024-12-31T04:29:17Z",
+      "dated_at": "2025-01-15T08:25:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Task",
+          "full": "[Type] Task",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 68676,
+      "title": "StoryBook: Add story for `ObserveTyping`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68676",
+      "state": "open",
+      "created_at": "2025-01-15T07:24:11Z",
+      "dated_at": "2025-01-15T07:24:11Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 68675,
+      "title": "StoryBook: Add story for `ColorGradientControl`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68675",
+      "state": "open",
+      "created_at": "2025-01-15T06:44:34Z",
+      "dated_at": "2025-01-15T06:44:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68426,
+      "title": "Edit Post: Standardize reduced motion handling using media queries",
+      "url": "https://github.com/WordPress/gutenberg/pull/68426",
+      "state": "merged",
+      "created_at": "2024-12-31T04:43:17Z",
+      "dated_at": "2025-01-14T07:47:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Task",
+          "full": "[Type] Task",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Post",
+          "full": "[Package] Edit Post",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68425,
+      "title": "Customize Widgets: Standardize reduced motion handling using media queries",
+      "url": "https://github.com/WordPress/gutenberg/pull/68425",
+      "state": "merged",
+      "created_at": "2024-12-31T04:37:59Z",
+      "dated_at": "2025-01-14T07:38:13Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Task",
+          "full": "[Type] Task",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "Widgets Customizer",
+          "full": "[Feature] Widgets Customizer",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68420,
+      "title": "Block Directory: Standardize reduced motion handling using media queries #68419",
+      "url": "https://github.com/WordPress/gutenberg/pull/68420",
+      "state": "merged",
+      "created_at": "2024-12-31T04:20:13Z",
+      "dated_at": "2025-01-13T06:10:31Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Feature",
+          "name": "Block Directory",
+          "full": "[Feature] Block Directory",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68606,
+      "title": "Blocks: Standardise Media Section in Block's Inspector Panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/68606",
+      "state": "open",
+      "created_at": "2025-01-10T17:31:17Z",
+      "dated_at": "2025-01-10T17:31:17Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Blocks",
+          "full": "[Feature] Blocks",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Feature",
+          "name": "Media",
+          "full": "[Feature] Media",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68587,
+      "title": "Simplify `sprintf` translation for percentage widths",
+      "url": "https://github.com/WordPress/gutenberg/pull/68587",
+      "state": "merged",
+      "created_at": "2025-01-10T07:09:16Z",
+      "dated_at": "2025-01-10T14:27:56Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Internationalization (i18n)",
+          "full": "Internationalization (i18n)",
+          "color": "#e881e2",
+          "rgb": "232 129 226",
+          "text": "#995595",
+          "text_night": "#e881e2"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68592,
+      "title": "Tools panel: Synced the visible label and accessible name ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68592",
+      "state": "open",
+      "created_at": "2025-01-10T10:07:45Z",
+      "dated_at": "2025-01-10T10:07:45Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 8
+    },
+    {
+      "number": 68270,
+      "title": "ESLint: Improve regex for valid-sprintf rule to handle '%%'",
+      "url": "https://github.com/WordPress/gutenberg/pull/68270",
+      "state": "merged",
+      "created_at": "2024-12-24T12:16:00Z",
+      "dated_at": "2025-01-09T09:30:33Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Internationalization (i18n)",
+          "full": "Internationalization (i18n)",
+          "color": "#e881e2",
+          "rgb": "232 129 226",
+          "text": "#995595",
+          "text_night": "#e881e2"
+        },
+        {
+          "group": "Tool",
+          "name": "ESLint plugin",
+          "full": "[Tool] ESLint plugin",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 67186,
+      "title": "Add BlockIcon Storybook stories",
+      "url": "https://github.com/WordPress/gutenberg/pull/67186",
+      "state": "merged",
+      "created_at": "2024-11-21T04:57:41Z",
+      "dated_at": "2025-01-08T13:52:12Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 68188,
+      "title": "InputControl: Fix text direction for URL and email fields in block editor for RTL languages",
+      "url": "https://github.com/WordPress/gutenberg/pull/68188",
+      "state": "merged",
+      "created_at": "2024-12-20T11:38:10Z",
+      "dated_at": "2025-01-08T08:39:16Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "l10n",
+          "full": "l10n",
+          "color": "#08b8c3",
+          "rgb": "8 184 195",
+          "text": "#057981",
+          "text_night": "#08b8c3"
+        }
+      ],
+      "comments": 20
+    },
+    {
+      "number": 68539,
+      "title": "Editor: Simplify Block Inserter Button Label and Remove Dynamic Label Behavior",
+      "url": "https://github.com/WordPress/gutenberg/pull/68539",
+      "state": "open",
+      "created_at": "2025-01-07T20:01:54Z",
+      "dated_at": "2025-01-07T20:01:54Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "Inserter",
+          "full": "[Feature] Inserter",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 67346,
+      "title": " Storybook: Add UnitControl story",
+      "url": "https://github.com/WordPress/gutenberg/pull/67346",
+      "state": "merged",
+      "created_at": "2024-11-27T11:26:07Z",
+      "dated_at": "2025-01-07T07:43:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 68472,
+      "title": "Components: Restore Non-Themed Text Colors for `optimizeReadabilityFor`",
+      "url": "https://github.com/WordPress/gutenberg/pull/68472",
+      "state": "merged",
+      "created_at": "2025-01-03T04:52:57Z",
+      "dated_at": "2025-01-06T13:56:35Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68292,
+      "title": "StoryBook: Add Story for ResolutionTool",
+      "url": "https://github.com/WordPress/gutenberg/pull/68292",
+      "state": "merged",
+      "created_at": "2024-12-25T11:16:33Z",
+      "dated_at": "2025-01-04T03:05:40Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 68464,
+      "title": "Fix SCSS Media Query Compilation Issue in Storybook",
+      "url": "https://github.com/WordPress/gutenberg/pull/68464",
+      "state": "merged",
+      "created_at": "2025-01-02T13:04:52Z",
+      "dated_at": "2025-01-02T14:54:09Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68441,
+      "title": "Navigation: Surface the associated Menu name in the List View tab",
+      "url": "https://github.com/WordPress/gutenberg/pull/68441",
+      "state": "open",
+      "created_at": "2025-01-01T05:23:50Z",
+      "dated_at": "2025-01-01T05:23:50Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Navigation",
+          "full": "[Block] Navigation",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 68349,
+      "title": "Components: Fixing Text Contrast for Dark Mode",
+      "url": "https://github.com/WordPress/gutenberg/pull/68349",
+      "state": "merged",
+      "created_at": "2024-12-27T12:18:12Z",
+      "dated_at": "2024-12-30T14:42:18Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68293,
+      "title": "StoryBook: Add Story for DuotoneControl",
+      "url": "https://github.com/WordPress/gutenberg/pull/68293",
+      "state": "closed",
+      "created_at": "2024-12-25T11:52:55Z",
+      "dated_at": "2024-12-27T07:32:15Z",
+      "labels": [],
+      "comments": 0
+    },
+    {
+      "number": 68126,
+      "title": "Add README for TextAlignmentControl component",
+      "url": "https://github.com/WordPress/gutenberg/pull/68126",
+      "state": "merged",
+      "created_at": "2024-12-19T09:02:48Z",
+      "dated_at": "2024-12-26T02:29:27Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 68124,
+      "title": "Storybook: Add story for the Warning component ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68124",
+      "state": "merged",
+      "created_at": "2024-12-19T08:35:50Z",
+      "dated_at": "2024-12-23T13:10:59Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 68015,
+      "title": "Navigation Submenu Block: Add dropdown menu props to ToolsPanel component",
+      "url": "https://github.com/WordPress/gutenberg/pull/68015",
+      "state": "merged",
+      "created_at": "2024-12-16T08:49:31Z",
+      "dated_at": "2024-12-23T05:25:24Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Block",
+          "name": "Submenu",
+          "full": "[Block] Submenu",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 67365,
+      "title": "Storybook : Add TextTransformControl stories",
+      "url": "https://github.com/WordPress/gutenberg/pull/67365",
+      "state": "merged",
+      "created_at": "2024-11-28T06:09:11Z",
+      "dated_at": "2024-12-20T08:11:58Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 67741,
+      "title": "Add ESLint rule to prevent usage of the verb 'toggle' in translatable strings",
+      "url": "https://github.com/WordPress/gutenberg/pull/67741",
+      "state": "merged",
+      "created_at": "2024-12-09T12:27:28Z",
+      "dated_at": "2024-12-19T11:31:50Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "Internationalization (i18n)",
+          "full": "Internationalization (i18n)",
+          "color": "#e881e2",
+          "rgb": "232 129 226",
+          "text": "#995595",
+          "text_night": "#e881e2"
+        },
+        {
+          "group": "Type",
+          "name": "Automated Testing",
+          "full": "[Type] Automated Testing",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 18
+    },
+    {
+      "number": 68019,
+      "title": "Add dropdown menu props to ToolsPanel component",
+      "url": "https://github.com/WordPress/gutenberg/pull/68019",
+      "state": "merged",
+      "created_at": "2024-12-16T10:44:27Z",
+      "dated_at": "2024-12-17T10:58:11Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 67905,
+      "title": "More Block: Refactor settings panel to use ToolsPanel ",
+      "url": "https://github.com/WordPress/gutenberg/pull/67905",
+      "state": "merged",
+      "created_at": "2024-12-13T05:17:52Z",
+      "dated_at": "2024-12-16T10:36:40Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "More",
+          "full": "[Block] More",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 68013,
+      "title": "Query Page Numbers: Add dropdown menu props to ToolsPanel component ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68013",
+      "state": "merged",
+      "created_at": "2024-12-16T08:09:04Z",
+      "dated_at": "2024-12-16T08:44:40Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Query Pagination",
+          "full": "[Block] Query Pagination",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68010,
+      "title": "Archive: Add dropdown menu props to ToolsPanel component ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68010",
+      "state": "merged",
+      "created_at": "2024-12-16T07:44:41Z",
+      "dated_at": "2024-12-16T08:31:42Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Archives",
+          "full": "[Block] Archives",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 68012,
+      "title": "Page List Block: Add dropdown menu props to ToolsPanel component",
+      "url": "https://github.com/WordPress/gutenberg/pull/68012",
+      "state": "merged",
+      "created_at": "2024-12-16T07:53:17Z",
+      "dated_at": "2024-12-16T08:30:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Page List",
+          "full": "[Block] Page List",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 67958,
+      "title": "Query Page Numbers Block: Refactor settings panel to use ToolsPanel",
+      "url": "https://github.com/WordPress/gutenberg/pull/67958",
+      "state": "merged",
+      "created_at": "2024-12-13T08:58:46Z",
+      "dated_at": "2024-12-13T22:54:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Query Pagination",
+          "full": "[Block] Query Pagination",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 67969,
+      "title": "Navigation Submenu Block: Refactor settings panel to use ToolsPanel",
+      "url": "https://github.com/WordPress/gutenberg/pull/67969",
+      "state": "merged",
+      "created_at": "2024-12-13T10:41:55Z",
+      "dated_at": "2024-12-13T22:52:43Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Submenu",
+          "full": "[Block] Submenu",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 67903,
+      "title": "Page List Block: Refactor settings panel to use ToolsPanel",
+      "url": "https://github.com/WordPress/gutenberg/pull/67903",
+      "state": "merged",
+      "created_at": "2024-12-13T04:50:22Z",
+      "dated_at": "2024-12-13T22:48:33Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Page List",
+          "full": "[Block] Page List",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 67841,
+      "title": "Archives Block: Refactor setting panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/67841",
+      "state": "merged",
+      "created_at": "2024-12-11T16:23:18Z",
+      "dated_at": "2024-12-12T18:43:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Archives",
+          "full": "[Block] Archives",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 67825,
+      "title": "Add CSS classname to fix the negative margins not appearing in the Navigation Screen",
+      "url": "https://github.com/WordPress/gutenberg/pull/67825",
+      "state": "merged",
+      "created_at": "2024-12-11T11:40:05Z",
+      "dated_at": "2024-12-11T13:08:08Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Regression",
+          "full": "[Type] Regression",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 67575,
+      "title": "Remove .components-item-group selector in edit-site components[2]",
+      "url": "https://github.com/WordPress/gutenberg/pull/67575",
+      "state": "merged",
+      "created_at": "2024-12-04T13:17:47Z",
+      "dated_at": "2024-12-08T02:14:53Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 12
+    },
+    {
+      "number": 67384,
+      "title": "Remove .components-item-group selector in edit-site components",
+      "url": "https://github.com/WordPress/gutenberg/pull/67384",
+      "state": "closed",
+      "created_at": "2024-11-28T10:21:14Z",
+      "dated_at": "2024-12-04T12:15:29Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 7
+    },
+    {
+      "number": 67457,
+      "title": "Removed trailing space in \"Color randomizer \"",
+      "url": "https://github.com/WordPress/gutenberg/pull/67457",
+      "state": "merged",
+      "created_at": "2024-12-02T07:23:52Z",
+      "dated_at": "2024-12-02T08:40:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 67156,
+      "title": "Add up/down arrow key navigation to filter configuration listbox",
+      "url": "https://github.com/WordPress/gutenberg/pull/67156",
+      "state": "closed",
+      "created_at": "2024-11-20T12:37:06Z",
+      "dated_at": "2024-11-22T11:24:38Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 67227,
+      "title": "Add Storybook story for BlockFullHeightAlignmentControl",
+      "url": "https://github.com/WordPress/gutenberg/pull/67227",
+      "state": "open",
+      "created_at": "2024-11-22T09:58:00Z",
+      "dated_at": "2024-11-22T09:58:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        },
+        {
+          "group": null,
+          "name": "Storybook",
+          "full": "Storybook",
+          "color": "#81e2c7",
+          "rgb": "129 226 199",
+          "text": "#487e6f",
+          "text_night": "#81e2c7"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 66961,
+      "title": "Add Left, Right, and Full-Width Alignment Options to Code Block (Issue #66960)",
+      "url": "https://github.com/WordPress/gutenberg/pull/66961",
+      "state": "open",
+      "created_at": "2024-11-13T12:23:34Z",
+      "dated_at": "2024-11-13T12:23:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Code",
+          "full": "[Block] Code",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 66907,
+      "title": "Fix: Rename 'Details panel' to 'Quick Edit' in Data Views (#66612)",
+      "url": "https://github.com/WordPress/gutenberg/pull/66907",
+      "state": "closed",
+      "created_at": "2024-11-11T13:24:08Z",
+      "dated_at": "2024-11-11T13:41:13Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 66866,
+      "title": "Fix: Accessibility issue with links listing blocks. #(64051)",
+      "url": "https://github.com/WordPress/gutenberg/pull/66866",
+      "state": "open",
+      "created_at": "2024-11-08T10:42:16Z",
+      "dated_at": "2024-11-08T10:42:16Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Block",
+          "name": "Categories",
+          "full": "[Block] Categories",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Block",
+          "name": "Tag Cloud",
+          "full": "[Block] Tag Cloud",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 35
+    }
+  ]
+}

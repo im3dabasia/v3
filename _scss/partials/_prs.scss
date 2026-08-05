@@ -1,0 +1,276 @@
+.prs-page {
+  // The tracker is a normal document rather than a full-height hero, so the
+  // section needs a little breathing room under the theme switch.
+  padding-top: 20px;
+}
+
+.prs {
+  .section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @include tablet {
+      align-items: flex-start;
+    }
+  }
+
+  &__back {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: $blue;
+  }
+
+  &__content {
+    // Wider than the usual prose column; this one holds a table.
+    max-width: 900px;
+  }
+
+  &__heading {
+    margin: 0 0 15px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $black;
+    @include mobile {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__intro {
+    margin-bottom: 30px;
+  }
+
+  &__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      &--merged .prs__stats__figure {
+        color: $blue;
+      }
+    }
+
+    &__figure {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.1;
+      color: $black;
+      @include mobile {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__label {
+      font-family: 'Inconsolata', monospace;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+
+  &__filters {
+    margin-bottom: 25px;
+
+    &__row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    &__legend {
+      width: 70px;
+      flex-shrink: 0;
+      font-family: 'Inconsolata', monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      opacity: 0.7;
+      @include mobile {
+        width: 100%;
+      }
+    }
+  }
+
+  // Same pill language as the technology tags in the work experience section.
+  &__chip {
+    @include transition;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 3px;
+    color: $blue;
+    border: 1px solid $blue;
+    background: transparent;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      background: rgba(0, 123, 255, 0.1);
+    }
+    &.is-active {
+      background: $blue;
+      color: $white;
+    }
+    &__count {
+      opacity: 0.7;
+    }
+  }
+
+  &__count {
+    margin: 12px 0 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+
+  // The table is the widest thing on the site, so let it scroll on its own
+  // rather than pushing the page sideways.
+  &__table-wrap {
+    overflow-x: auto;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+
+    th {
+      text-align: left;
+      font-family: 'Inconsolata', monospace;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 0 12px 10px 0;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 14px 12px 14px 0;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+      vertical-align: top;
+    }
+  }
+
+  &__col-state {
+    width: 90px;
+  }
+
+  &__col-date {
+    width: 90px;
+    white-space: nowrap;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.8rem;
+    opacity: 0.75;
+  }
+
+  // GitHub's own state colours, so the page reads the way the PR list does.
+  &__state {
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 9px;
+    border-radius: 20px;
+    color: $white;
+
+    &--merged {
+      background: #8250df;
+    }
+    &--open {
+      background: #1f883d;
+    }
+    &--closed {
+      background: #cf222e;
+    }
+  }
+
+  &__link {
+    font-weight: 400;
+    &:hover,
+    &:focus {
+      color: $blue;
+    }
+  }
+
+  &__number {
+    margin-left: 6px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    opacity: 0.55;
+  }
+
+  &__labels {
+    display: block;
+    margin-top: 6px;
+  }
+
+  // Tinted fill with a border and text in the label's own colour, the way
+  // GitHub draws them. The custom properties are set per label by the
+  // template from the repository's colours; --label-text is pre-adjusted for
+  // contrast, so a pale label darkens rather than disappearing.
+  &__label {
+    display: inline-block;
+    margin: 3px 4px 0 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.65rem;
+    font-weight: 700;
+    line-height: 1.6;
+    padding: 1px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+    background: rgb(var(--label-rgb) / 0.12);
+    border: 1px solid rgb(var(--label-rgb) / 0.4);
+    color: var(--label-text);
+  }
+
+  &__empty {
+    padding: 30px 0;
+    font-style: italic;
+    opacity: 0.7;
+  }
+
+  &__all {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+}
+
+body.night {
+  .prs__heading,
+  .prs__stats__figure {
+    color: $off-white;
+  }
+  // GitHub's dark-theme equivalents of the same three states.
+  .prs__state--merged {
+    background: #a371f7;
+    color: #0d1117;
+  }
+  .prs__state--open {
+    background: #3fb950;
+    color: #0d1117;
+  }
+  .prs__state--closed {
+    background: #f85149;
+    color: #0d1117;
+  }
+  .prs__label {
+    background: rgb(var(--label-rgb) / 0.16);
+    border-color: rgb(var(--label-rgb) / 0.45);
+    color: var(--label-text-night);
+  }
+}

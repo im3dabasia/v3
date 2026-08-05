@@ -3,17 +3,19 @@
   <div class="section__content">
     <div class="project gutenberg">
       <figure class="project__pic">
-        <a href="https://github.com/WordPress/gutenberg" target="_blank">
+        <a href="{{site.baseurl}}/gutenberg/">
           <img src="{{site.baseurl}}/img/featured/gutenberg/gutenberg.png"
             alt="The WordPress block editor open on a tablet and a phone">
         </a>
       </figure>
       <figcaption class="project__caption">
         <div class="project__name">
-          <a href="https://github.com/WordPress/gutenberg" target="_blank">Gutenberg</a>
+          <a href="{{site.baseurl}}/gutenberg/">Gutenberg</a>
         </div>
         <p>The React-powered block editor behind WordPress — a drag-and-drop canvas for building entire sites, block by
           block. I contribute to it as a core committer.</p>
+        {% assign pr_floor = site.data.gutenberg_prs.total | divided_by: 10 | times: 10 %}
+        <a class="small" href="{{site.baseurl}}/gutenberg/">Browse my {{ pr_floor }}+ pull requests &rarr;</a>
       </figcaption>
     </div>
   </div>

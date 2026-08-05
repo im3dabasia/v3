@@ -1,0 +1,47 @@
+name: Update Gutenberg PR data
+
+on:
+  schedule:
+    # Once a day, at an offset minute because GitHub delays jobs scheduled on
+    # the hour. 04:17 UTC is roughly 09:47 IST. For weekly instead, append a
+    # day of week: '17 4 * * 1' for Mondays.
+    - cron: '17 4 * * *'
+  # Lets you refresh on demand from the Actions tab straight after opening or
+  # merging something, rather than waiting for the next run.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-gutenberg-prs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch pull requests
+        env:
+          # Raises the API limit from 60 to 5000 requests an hour.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node build/fetch-prs.mjs
+
+      - name: Commit if the data changed
+        run: |
+          if git diff --quiet -- _data/gutenberg_prs.json; then
+            echo "No change to _data/gutenberg_prs.json."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/gutenberg_prs.json
+          git commit -m "chore: Refresh Gutenberg pull request data"
+          git push

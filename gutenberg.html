@@ -1,0 +1,131 @@
+---
+layout: default
+permalink: /gutenberg/
+---
+{% assign data = site.data.gutenberg_prs %}
+
+<div id="site" class="prs-page">
+  {% include switch.html %}
+
+  <section class="section prs">
+    <div class="section__title">
+      Gutenberg
+      <a class="prs__back" href="{{ site.baseurl }}/">&larr; Back</a>
+    </div>
+
+    <div class="section__content prs__content">
+      <h1 class="prs__heading">Pull requests to WordPress Gutenberg</h1>
+      <p class="prs__intro">
+        Every pull request I have opened against
+        <a class="underline-link" href="https://github.com/{{ data.repo }}" target="_blank">{{ data.repo }}</a>,
+        pulled straight from the GitHub API. Each row links to the pull request itself.
+      </p>
+
+      <ul class="prs__stats">
+        <li class="prs__stats__item">
+          <span class="prs__stats__figure">{{ data.total }}</span>
+          <span class="prs__stats__label">contributed</span>
+        </li>
+        <li class="prs__stats__item prs__stats__item--merged">
+          <span class="prs__stats__figure">{{ data.merged }}</span>
+          <span class="prs__stats__label">merged</span>
+        </li>
+        <li class="prs__stats__item prs__stats__item--open">
+          <span class="prs__stats__figure">{{ data.open }}</span>
+          <span class="prs__stats__label">open</span>
+        </li>
+        <li class="prs__stats__item prs__stats__item--closed">
+          <span class="prs__stats__figure">{{ data.closed }}</span>
+          <span class="prs__stats__label">closed</span>
+        </li>
+      </ul>
+
+      <div class="prs__filters" data-prs-filters hidden>
+        <div class="prs__filters__row">
+          <span class="prs__filters__legend">State</span>
+          <button class="prs__chip is-active" type="button" data-filter="state" data-value="">All</button>
+          <button class="prs__chip" type="button" data-filter="state" data-value="merged">Merged</button>
+          <button class="prs__chip" type="button" data-filter="state" data-value="open">Open</button>
+          <button class="prs__chip" type="button" data-filter="state" data-value="closed">Closed</button>
+        </div>
+
+        <div class="prs__filters__row">
+          <span class="prs__filters__legend">Type</span>
+          <button class="prs__chip is-active" type="button" data-filter="type" data-value="">All</button>
+          {% for type in data.types limit: 8 %}
+          <button class="prs__chip" type="button" data-filter="type" data-value="{{ type.name }}">
+            {{ type.name }} <span class="prs__chip__count">{{ type.count }}</span>
+          </button>
+          {% endfor %}
+        </div>
+
+        <div class="prs__filters__row">
+          <span class="prs__filters__legend">Package</span>
+          <button class="prs__chip is-active" type="button" data-filter="package" data-value="">All</button>
+          {% for pkg in data.packages limit: 6 %}
+          <button class="prs__chip" type="button" data-filter="package" data-value="{{ pkg.name }}">
+            {{ pkg.name }} <span class="prs__chip__count">{{ pkg.count }}</span>
+          </button>
+          {% endfor %}
+        </div>
+
+        <p class="prs__count" data-prs-count></p>
+      </div>
+
+      <div class="prs__table-wrap">
+        <table class="prs__table">
+          <thead>
+            <tr>
+              <th scope="col" class="prs__col-state">State</th>
+              <th scope="col" class="prs__col-title">Pull request</th>
+              <th scope="col" class="prs__col-date">Date</th>
+            </tr>
+          </thead>
+          <tbody data-prs-body>
+            {% for pr in data.prs %}
+            {% assign types = '' %}
+            {% assign packages = '' %}
+            {% for label in pr.labels %}
+              {% if label.group == 'Type' %}{% assign types = types | append: label.name | append: '|' %}{% endif %}
+              {% if label.group == 'Package' %}{% assign packages = packages | append: label.name | append: '|' %}{% endif %}
+            {% endfor %}
+            <tr class="prs__row" data-state="{{ pr.state }}" data-type="{{ types }}" data-package="{{ packages }}">
+              <td class="prs__col-state">
+                <span class="prs__state prs__state--{{ pr.state }}">{{ pr.state }}</span>
+              </td>
+              <td class="prs__col-title">
+                <a class="prs__link" href="{{ pr.url }}" target="_blank" rel="noopener">
+                  {{ pr.title }}
+                </a>
+                <span class="prs__number">#{{ pr.number }}</span>
+                {% if pr.labels.size > 0 %}
+                <span class="prs__labels">
+                  {% for label in pr.labels limit: 4 %}
+                  <span class="prs__label"
+                    style="--label-rgb:{{ label.rgb }};--label-text:{{ label.text }};--label-text-night:{{ label.text_night }}">{{ label.name }}</span>
+                  {% endfor %}
+                </span>
+                {% endif %}
+              </td>
+              <td class="prs__col-date">
+                <time datetime="{{ pr.dated_at }}">{{ pr.dated_at | date: '%b %Y' }}</time>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <p class="prs__empty" data-prs-empty hidden>No pull requests match those filters.</p>
+      </div>
+
+      <a class="arrow-link prs__all" href="{{ data.search_url }}" target="_blank" rel="noopener">
+        See them on GitHub
+      </a>
+    </div>
+  </section>
+
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>
+
+<script src="{{ site.baseurl }}/js/prs.js" type="text/javascript" charset="utf-8"></script>

@@ -3,13 +3,17 @@
   <div class="section__content">
     <p>
       I’m a Software Engineer at
-      <a class="underline-link" href="https://rtcamp.com/" target="_blank">rtCamp</a> and a <strong>Gutenberg Core Committer</strong>. I’m a 2-time <strong>Noteworthy Contributor</strong> (Top 50) for WordPress 6.8 and 6.9, and have
+      <a class="underline-link" href="https://rtcamp.com/" target="_blank">rtCamp</a> and a
+      <a class="underline-link" href="{{ site.baseurl }}/gutenberg/"><strong>Gutenberg Core Committer</strong></a>. I’m a 2-time <strong>Noteworthy Contributor</strong> (Top 50) for WordPress 6.8 and 6.9, and have
       <a class="underline-link" href="https://profiles.wordpress.org/im3dabasia1/" target="_blank">shipped code in four WordPress releases</a>, from 6.7 through 7.0. I recently graduated from
       <a class="underline-link" href="https://ahduni.edu.in/" target="_blank">Ahmedabad University</a>.
     </p>
 
     <p>
-      I enjoy bridging the gap between engineering and design. My goal is to build scalable, efficient systems while contributing to the open-source ecosystem. To date, I have merged over 170+ PRs into the WordPress Gutenberg repository.
+      I enjoy bridging the gap between engineering and design. My goal is to build scalable, efficient systems while contributing to the open-source ecosystem. To date I have contributed
+      {% assign pr_floor = site.data.gutenberg_prs.total | divided_by: 10 | times: 10 %}
+      <a class="underline-link" href="{{ site.baseurl }}/gutenberg/">{{ pr_floor }}+ pull requests</a>
+      to the WordPress Gutenberg repository.
     </p>
 
     <p>
