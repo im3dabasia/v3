@@ -14,11 +14,14 @@
 `npm start` compiles the assets, builds the site with `_config_dev.yml` and
 serves it through Browsersync with live reload.
 
-If `jekyll` is not on your `PATH` — for example when it is installed against a
-Homebrew ruby rather than the system one — point at it explicitly:
+`gem install jekyll` often puts the binary in a directory that is not on
+`PATH`, typically when it is installed against a Homebrew ruby rather than the
+system one. The build looks in the usual gem directories for it, so this
+normally sorts itself out. If your ruby lives somewhere unusual, point at the
+binary explicitly:
 
 ```sh
-JEKYLL=/opt/homebrew/lib/ruby/gems/3.4.0/bin/jekyll npm start
+JEKYLL=/path/to/jekyll npm start
 ```
 
 ## Stylesheets

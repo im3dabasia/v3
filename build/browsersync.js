@@ -1,4 +1,7 @@
 import { spawn } from 'node:child_process';
+import { accessSync, constants, readdirSync } from 'node:fs';
+import { homedir } from 'node:os';
+import { delimiter, join } from 'node:path';
 import browserSyncLib from 'browser-sync';
 import gulp from 'gulp';
 import { styles } from './sass.js';
@@ -6,10 +9,54 @@ import { scripts } from './scripts.js';
 
 const browserSync = browserSyncLib.create();
 
-// Jekyll is a Ruby gem and may not be on PATH (e.g. when it is installed
-// against a Homebrew ruby). Set JEKYLL to point at the binary directly.
+const jekyllBin = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+
+function isExecutable(file) {
+  try {
+    accessSync(file, constants.X_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function findOnPath(bin) {
+  const dirs = (process.env.PATH || '').split(delimiter).filter(Boolean);
+  return dirs.map(dir => join(dir, bin)).find(isExecutable) || null;
+}
+
+// Gems installed against a Homebrew or user ruby land in a bin directory that
+// is usually not on PATH, so `gem install jekyll` alone is not enough to make
+// `jekyll` runnable. Look in the usual places before giving up.
+function findInGemDirs(bin) {
+  const roots = [
+    '/opt/homebrew/lib/ruby/gems',
+    '/usr/local/lib/ruby/gems',
+    join(homedir(), '.gem', 'ruby'),
+  ];
+
+  for (const root of roots) {
+    let versions;
+    try {
+      versions = readdirSync(root);
+    } catch {
+      continue;
+    }
+    // Newest ruby first, so 3.10 beats 3.4.
+    versions.sort((a, b) => b.localeCompare(a, undefined, { numeric: true }));
+    const found = versions
+      .map(version => join(root, version, 'bin', bin))
+      .find(isExecutable);
+    if (found) return found;
+  }
+
+  return null;
+}
+
+// JEKYLL wins if set, otherwise fall back to the bare name so the error
+// message below is the one the user sees.
 const jekyll =
-  process.env.JEKYLL || (process.platform === 'win32' ? 'jekyll.bat' : 'jekyll');
+  process.env.JEKYLL || findOnPath(jekyllBin) || findInGemDirs(jekyllBin) || jekyllBin;
 
 const scssPath = '_scss/**/*.scss';
 const jsPath = '_scripts/*.js';
