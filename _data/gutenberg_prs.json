@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 200,
+  "total": 201,
   "merged": 99,
-  "open": 73,
+  "open": 74,
   "closed": 28,
   "types": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 34
+      "count": 35
     },
     {
       "name": "Developer Documentation",
@@ -67,7 +67,11 @@
   "packages": [
     {
       "name": "Components",
-      "count": 38
+      "count": 39
+    },
+    {
+      "name": "Editor",
+      "count": 9
     },
     {
       "name": "Block editor",
@@ -75,10 +79,6 @@
     },
     {
       "name": "Block library",
-      "count": 8
-    },
-    {
-      "name": "Editor",
       "count": 8
     },
     {
@@ -155,6 +155,44 @@
     }
   ],
   "prs": [
+    {
+      "number": 81221,
+      "title": "Typography: Coerce numeric font size presets to pixels",
+      "url": "https://github.com/WordPress/gutenberg/pull/81221",
+      "state": "open",
+      "created_at": "2026-08-05T13:50:15Z",
+      "dated_at": "2026-08-05T13:50:15Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Typography",
+          "full": "[Feature] Typography",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 80501,
       "title": "Block Supports: Guard against non-string attribute values to avoid fatal errors",
@@ -495,6 +533,15 @@
           "group": "Package",
           "name": "Components",
           "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
           "color": "#ed2572",
           "rgb": "237 37 114",
           "text": "#da2269",
@@ -6275,6 +6322,15 @@
           "rgb": "160 247 98",
           "text": "#527f32",
           "text_night": "#a0f762"
+        },
+        {
+          "group": "Feature",
+          "name": "DataViews",
+          "full": "[Feature] DataViews",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
         }
       ],
       "comments": 1
