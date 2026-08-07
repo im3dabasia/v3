@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 201,
+  "total": 202,
   "merged": 99,
-  "open": 74,
+  "open": 75,
   "closed": 28,
   "types": [
     {
@@ -67,11 +67,11 @@
   "packages": [
     {
       "name": "Components",
-      "count": 39
+      "count": 38
     },
     {
       "name": "Editor",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Block editor",
@@ -83,14 +83,14 @@
     },
     {
       "name": "Edit Site",
-      "count": 5
-    },
-    {
-      "name": "Core data",
-      "count": 2
+      "count": 6
     },
     {
       "name": "Edit Post",
+      "count": 3
+    },
+    {
+      "name": "Core data",
       "count": 2
     },
     {
@@ -156,6 +156,44 @@
   ],
   "prs": [
     {
+      "number": 81276,
+      "title": "[WIP]Editor: show the welcome guide before the pattern modal",
+      "url": "https://github.com/WordPress/gutenberg/pull/81276",
+      "state": "open",
+      "created_at": "2026-08-06T10:28:56Z",
+      "dated_at": "2026-08-06T10:28:56Z",
+      "labels": [
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Post",
+          "full": "[Package] Edit Post",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 0
+    },
+    {
       "number": 81221,
       "title": "Typography: Coerce numeric font size presets to pixels",
       "url": "https://github.com/WordPress/gutenberg/pull/81221",
@@ -173,15 +211,6 @@
           "text_night": "#df5c30"
         },
         {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
           "group": "Feature",
           "name": "Typography",
           "full": "[Feature] Typography",
@@ -191,7 +220,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 1
+      "comments": 5
     },
     {
       "number": 80501,
@@ -1553,7 +1582,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 78392,
