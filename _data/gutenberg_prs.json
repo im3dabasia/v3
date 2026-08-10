@@ -4,8 +4,8 @@
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 202,
   "merged": 100,
-  "open": 74,
-  "closed": 28,
+  "open": 71,
+  "closed": 31,
   "types": [
     {
       "name": "Enhancement",
@@ -155,6 +155,102 @@
     }
   ],
   "prs": [
+    {
+      "number": 69970,
+      "title": "Components: Refactor `ToggleGroupControl` and  Auto-generate `README.md`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69970",
+      "state": "closed",
+      "created_at": "2025-04-23T11:48:09Z",
+      "dated_at": "2026-08-10T05:22:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Needs Decision",
+          "full": "Needs Decision",
+          "color": "#1d76db",
+          "rgb": "29 118 219",
+          "text": "#1d76db",
+          "text_night": "#408be1"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 79857,
+      "title": "Feat: Migrating the block-editor store to TS ",
+      "url": "https://github.com/WordPress/gutenberg/pull/79857",
+      "state": "closed",
+      "created_at": "2026-07-03T18:34:19Z",
+      "dated_at": "2026-08-10T05:06:39Z",
+      "labels": [
+        {
+          "group": "Package",
+          "name": "Blocks",
+          "full": "[Package] Blocks",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69361,
+      "title": "ESLint: Fix `dependency-group` rule to correctly enforce import grouping",
+      "url": "https://github.com/WordPress/gutenberg/pull/69361",
+      "state": "closed",
+      "created_at": "2025-02-27T18:16:46Z",
+      "dated_at": "2026-08-10T05:02:15Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Tool",
+          "name": "ESLint plugin",
+          "full": "[Tool] ESLint plugin",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 7
+    },
     {
       "number": 80511,
       "title": "Components: Migrate Spinner styles from Emotion to SCSS module",
@@ -892,36 +988,7 @@
           "text_night": "#878787"
         }
       ],
-      "comments": 3
-    },
-    {
-      "number": 79857,
-      "title": "Feat: Migrating the block-editor store to TS ",
-      "url": "https://github.com/WordPress/gutenberg/pull/79857",
-      "state": "open",
-      "created_at": "2026-07-03T18:34:19Z",
-      "dated_at": "2026-07-03T18:34:19Z",
-      "labels": [
-        {
-          "group": "Package",
-          "name": "Blocks",
-          "full": "[Package] Blocks",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Package",
-          "name": "Block editor",
-          "full": "[Package] Block editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 0
+      "comments": 4
     },
     {
       "number": 76519,
@@ -1390,7 +1457,7 @@
           "text_night": "#578eed"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 78809,
@@ -1582,7 +1649,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 3
+      "comments": 4
     },
     {
       "number": 78392,
@@ -3566,44 +3633,6 @@
       "comments": 9
     },
     {
-      "number": 69970,
-      "title": "Components: Refactor `ToggleGroupControl` and  Auto-generate `README.md`",
-      "url": "https://github.com/WordPress/gutenberg/pull/69970",
-      "state": "open",
-      "created_at": "2025-04-23T11:48:09Z",
-      "dated_at": "2025-04-23T11:48:09Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": null,
-          "name": "Needs Decision",
-          "full": "Needs Decision",
-          "color": "#1d76db",
-          "rgb": "29 118 219",
-          "text": "#1d76db",
-          "text_night": "#408be1"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 1
-    },
-    {
       "number": 69933,
       "title": "Automated testing: Fix browser installation for Storybook smoke tests",
       "url": "https://github.com/WordPress/gutenberg/pull/69933",
@@ -4478,35 +4507,6 @@
         }
       ],
       "comments": 2
-    },
-    {
-      "number": 69361,
-      "title": "ESLint: Fix `dependency-group` rule to correctly enforce import grouping",
-      "url": "https://github.com/WordPress/gutenberg/pull/69361",
-      "state": "open",
-      "created_at": "2025-02-27T18:16:46Z",
-      "dated_at": "2025-02-27T18:16:46Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": "Tool",
-          "name": "ESLint plugin",
-          "full": "[Tool] ESLint plugin",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 6
     },
     {
       "number": 68561,
