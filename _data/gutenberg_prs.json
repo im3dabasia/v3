@@ -4,8 +4,8 @@
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 202,
   "merged": 100,
-  "open": 71,
-  "closed": 31,
+  "open": 66,
+  "closed": 36,
   "types": [
     {
       "name": "Enhancement",
@@ -155,6 +155,96 @@
     }
   ],
   "prs": [
+    {
+      "number": 78964,
+      "title": "[WIP] Content Types: Add more fields in post type",
+      "url": "https://github.com/WordPress/gutenberg/pull/78964",
+      "state": "closed",
+      "created_at": "2026-06-05T02:14:38Z",
+      "dated_at": "2026-08-10T07:49:51Z",
+      "labels": [],
+      "comments": 1
+    },
+    {
+      "number": 78668,
+      "title": "Content Types: Remove \"show in REST API\"",
+      "url": "https://github.com/WordPress/gutenberg/pull/78668",
+      "state": "closed",
+      "created_at": "2026-05-26T09:10:19Z",
+      "dated_at": "2026-08-10T07:21:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78629,
+      "title": "Content Types: Add checkbox for deletion of terms ",
+      "url": "https://github.com/WordPress/gutenberg/pull/78629",
+      "state": "closed",
+      "created_at": "2026-05-25T09:45:28Z",
+      "dated_at": "2026-08-10T07:21:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78341,
+      "title": "Content Type: Handle duplicate slug generation for CPT's and Taxonomies ",
+      "url": "https://github.com/WordPress/gutenberg/pull/78341",
+      "state": "closed",
+      "created_at": "2026-05-15T12:02:48Z",
+      "dated_at": "2026-08-10T07:20:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78285,
+      "title": "Content Type: Add `menu_icon ` and `menu_position` fields",
+      "url": "https://github.com/WordPress/gutenberg/pull/78285",
+      "state": "closed",
+      "created_at": "2026-05-14T10:31:47Z",
+      "dated_at": "2026-08-10T07:20:22Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 69970,
       "title": "Components: Refactor `ToggleGroupControl` and  Auto-generate `README.md`",
@@ -1374,16 +1464,6 @@
       "comments": 2
     },
     {
-      "number": 78964,
-      "title": "[WIP] Content Types: Add more fields in post type",
-      "url": "https://github.com/WordPress/gutenberg/pull/78964",
-      "state": "open",
-      "created_at": "2026-06-05T02:14:38Z",
-      "dated_at": "2026-06-05T02:14:38Z",
-      "labels": [],
-      "comments": 0
-    },
-    {
       "number": 75497,
       "title": "Blocks: Allow the `Loginout` block as an inner block in the `Navigation Submenu` block",
       "url": "https://github.com/WordPress/gutenberg/pull/75497",
@@ -1475,15 +1555,6 @@
           "rgb": "65 9 160",
           "text": "#4109a0",
           "text_night": "#9576ca"
-        },
-        {
-          "group": null,
-          "name": "Content types (experimental)",
-          "full": "Content types (experimental)",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
         }
       ],
       "comments": 2
@@ -1518,35 +1589,6 @@
       "comments": 2
     },
     {
-      "number": 78668,
-      "title": "Content Types: Remove \"show in REST API\"",
-      "url": "https://github.com/WordPress/gutenberg/pull/78668",
-      "state": "open",
-      "created_at": "2026-05-26T09:10:19Z",
-      "dated_at": "2026-05-26T09:10:19Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Experimental",
-          "full": "[Type] Experimental",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        },
-        {
-          "group": null,
-          "name": "Content types (experimental)",
-          "full": "Content types (experimental)",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        }
-      ],
-      "comments": 1
-    },
-    {
       "number": 78497,
       "title": " Fix: Register user-defined taxonomies after user-defined post types",
       "url": "https://github.com/WordPress/gutenberg/pull/78497",
@@ -1571,47 +1613,9 @@
           "rgb": "237 37 114",
           "text": "#da2269",
           "text_night": "#f04688"
-        },
-        {
-          "group": null,
-          "name": "Content types (experimental)",
-          "full": "Content types (experimental)",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
         }
       ],
       "comments": 2
-    },
-    {
-      "number": 78629,
-      "title": "Content Types: Add checkbox for deletion of terms ",
-      "url": "https://github.com/WordPress/gutenberg/pull/78629",
-      "state": "open",
-      "created_at": "2026-05-25T09:45:28Z",
-      "dated_at": "2026-05-25T09:45:28Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Experimental",
-          "full": "[Type] Experimental",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        },
-        {
-          "group": null,
-          "name": "Content types (experimental)",
-          "full": "Content types (experimental)",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        }
-      ],
-      "comments": 1
     },
     {
       "number": 78424,
@@ -1679,64 +1683,6 @@
         }
       ],
       "comments": 2
-    },
-    {
-      "number": 78341,
-      "title": "Content Type: Handle duplicate slug generation for CPT's and Taxonomies ",
-      "url": "https://github.com/WordPress/gutenberg/pull/78341",
-      "state": "open",
-      "created_at": "2026-05-15T12:02:48Z",
-      "dated_at": "2026-05-15T12:02:48Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": null,
-          "name": "Content types (experimental)",
-          "full": "Content types (experimental)",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        }
-      ],
-      "comments": 1
-    },
-    {
-      "number": 78285,
-      "title": "Content Type: Add `menu_icon ` and `menu_position` fields",
-      "url": "https://github.com/WordPress/gutenberg/pull/78285",
-      "state": "open",
-      "created_at": "2026-05-14T10:31:47Z",
-      "dated_at": "2026-05-14T10:31:47Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Experimental",
-          "full": "[Type] Experimental",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        },
-        {
-          "group": null,
-          "name": "Content types (experimental)",
-          "full": "Content types (experimental)",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        }
-      ],
-      "comments": 0
     },
     {
       "number": 78096,
@@ -3323,7 +3269,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 70156,
