@@ -1810,10 +1810,10 @@
           "group": "Package",
           "name": "Sync",
           "full": "[Package] Sync",
-          "color": "#ededed",
-          "rgb": "237 237 237",
-          "text": "#707070",
-          "text_night": "#ededed"
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
         }
       ],
       "comments": 3
