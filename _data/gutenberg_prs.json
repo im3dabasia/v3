@@ -4,8 +4,8 @@
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 202,
   "merged": 100,
-  "open": 66,
-  "closed": 36,
+  "open": 64,
+  "closed": 38,
   "types": [
     {
       "name": "Enhancement",
@@ -155,6 +155,100 @@
     }
   ],
   "prs": [
+    {
+      "number": 76035,
+      "title": "fix: A11y issue in play/pause of the audio player in playlist block",
+      "url": "https://github.com/WordPress/gutenberg/pull/76035",
+      "state": "closed",
+      "created_at": "2026-03-02T08:02:22Z",
+      "dated_at": "2026-08-13T12:15:06Z",
+      "labels": [
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Playlist",
+          "full": "[Block] Playlist",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 80250,
+      "title": "Notes: Feature to discover unread notes ",
+      "url": "https://github.com/WordPress/gutenberg/pull/80250",
+      "state": "closed",
+      "created_at": "2026-07-14T12:16:12Z",
+      "dated_at": "2026-08-13T08:26:50Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Status",
+          "name": "In Progress",
+          "full": "[Status] In Progress",
+          "color": "#0052cc",
+          "rgb": "0 82 204",
+          "text": "#0052cc",
+          "text_night": "#578ddd"
+        },
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 8
+    },
     {
       "number": 78964,
       "title": "[WIP] Content Types: Add more fields in post type",
@@ -880,62 +974,6 @@
         }
       ],
       "comments": 8
-    },
-    {
-      "number": 80250,
-      "title": "Notes: Feature to discover unread notes ",
-      "url": "https://github.com/WordPress/gutenberg/pull/80250",
-      "state": "open",
-      "created_at": "2026-07-14T12:16:12Z",
-      "dated_at": "2026-07-14T12:16:12Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Status",
-          "name": "In Progress",
-          "full": "[Status] In Progress",
-          "color": "#0052cc",
-          "rgb": "0 82 204",
-          "text": "#0052cc",
-          "text_night": "#578ddd"
-        },
-        {
-          "group": "Package",
-          "name": "Core data",
-          "full": "[Package] Core data",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Package",
-          "name": "Editor",
-          "full": "[Package] Editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Feature",
-          "name": "Notes",
-          "full": "[Feature] Notes",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        }
-      ],
-      "comments": 7
     },
     {
       "number": 80117,
@@ -2217,44 +2255,6 @@
         }
       ],
       "comments": 1
-    },
-    {
-      "number": 76035,
-      "title": "fix: A11y issue in play/pause of the audio player in playlist block",
-      "url": "https://github.com/WordPress/gutenberg/pull/76035",
-      "state": "open",
-      "created_at": "2026-03-02T08:02:22Z",
-      "dated_at": "2026-03-02T08:02:22Z",
-      "labels": [
-        {
-          "group": "Focus",
-          "name": "Accessibility (a11y)",
-          "full": "[Focus] Accessibility (a11y)",
-          "color": "#efde5d",
-          "rgb": "239 222 93",
-          "text": "#7b7230",
-          "text_night": "#efde5d"
-        },
-        {
-          "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Block",
-          "name": "Playlist",
-          "full": "[Block] Playlist",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        }
-      ],
-      "comments": 3
     },
     {
       "number": 75955,
