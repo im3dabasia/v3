@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 202,
+  "total": 203,
   "merged": 100,
-  "open": 64,
+  "open": 65,
   "closed": 38,
   "types": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 35
+      "count": 36
     },
     {
       "name": "Developer Documentation",
@@ -155,6 +155,35 @@
     }
   ],
   "prs": [
+    {
+      "number": 81751,
+      "title": "Notes: Keep the clicked thread selected on a block with several notes",
+      "url": "https://github.com/WordPress/gutenberg/pull/81751",
+      "state": "open",
+      "created_at": "2026-08-17T12:34:43Z",
+      "dated_at": "2026-08-17T12:34:43Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 76035,
       "title": "fix: A11y issue in play/pause of the audio player in playlist block",
