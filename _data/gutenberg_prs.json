@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 206,
-  "merged": 100,
-  "open": 67,
+  "total": 207,
+  "merged": 102,
+  "open": 66,
   "closed": 39,
   "types": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "Bug",
-      "count": 36
+      "count": 37
     },
     {
       "name": "Developer Documentation",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Automated Testing",
@@ -67,7 +67,7 @@
   "packages": [
     {
       "name": "Components",
-      "count": 38
+      "count": 39
     },
     {
       "name": "Editor",
@@ -160,13 +160,80 @@
   ],
   "prs": [
     {
+      "number": 81923,
+      "title": "Components: Update the combobox changes to be part of `breaking change`",
+      "url": "https://github.com/WordPress/gutenberg/pull/81923",
+      "state": "merged",
+      "created_at": "2026-08-21T10:53:06Z",
+      "dated_at": "2026-08-21T11:29:36Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 80471,
+      "title": "Components: migrate ComboboxControl to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80471",
+      "state": "merged",
+      "created_at": "2026-07-20T11:20:28Z",
+      "dated_at": "2026-08-21T10:27:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 5
+    },
+    {
       "number": 81901,
-      "title": "fix: Button rtl loader issue",
+      "title": "Button: Fix alignment in loading spinner for `rtl` screens",
       "url": "https://github.com/WordPress/gutenberg/pull/81901",
       "state": "open",
       "created_at": "2026-08-21T04:55:28Z",
       "dated_at": "2026-08-21T04:55:28Z",
       "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
         {
           "group": "Package",
           "name": "UI",
@@ -177,7 +244,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 0
+      "comments": 1
     },
     {
       "number": 81818,
@@ -997,36 +1064,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 2
-    },
-    {
-      "number": 80471,
-      "title": "Components: migrate ComboboxControl to SCSS module",
-      "url": "https://github.com/WordPress/gutenberg/pull/80471",
-      "state": "open",
-      "created_at": "2026-07-20T11:20:28Z",
-      "dated_at": "2026-07-20T11:20:28Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Code Quality",
-          "full": "[Type] Code Quality",
-          "color": "#e5e04b",
-          "rgb": "229 224 75",
-          "text": "#767326",
-          "text_night": "#e5e04b"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 80348,
@@ -1198,7 +1236,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 6
+      "comments": 7
     },
     {
       "number": 79933,
