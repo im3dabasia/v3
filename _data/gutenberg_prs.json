@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 207,
-  "merged": 106,
+  "total": 208,
+  "merged": 107,
   "open": 62,
   "closed": 39,
   "types": [
     {
       "name": "Enhancement",
-      "count": 59
+      "count": 60
     },
     {
       "name": "Code Quality",
@@ -118,6 +118,10 @@
       "count": 1
     },
     {
+      "name": "Edit Widgets",
+      "count": 1
+    },
+    {
       "name": "Hooks",
       "count": 1
     },
@@ -159,6 +163,73 @@
     }
   ],
   "prs": [
+    {
+      "number": 82025,
+      "title": "Widgets: Use the layout icon for widget areas",
+      "url": "https://github.com/WordPress/gutenberg/pull/82025",
+      "state": "open",
+      "created_at": "2026-08-25T11:54:58Z",
+      "dated_at": "2026-08-25T11:54:58Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Widgets Screen",
+          "full": "[Feature] Widgets Screen",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Widgets",
+          "full": "[Package] Edit Widgets",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 80514,
+      "title": "Components: Migrate ZStack styles from Emotion to SCSS module",
+      "url": "https://github.com/WordPress/gutenberg/pull/80514",
+      "state": "merged",
+      "created_at": "2026-07-21T10:34:44Z",
+      "dated_at": "2026-08-25T08:37:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
     {
       "number": 80512,
       "title": "Components: Migrate ProgressBar styles from Emotion to SCSS module",
@@ -416,7 +487,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 4
+      "comments": 5
     },
     {
       "number": 81751,
@@ -1092,35 +1163,6 @@
         }
       ],
       "comments": 1
-    },
-    {
-      "number": 80514,
-      "title": "Components: Migrate ZStack styles from Emotion to SCSS module",
-      "url": "https://github.com/WordPress/gutenberg/pull/80514",
-      "state": "open",
-      "created_at": "2026-07-21T10:34:44Z",
-      "dated_at": "2026-07-21T10:34:44Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Code Quality",
-          "full": "[Type] Code Quality",
-          "color": "#e5e04b",
-          "rgb": "229 224 75",
-          "text": "#767326",
-          "text_night": "#e5e04b"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 3
     },
     {
       "number": 80348,
