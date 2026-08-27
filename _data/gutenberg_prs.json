@@ -2,8 +2,8 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 208,
-  "merged": 107,
+  "total": 210,
+  "merged": 109,
   "open": 62,
   "closed": 39,
   "types": [
@@ -28,12 +28,12 @@
       "count": 8
     },
     {
-      "name": "Experimental",
-      "count": 7
+      "name": "Build Tooling",
+      "count": 8
     },
     {
-      "name": "Build Tooling",
-      "count": 6
+      "name": "Experimental",
+      "count": 7
     },
     {
       "name": "Task",
@@ -163,6 +163,46 @@
     }
   ],
   "prs": [
+    {
+      "number": 82121,
+      "title": "CI: Collapse package CHANGELOG check exclusions into a single grep pattern",
+      "url": "https://github.com/WordPress/gutenberg/pull/82121",
+      "state": "merged",
+      "created_at": "2026-08-27T11:07:02Z",
+      "dated_at": "2026-08-27T12:14:38Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 0
+    },
+    {
+      "number": 82069,
+      "title": "CI: Skip the package CHANGELOG check when only the CHANGELOG changed",
+      "url": "https://github.com/WordPress/gutenberg/pull/82069",
+      "state": "merged",
+      "created_at": "2026-08-26T12:02:15Z",
+      "dated_at": "2026-08-26T13:00:12Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 5
+    },
     {
       "number": 82025,
       "title": "Widgets: Use the layout icon for widget areas",
@@ -516,7 +556,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 76035,
@@ -1430,7 +1470,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 5
+      "comments": 7
     },
     {
       "number": 78165,
@@ -1953,7 +1993,7 @@
     },
     {
       "number": 78010,
-      "title": "Components: Add props for `Toolspanel` (isShownOnFirstRender)",
+      "title": "Components: Add `defaultShown`, `onShownChange` to `ToolsPanelItem`",
       "url": "https://github.com/WordPress/gutenberg/pull/78010",
       "state": "open",
       "created_at": "2026-05-06T11:07:18Z",
@@ -1987,7 +2027,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 7
+      "comments": 10
     },
     {
       "number": 77902,
