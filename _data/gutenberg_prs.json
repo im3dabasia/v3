@@ -110,6 +110,10 @@
       "count": 1
     },
     {
+      "name": "Boot",
+      "count": 1
+    },
+    {
       "name": "Compose",
       "count": 1
     },
@@ -525,9 +529,18 @@
           "rgb": "237 37 114",
           "text": "#da2269",
           "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Boot",
+          "full": "[Package] Boot",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
         }
       ],
-      "comments": 5
+      "comments": 6
     },
     {
       "number": 81751,
@@ -556,7 +569,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 76035,
