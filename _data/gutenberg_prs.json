@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 210,
-  "merged": 109,
-  "open": 62,
-  "closed": 39,
+  "total": 211,
+  "merged": 110,
+  "open": 61,
+  "closed": 40,
   "types": [
     {
       "name": "Enhancement",
-      "count": 60
+      "count": 61
     },
     {
       "name": "Code Quality",
@@ -167,6 +167,102 @@
     }
   ],
   "prs": [
+    {
+      "number": 82247,
+      "title": "Site editor: Add item counts to post list status tabs",
+      "url": "https://github.com/WordPress/gutenberg/pull/82247",
+      "state": "open",
+      "created_at": "2026-08-31T12:38:01Z",
+      "dated_at": "2026-08-31T12:38:01Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Site Editor",
+          "full": "[Feature] Site Editor",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 78010,
+      "title": "Components: Add `defaultShown`, `onShownChange` to `ToolsPanelItem`",
+      "url": "https://github.com/WordPress/gutenberg/pull/78010",
+      "state": "merged",
+      "created_at": "2026-05-06T11:07:18Z",
+      "dated_at": "2026-08-31T12:22:48Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Design Tools",
+          "full": "[Feature] Design Tools",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 10
+    },
+    {
+      "number": 69030,
+      "title": "NPM Package: Introduce `@wordpress/ts-config`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69030",
+      "state": "closed",
+      "created_at": "2025-02-04T16:53:08Z",
+      "dated_at": "2026-08-31T11:35:25Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Feature",
+          "full": "[Type] Feature",
+          "color": "#2e8daa",
+          "rgb": "46 141 170",
+          "text": "#277790",
+          "text_night": "#3f96b1"
+        },
+        {
+          "group": null,
+          "name": "Developer Experience",
+          "full": "Developer Experience",
+          "color": "#29ed9a",
+          "rgb": "41 237 154",
+          "text": "#178456",
+          "text_night": "#29ed9a"
+        }
+      ],
+      "comments": 3
+    },
     {
       "number": 82121,
       "title": "CI: Collapse package CHANGELOG check exclusions into a single grep pattern",
@@ -569,7 +665,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 3
+      "comments": 6
     },
     {
       "number": 76035,
@@ -1360,7 +1456,7 @@
           "text_night": "#878787"
         }
       ],
-      "comments": 4
+      "comments": 5
     },
     {
       "number": 76519,
@@ -2003,44 +2099,6 @@
         }
       ],
       "comments": 4
-    },
-    {
-      "number": 78010,
-      "title": "Components: Add `defaultShown`, `onShownChange` to `ToolsPanelItem`",
-      "url": "https://github.com/WordPress/gutenberg/pull/78010",
-      "state": "open",
-      "created_at": "2026-05-06T11:07:18Z",
-      "dated_at": "2026-05-06T11:07:18Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Feature",
-          "name": "Design Tools",
-          "full": "[Feature] Design Tools",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        }
-      ],
-      "comments": 10
     },
     {
       "number": 77902,
@@ -4985,35 +5043,6 @@
         }
       ],
       "comments": 9
-    },
-    {
-      "number": 69030,
-      "title": "NPM Package: Introduce `@wordpress/ts-config`",
-      "url": "https://github.com/WordPress/gutenberg/pull/69030",
-      "state": "open",
-      "created_at": "2025-02-04T16:53:08Z",
-      "dated_at": "2025-02-04T16:53:08Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Feature",
-          "full": "[Type] Feature",
-          "color": "#2e8daa",
-          "rgb": "46 141 170",
-          "text": "#277790",
-          "text_night": "#3f96b1"
-        },
-        {
-          "group": null,
-          "name": "Developer Experience",
-          "full": "Developer Experience",
-          "color": "#29ed9a",
-          "rgb": "41 237 154",
-          "text": "#178456",
-          "text_night": "#29ed9a"
-        }
-      ],
-      "comments": 2
     },
     {
       "number": 68931,
