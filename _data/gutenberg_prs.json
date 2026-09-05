@@ -2,10 +2,10 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 214,
-  "merged": 113,
-  "open": 60,
-  "closed": 41,
+  "total": 215,
+  "merged": 117,
+  "open": 53,
+  "closed": 45,
   "types": [
     {
       "name": "Enhancement",
@@ -40,12 +40,12 @@
       "count": 4
     },
     {
-      "name": "Security",
+      "name": "Performance",
       "count": 3
     },
     {
-      "name": "Performance",
-      "count": 2
+      "name": "Security",
+      "count": 3
     },
     {
       "name": "Regression",
@@ -168,12 +168,251 @@
   ],
   "prs": [
     {
+      "number": 66961,
+      "title": "Add Left, Right, and Full-Width Alignment Options to Code Block (Issue #66960)",
+      "url": "https://github.com/WordPress/gutenberg/pull/66961",
+      "state": "closed",
+      "created_at": "2024-11-13T12:23:34Z",
+      "dated_at": "2026-09-04T17:10:45Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "Code",
+          "full": "[Block] Code",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": null,
+          "name": "First-time Contributor",
+          "full": "First-time Contributor",
+          "color": "#a0f762",
+          "rgb": "160 247 98",
+          "text": "#527f32",
+          "text_night": "#a0f762"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 82459,
+      "title": "Performance Tests: Skip pull requests that only change Storybook stories",
+      "url": "https://github.com/WordPress/gutenberg/pull/82459",
+      "state": "merged",
+      "created_at": "2026-09-04T14:57:25Z",
+      "dated_at": "2026-09-04T16:04:26Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Performance",
+          "full": "[Type] Performance",
+          "color": "#f3f4fe",
+          "rgb": "243 244 254",
+          "text": "#737378",
+          "text_night": "#f3f4fe"
+        },
+        {
+          "group": null,
+          "name": "props-bot",
+          "full": "props-bot",
+          "color": "#4c8702",
+          "rgb": "76 135 2",
+          "text": "#467c02",
+          "text_night": "#679929"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 79933,
+      "title": "Feat: Skip Performance CI tests for docs and workflows files",
+      "url": "https://github.com/WordPress/gutenberg/pull/79933",
+      "state": "closed",
+      "created_at": "2026-07-07T11:36:11Z",
+      "dated_at": "2026-09-04T15:01:29Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Performance",
+          "full": "[Type] Performance",
+          "color": "#f3f4fe",
+          "rgb": "243 244 254",
+          "text": "#737378",
+          "text_night": "#f3f4fe"
+        },
+        {
+          "group": null,
+          "name": "GitHub Actions",
+          "full": "GitHub Actions",
+          "color": "#000000",
+          "rgb": "0 0 0",
+          "text": "#000000",
+          "text_night": "#878787"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 69715,
+      "title": " ToggleGroupControl: Document and add disabled prop in types.ts",
+      "url": "https://github.com/WordPress/gutenberg/pull/69715",
+      "state": "closed",
+      "created_at": "2025-03-26T12:09:52Z",
+      "dated_at": "2026-09-04T14:26:14Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 78392,
+      "title": "Env: bin/cherry-pick: exit early when gh CLI is not available",
+      "url": "https://github.com/WordPress/gutenberg/pull/78392",
+      "state": "closed",
+      "created_at": "2026-05-18T09:35:35Z",
+      "dated_at": "2026-09-04T14:19:21Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 82025,
+      "title": "Widgets: Use the layout icon for widget areas",
+      "url": "https://github.com/WordPress/gutenberg/pull/82025",
+      "state": "merged",
+      "created_at": "2026-08-25T11:54:58Z",
+      "dated_at": "2026-09-04T13:42:25Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Widgets Screen",
+          "full": "[Feature] Widgets Screen",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Widgets",
+          "full": "[Package] Edit Widgets",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 82389,
+      "title": "Block Fields Media: Handle 'audio' in chooseItemLabel",
+      "url": "https://github.com/WordPress/gutenberg/pull/82389",
+      "state": "merged",
+      "created_at": "2026-09-03T12:46:51Z",
+      "dated_at": "2026-09-04T10:51:15Z",
+      "labels": [
+        {
+          "group": "Feature",
+          "name": "Inspector Controls",
+          "full": "[Feature] Inspector Controls",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Block",
+          "name": "Audio",
+          "full": "[Block] Audio",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 3
+    },
+    {
       "number": 82420,
       "title": "feat: Introduce 'Add Media' in the block controls for media-text block",
       "url": "https://github.com/WordPress/gutenberg/pull/82420",
-      "state": "open",
+      "state": "merged",
       "created_at": "2026-09-04T06:28:10Z",
-      "dated_at": "2026-09-04T06:28:10Z",
+      "dated_at": "2026-09-04T09:45:42Z",
       "labels": [
         {
           "group": "Type",
@@ -260,53 +499,6 @@
         }
       ],
       "comments": 8
-    },
-    {
-      "number": 82389,
-      "title": "Block Fields Media: Handle 'audio' in chooseItemLabel",
-      "url": "https://github.com/WordPress/gutenberg/pull/82389",
-      "state": "open",
-      "created_at": "2026-09-03T12:46:51Z",
-      "dated_at": "2026-09-03T12:46:51Z",
-      "labels": [
-        {
-          "group": "Feature",
-          "name": "Inspector Controls",
-          "full": "[Feature] Inspector Controls",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Block",
-          "name": "Audio",
-          "full": "[Block] Audio",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        },
-        {
-          "group": "Package",
-          "name": "Block editor",
-          "full": "[Package] Block editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Type",
-          "name": "Experimental",
-          "full": "[Type] Experimental",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        }
-      ],
-      "comments": 3
     },
     {
       "number": 81863,
@@ -595,44 +787,6 @@
         }
       ],
       "comments": 5
-    },
-    {
-      "number": 82025,
-      "title": "Widgets: Use the layout icon for widget areas",
-      "url": "https://github.com/WordPress/gutenberg/pull/82025",
-      "state": "open",
-      "created_at": "2026-08-25T11:54:58Z",
-      "dated_at": "2026-08-25T11:54:58Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Feature",
-          "name": "Widgets Screen",
-          "full": "[Feature] Widgets Screen",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Package",
-          "name": "Edit Widgets",
-          "full": "[Package] Edit Widgets",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 3
     },
     {
       "number": 80514,
@@ -1676,35 +1830,6 @@
       "comments": 1
     },
     {
-      "number": 79933,
-      "title": "Feat: Skip Performance CI tests for docs and workflows files",
-      "url": "https://github.com/WordPress/gutenberg/pull/79933",
-      "state": "open",
-      "created_at": "2026-07-07T11:36:11Z",
-      "dated_at": "2026-07-07T11:36:11Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Performance",
-          "full": "[Type] Performance",
-          "color": "#f3f4fe",
-          "rgb": "243 244 254",
-          "text": "#737378",
-          "text_night": "#f3f4fe"
-        },
-        {
-          "group": null,
-          "name": "GitHub Actions",
-          "full": "GitHub Actions",
-          "color": "#000000",
-          "rgb": "0 0 0",
-          "text": "#000000",
-          "text_night": "#878787"
-        }
-      ],
-      "comments": 5
-    },
-    {
       "number": 76519,
       "title": "Icons: Add category for icons ",
       "url": "https://github.com/WordPress/gutenberg/pull/76519",
@@ -2193,35 +2318,6 @@
         }
       ],
       "comments": 4
-    },
-    {
-      "number": 78392,
-      "title": "Env: bin/cherry-pick: exit early when gh CLI is not available",
-      "url": "https://github.com/WordPress/gutenberg/pull/78392",
-      "state": "open",
-      "created_at": "2026-05-18T09:35:35Z",
-      "dated_at": "2026-05-18T09:35:35Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": null,
-          "name": "Gutenberg Plugin",
-          "full": "Gutenberg Plugin",
-          "color": "#578eed",
-          "rgb": "87 142 237",
-          "text": "#446fb9",
-          "text_night": "#578eed"
-        }
-      ],
-      "comments": 2
     },
     {
       "number": 78096,
@@ -4513,35 +4609,6 @@
       "comments": 8
     },
     {
-      "number": 69715,
-      "title": " ToggleGroupControl: Document and add disabled prop in types.ts",
-      "url": "https://github.com/WordPress/gutenberg/pull/69715",
-      "state": "open",
-      "created_at": "2025-03-26T12:09:52Z",
-      "dated_at": "2025-03-26T12:09:52Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Developer Documentation",
-          "full": "[Type] Developer Documentation",
-          "color": "#bfd4f2",
-          "rgb": "191 212 242",
-          "text": "#6b7687",
-          "text_night": "#bfd4f2"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 3
-    },
-    {
       "number": 68633,
       "title": "Global Styles: Prevent Unwanted ItemGroup List Rendering in Border Panel ",
       "url": "https://github.com/WordPress/gutenberg/pull/68633",
@@ -6656,44 +6723,6 @@
         }
       ],
       "comments": 3
-    },
-    {
-      "number": 66961,
-      "title": "Add Left, Right, and Full-Width Alignment Options to Code Block (Issue #66960)",
-      "url": "https://github.com/WordPress/gutenberg/pull/66961",
-      "state": "open",
-      "created_at": "2024-11-13T12:23:34Z",
-      "dated_at": "2024-11-13T12:23:34Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Block",
-          "name": "Code",
-          "full": "[Block] Code",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        },
-        {
-          "group": null,
-          "name": "First-time Contributor",
-          "full": "First-time Contributor",
-          "color": "#a0f762",
-          "rgb": "160 247 98",
-          "text": "#527f32",
-          "text_night": "#a0f762"
-        }
-      ],
-      "comments": 2
     },
     {
       "number": 66907,
