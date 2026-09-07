@@ -1,0 +1,87 @@
+---
+layout: default
+permalink: /projects/
+---
+
+<div id="site" class="projects-page">
+  {% include nav.html %}
+
+  <section class="section projects">
+    <div class="section__title">
+      Projects
+      <a class="migrations__back" href="{{ site.baseurl }}/">&larr; Back</a>
+    </div>
+
+    <div class="section__content projects__content">
+      <h1 class="migrations__heading">Things I am building</h1>
+      <p class="migrations__intro">
+        The work that lives on this site rather than in a job description —
+        each one is a running thread, so every card opens onto its own page.
+      </p>
+
+      <div class="projects__grid">
+        {% comment %}
+        Counts come from the same data the pages themselves read, so a card
+        never falls out of step with what it links to.
+        {% endcomment %}
+        {% assign migrations_done = site.data.migrations | where: 'status', 'done' | size %}
+        <a class="pcard" href="{{ site.baseurl }}/migrations/">
+          <div class="pcard__top">
+            <span class="pcard__kind">Series</span>
+            <span class="pcard__count">{{ migrations_done }} of {{ site.data.migrations.size }} written up</span>
+          </div>
+
+          {% comment %}
+          Sources on the left, targets on the right — the same shape as the
+          series itself. Targets repeat across entries, so they are grouped
+          down to one mark each.
+          {% endcomment %}
+          <div class="pcard__logos">
+            {% for m in site.data.migrations limit: 3 %}
+            {% assign src_logo = m.source.logo %}
+            {% assign src_color = m.source.color %}
+            {% include logo.html name=src_logo color=src_color %}
+            {% endfor %}
+            <span class="pcard__arrow" aria-hidden="true">&rarr;</span>
+            {% assign targets = site.data.migrations | group_by: 'target.name' %}
+            {% for t in targets %}
+            {% assign tgt_logo = t.items.first.target.logo %}
+            {% assign tgt_color = t.items.first.target.color %}
+            {% include logo.html name=tgt_logo color=tgt_color %}
+            {% endfor %}
+          </div>
+
+          <h2 class="pcard__title">Migrations</h2>
+          <p class="pcard__blurb">
+            Moving whole sites between content management systems — pull the old
+            one out into plain data, decide where every piece belongs, then
+            import it. One write-up per platform pair.
+          </p>
+          <span class="pcard__cta">Open migrations &rarr;</span>
+        </a>
+
+        {% assign pr_floor = site.data.gutenberg_prs.total | divided_by: 10 | times: 10 %}
+        <a class="pcard" href="{{ site.baseurl }}/gutenberg/">
+          <div class="pcard__top">
+            <span class="pcard__kind">Open source</span>
+            <span class="pcard__count">{{ site.data.gutenberg_prs.merged }} merged</span>
+          </div>
+
+          <div class="pcard__logos">
+            {% include logo.html name='wordpress' color='#21759B' %}
+          </div>
+
+          <h2 class="pcard__title">Gutenberg</h2>
+          <p class="pcard__blurb">
+            The React-powered block editor behind WordPress. Every pull request
+            I have opened against it, pulled straight from the GitHub API.
+          </p>
+          <span class="pcard__cta">Browse {{ pr_floor }}+ pull requests &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>

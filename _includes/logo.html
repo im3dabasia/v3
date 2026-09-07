@@ -1,0 +1,18 @@
+{% comment %}
+Brand mark for one platform. Logos are inlined rather than linked so they can
+take the theme's colour. Adobe does not license its mark for redistribution, so
+AEM falls back to a monogram tile.
+
+  include logo.html name=slug color=hex
+{% endcomment %}
+<span class="mlogo mlogo--{{ include.name | downcase }}" style="--brand: {{ include.color }}">
+  {% case include.name %}
+  {% when 'drupal' %}{% include logos/drupal.svg %}
+  {% when 'wordpress' %}{% include logos/wordpress.svg %}
+  {% when 'shopify' %}{% include logos/shopify.svg %}
+  {% when 'woocommerce' %}{% include logos/woocommerce.svg %}
+  {% when 'sitecore' %}{% include logos/sitecore.svg %}
+  {% when 'hubspot' %}{% include logos/hubspot.svg %}
+  {% else %}<span class="mlogo__mono">{{ include.name }}</span>
+  {% endcase %}
+</span>

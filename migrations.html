@@ -1,0 +1,67 @@
+---
+layout: default
+permalink: /migrations/
+---
+
+<div id="site" class="migrations-page">
+  {% include nav.html %}
+
+  <section class="section migrations">
+    <div class="section__title">
+      Migrations
+      <a class="migrations__back" href="{{ site.baseurl }}/">&larr; Back</a>
+    </div>
+
+    <div class="section__content migrations__content">
+      <h1 class="migrations__heading">Moving content between CMSs</h1>
+      <p class="migrations__intro">
+        A running series. Every one works the same way — stand both systems up
+        side by side, pull the old site out into plain data, decide where each
+        piece belongs in the new one, then import it.
+      </p>
+
+      <div class="migrations__grid">
+        {% for m in site.data.migrations %}
+        {% if m.status == 'done' %}
+        <a class="mcard mcard--done" href="{{ site.baseurl }}/migrations/{{ m.slug }}/">
+        {% else %}
+        <div class="mcard mcard--planned">
+        {% endif %}
+
+          <div class="mcard__top">
+            <span class="mcard__number">{{ m.number }}</span>
+            <span class="mcard__status">
+              {% if m.status == 'done' %}Done{% else %}Planned{% endif %}
+            </span>
+          </div>
+
+          {% comment %}
+          Jekyll's include tag will not take a dotted path as a parameter, so
+          the values are pulled into locals first.
+          {% endcomment %}
+          {% assign src_logo = m.source.logo %}
+          {% assign src_color = m.source.color %}
+          {% assign tgt_logo = m.target.logo %}
+          {% assign tgt_color = m.target.color %}
+          <div class="mcard__logos">
+            {% include logo.html name=src_logo color=src_color %}
+            <span class="mcard__arrow" aria-hidden="true">&rarr;</span>
+            {% include logo.html name=tgt_logo color=tgt_color %}
+          </div>
+
+          <h2 class="mcard__title">{{ m.source.name }} &rarr; {{ m.target.name }}</h2>
+          <p class="mcard__blurb">{{ m.blurb }}</p>
+
+          {% if m.status == 'done' %}
+          <span class="mcard__cta">Read the write-up &rarr;</span>
+          {% endif %}
+
+        {% if m.status == 'done' %}</a>{% else %}</div>{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>

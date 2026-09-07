@@ -1,0 +1,14 @@
+{% comment %}
+Top-level navigation, sharing the corner with the theme toggle. `page.url` marks
+the current section so the link for the page you are on reads as active — the
+migration write-ups sit under Projects, so they match on the path prefix.
+{% endcomment %}
+<div class="site-nav">
+  <nav class="site-nav__links" aria-label="Sections">
+    <a class="site-nav__link{% if page.url == '/gutenberg/' %} is-active{% endif %}"
+      href="{{ site.baseurl }}/gutenberg/">Open Source</a>
+    <a class="site-nav__link{% if page.url contains '/projects' or page.url contains '/migrations' %} is-active{% endif %}"
+      href="{{ site.baseurl }}/projects/">Projects</a>
+  </nav>
+  {% include switch.html %}
+</div>

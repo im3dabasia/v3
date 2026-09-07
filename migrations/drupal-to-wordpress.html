@@ -1,0 +1,111 @@
+---
+layout: default
+permalink: /migrations/drupal-to-wordpress/
+---
+{% assign m = site.data.migrations | where: 'slug', 'drupal-to-wordpress' | first %}
+
+<div id="site" class="migrations-page migration-page">
+  {% include nav.html %}
+
+  <section class="section migration">
+    <div class="section__title">
+      {{ m.number }} &middot; Drupal
+      <a class="migrations__back" href="{{ site.baseurl }}/migrations/">&larr; All migrations</a>
+    </div>
+
+    <div class="section__content migration__content">
+      {% assign src_logo = m.source.logo %}
+      {% assign src_color = m.source.color %}
+      {% assign tgt_logo = m.target.logo %}
+      {% assign tgt_color = m.target.color %}
+      <div class="migration__head">
+        <div class="migration__logos">
+          {% include logo.html name=src_logo color=src_color %}
+          <span class="mcard__arrow" aria-hidden="true">&rarr;</span>
+          {% include logo.html name=tgt_logo color=tgt_color %}
+        </div>
+        <h1 class="migrations__heading">Drupal &rarr; WordPress</h1>
+      </div>
+      <p class="migrations__intro">
+        Drupal and WordPress both run websites, but they hold content in
+        completely different shapes. This moves a whole Drupal site — its
+        articles, pages, recipes, tags and images — across into WordPress with
+        nothing dropped on the way.
+      </p>
+
+      <ul class="migration__stats">
+        <li class="migration__stats__item">
+          <span class="migration__stats__figure">19</span>
+          <span class="migration__stats__label">pages of content</span>
+        </li>
+        <li class="migration__stats__item">
+          <span class="migration__stats__figure">3</span>
+          <span class="migration__stats__label">content types</span>
+        </li>
+        <li class="migration__stats__item">
+          <span class="migration__stats__figure">18</span>
+          <span class="migration__stats__label">images</span>
+        </li>
+        <li class="migration__stats__item">
+          <span class="migration__stats__figure">0</span>
+          <span class="migration__stats__label">duplicates on re-run</span>
+        </li>
+      </ul>
+
+      <div class="migration__cols">
+        <div class="migration__col">
+          <h2 class="migration__subhead">How it went</h2>
+          <ol class="migration__steps">
+            <li>
+              <strong>Pull it out.</strong> Drupal has no export button, so
+              everything comes out through its API into plain data files.
+            </li>
+            <li>
+              <strong>Decide where it goes.</strong> Every field gets written
+              down and given a home before a line of import code is written.
+            </li>
+            <li>
+              <strong>Put it in.</strong> One script does the import, keyed on
+              the IDs the old site used — so running it twice changes things
+              rather than duplicating them.
+            </li>
+          </ol>
+          <p class="migration__note">
+            The hard part was images — in Drupal a picture sits three steps
+            away from the article using it — and recipes, which WordPress has no
+            equivalent for, so it had to be built.
+          </p>
+        </div>
+
+        <div class="migration__col">
+          <h2 class="migration__subhead">In the repo</h2>
+          <ul class="migration__files">
+            <li>
+              <a href="{{ m.repo }}">mapping.md</a>
+              <span>every field, and where it lands</span>
+            </li>
+            <li>
+              <a href="{{ m.repo }}">migration-selfcheck.md</a>
+              <span>25 questions I made myself answer</span>
+            </li>
+            <li>
+              <a href="{{ m.repo }}">transform-script-*.js</a>
+              <span>the extract scripts, one per content type</span>
+            </li>
+            <li>
+              <a href="{{ m.repo }}">mu-plugins/</a>
+              <span>the WordPress importer</span>
+            </li>
+            <li>
+              <a href="{{ m.repo }}">docker-compose.yml</a>
+              <span>both systems, two databases, one command</span>
+            </li>
+          </ul>
+          <a class="arrow-link migration__repo" href="{{ m.repo }}">See the repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+</div>

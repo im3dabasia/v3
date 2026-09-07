@@ -1,0 +1,472 @@
+// Shared by the migrations index and every individual write-up. Like the PR
+// tracker these are documents rather than full-height heroes, so they need a
+// little room under the theme switch.
+.migrations-page {
+  padding-top: 20px;
+}
+
+.migrations,
+.migration {
+  .section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @include tablet {
+      align-items: flex-start;
+    }
+  }
+}
+
+.migrations__back {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: $blue;
+}
+
+.migrations__heading {
+  margin: 0 0 15px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $black;
+  @include mobile {
+    font-size: 1.3rem;
+  }
+}
+
+.migrations__intro {
+  margin-bottom: 35px;
+}
+
+// ------------------------------------------------------------------- logos
+
+// Brand marks are inlined SVG so they can take a colour; base.scss already
+// makes svg fill with currentColor. Anything without a licensed mark renders
+// as a monogram tile instead.
+.mlogo {
+  // Contexts resize a mark by setting --logo-size, so the wordmark rule below
+  // scales with it instead of being overridden to a broken width.
+  --logo-size: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: var(--logo-size);
+  height: var(--logo-size);
+  color: var(--brand, currentColor);
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  // A wordmark drawn inside a square viewBox ends up mostly empty space, so
+  // it is scaled up and the blank margins are cropped away.
+  &--woocommerce {
+    width: calc(var(--logo-size) * 2.2);
+    overflow: hidden;
+
+    svg {
+      width: calc(var(--logo-size) * 2.2);
+      height: calc(var(--logo-size) * 2.2);
+      flex-shrink: 0;
+    }
+  }
+
+  &__mono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid currentColor;
+    border-radius: 4px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+}
+
+// ------------------------------------------------------------- index cards
+
+.migrations__content {
+  max-width: 860px;
+}
+
+.migrations__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mcard {
+  @include transition;
+  display: block;
+  padding: 22px;
+  border: 1px solid rgba(128, 128, 128, 0.28);
+  border-radius: 6px;
+  font-weight: 300;
+
+  &--done:hover,
+  &--done:focus {
+    border-color: $blue;
+    transform: translateY(-3px);
+  }
+
+  // Nothing to click through to yet, so these read as quieter placeholders.
+  &--planned {
+    opacity: 0.65;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+
+  &__number {
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: $blue;
+  }
+
+  &__status {
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 9px;
+    border-radius: 20px;
+    color: $white;
+    background: #6e7781;
+  }
+
+  &--done &__status {
+    background: #1f883d;
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  &__arrow {
+    color: $grey;
+    font-size: 0.9rem;
+  }
+
+  &__title {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &__blurb {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  &__cta {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: $blue;
+  }
+}
+
+// -------------------------------------------------------------- write-up
+
+// The write-up is meant to be read without scrolling on a desktop, so the page
+// is a column that ends with the footer rather than a document that runs on.
+.migration-page {
+  @media screen and (min-width: #{$tablet-width + 1}) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .section {
+      flex: 1 0 auto;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    // The write-up is short; the footer does not need its full breathing room
+    // to keep the whole page on one screen.
+    .footer {
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+  }
+
+  .migrations__intro {
+    margin-bottom: 22px;
+  }
+
+  .migrations__heading {
+    margin-bottom: 0;
+  }
+}
+
+.migration__content {
+  max-width: 860px;
+}
+
+ // Logos sit beside the heading rather than above it, so the whole write-up
+// still lands on one screen on a laptop.
+.migration__head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 14px;
+  @include mobile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+.migration__logos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+
+  .mlogo {
+    --logo-size: 30px;
+  }
+}
+
+.migration__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__figure {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $black;
+  }
+
+  &__label {
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.migration__cols {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 45px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+}
+
+.migration__subhead {
+  margin: 0 0 15px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $blue;
+}
+
+.migration__steps {
+  margin: 0 0 14px;
+  padding-left: 18px;
+  font-size: 0.85rem;
+  line-height: 1.45;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.migration__note {
+  margin: 0;
+  font-size: 0.85rem;
+  font-style: italic;
+  opacity: 0.85;
+}
+
+// A file list, so it reads as a directory rather than prose.
+.migration__files {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+
+  li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+  }
+
+  a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.8rem;
+    color: $blue;
+  }
+
+  span {
+    display: block;
+    font-size: 0.78rem;
+    opacity: 0.8;
+  }
+}
+
+.migration__repo {
+  font-size: 0.9rem;
+}
+
+// ------------------------------------------- featured-project card diagram
+
+.featured-projects .project.migrations .project__pic {
+  // Unlike the other featured projects there is no image to give the figure
+  // its width, so let it take the same share of the row the screenshots do.
+  width: 100%;
+}
+
+// Stands in for the screenshot the other featured projects use: the series
+// drawn as the pipeline it is, generated from the same data as the index.
+.migration-board {
+  @include transition;
+  display: block;
+  padding: 26px 30px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 6px;
+
+  @include mobile {
+    padding: 18px 20px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.85rem;
+
+    & + & {
+      border-top: 1px solid rgba(128, 128, 128, 0.15);
+    }
+
+    &--planned {
+      opacity: 0.55;
+    }
+
+    @include mobile {
+      font-size: 0.72rem;
+      gap: 8px;
+    }
+  }
+
+  .mlogo {
+    --logo-size: 20px;
+  }
+
+  &__node {
+    font-weight: 700;
+    color: $black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &--target {
+      color: $blue;
+    }
+  }
+
+  &__arrow {
+    flex-shrink: 0;
+    color: $grey;
+  }
+
+  &__spacer {
+    flex: 1 1 auto;
+  }
+
+  &__tag {
+    flex-shrink: 0;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    color: $white;
+    background: #6e7781;
+
+    &--done {
+      background: #1f883d;
+    }
+  }
+
+  &:hover {
+    border-color: $blue;
+  }
+}
+
+body.night {
+  .migrations__heading,
+  .mcard__title,
+  .migration__stats__figure,
+  .migration__steps strong,
+  .migration-board__node {
+    color: $off-white;
+  }
+
+  .mcard__status,
+  .migration-board__tag {
+    background: #484f58;
+    color: $off-white;
+  }
+
+  .mcard--done .mcard__status,
+  .migration-board__tag--done {
+    background: #3fb950;
+    color: #0d1117;
+  }
+
+  // Several brand marks are near-black; lift them so they stay visible.
+  .mlogo {
+    filter: brightness(1.35);
+  }
+
+  .migration-board__node--target,
+  .mcard__number,
+  .mcard__cta,
+  .migration__subhead,
+  .migration__files a {
+    color: $blue;
+  }
+}

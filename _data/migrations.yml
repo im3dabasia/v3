@@ -1,0 +1,81 @@
+# The migrations series. `done` entries link through to a write-up at
+# /migrations/<slug>/; `planned` ones are shown on the index only.
+#
+# `logo` is a key understood by _includes/logo.html — anything it does not
+# recognise is drawn as a monogram tile instead, which is how AEM is handled.
+
+- slug: drupal-to-wordpress
+  number: '01'
+  title: Drupal → WordPress
+  status: done
+  source:
+    name: Drupal
+    logo: drupal
+    color: '#0678BE'
+  target:
+    name: WordPress
+    logo: wordpress
+    color: '#21759B'
+  blurb: A whole Drupal site — articles, pages, recipes, tags and images — moved into WordPress without losing anything.
+  # Swap in the real URL once the repo is public.
+  repo: '#'
+
+- slug: shopify-to-woocommerce
+  number: '02'
+  title: Shopify → WooCommerce
+  status: planned
+  source:
+    name: Shopify
+    logo: shopify
+    color: '#7AB55C'
+  target:
+    name: WooCommerce
+    logo: woocommerce
+    color: '#96588A'
+  blurb: A store rather than a magazine — products, variants and order history, on a shop that cannot go offline.
+  repo: '#'
+
+- slug: sitecore-to-wordpress
+  number: '03'
+  title: Sitecore → WordPress
+  status: planned
+  source:
+    name: Sitecore
+    logo: sitecore
+    color: '#EB1F1F'
+  target:
+    name: WordPress
+    logo: wordpress
+    color: '#21759B'
+  blurb: A deep content tree flattened into WordPress's much shallower page model without losing the structure.
+  repo: '#'
+
+- slug: aem-to-wordpress
+  number: '04'
+  title: AEM → WordPress
+  status: planned
+  source:
+    name: Adobe Experience Manager
+    logo: AEM
+    color: '#EB1000'
+  target:
+    name: WordPress
+    logo: wordpress
+    color: '#21759B'
+  blurb: AEM builds pages out of components, which map onto Gutenberg blocks far better than onto plain post content.
+  repo: '#'
+
+- slug: hubspot-to-wordpress
+  number: '05'
+  title: HubSpot → WordPress
+  status: planned
+  source:
+    name: HubSpot CMS
+    logo: hubspot
+    color: '#FF7A59'
+  target:
+    name: WordPress
+    logo: wordpress
+    color: '#21759B'
+  blurb: The blog is the easy half; the question is what happens to the forms and contacts the content is wired into.
+  repo: '#'

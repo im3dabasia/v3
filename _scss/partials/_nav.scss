@@ -1,0 +1,71 @@
+// Sections plus the theme toggle, sharing the top-right corner. The toggle
+// keeps its own markup and is un-positioned here so it can sit in the row.
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+
+  @include mobile {
+    top: 10px;
+    right: 20px;
+    gap: 12px;
+  }
+
+  .switch-wrapper {
+    position: static;
+    top: auto;
+    right: auto;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    @include mobile {
+      gap: 14px;
+    }
+  }
+
+  &__link {
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+
+    @include mobile {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+
+    &:hover,
+    &:focus {
+      color: $blue;
+    }
+
+    // The section you are in keeps a permanent underline.
+    &.is-active {
+      color: $blue;
+      &:after {
+        position: absolute;
+        top: calc(100% + 3px);
+        left: 0;
+        width: 100%;
+        height: 2px;
+        border-radius: 3px;
+        background: $blue;
+        content: '';
+      }
+    }
+  }
+}
+
+body.night .site-nav__link.is-active {
+  color: $blue;
+}

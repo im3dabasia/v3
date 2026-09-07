@@ -1,0 +1,129 @@
+// The Projects index: one card per running thread, each opening onto its own
+// page. It borrows the migrations index's page rhythm — same back link,
+// heading and intro classes — so the two read as the same kind of document.
+.projects-page {
+  padding-top: 20px;
+}
+
+.projects {
+  .section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @include tablet {
+      align-items: flex-start;
+    }
+  }
+}
+
+.projects__content {
+  max-width: 860px;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Every card links somewhere, so unlike the migration cards there is no
+// quieter placeholder variant to account for.
+.pcard {
+  @include transition;
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid rgba(128, 128, 128, 0.28);
+  border-radius: 6px;
+  font-weight: 300;
+
+  &:hover,
+  &:focus {
+    border-color: $blue;
+    transform: translateY(-3px);
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  &__kind {
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $blue;
+  }
+
+  &__count {
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: right;
+    opacity: 0.75;
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    // A card with a single mark still needs to stand as tall as one showing a
+    // row of them, so the cards in a row keep their headings level.
+    min-height: 28px;
+    margin-bottom: 16px;
+
+    .mlogo {
+      --logo-size: 24px;
+    }
+  }
+
+  &__arrow {
+    color: $grey;
+    font-size: 0.9rem;
+  }
+
+  &__title {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $black;
+  }
+
+  &__blurb {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  &__cta {
+    display: inline-block;
+    // Pushed to the bottom so the calls to action line up across a row of
+    // cards whose blurbs run to different lengths.
+    margin-top: auto;
+    padding-top: 14px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: $blue;
+  }
+}
+
+body.night {
+  .pcard__title {
+    color: $off-white;
+  }
+
+  .pcard__kind,
+  .pcard__cta {
+    color: $blue;
+  }
+}

@@ -18,5 +18,45 @@
         <a class="small" href="{{site.baseurl}}/gutenberg/">Browse my {{ pr_floor }}+ pull requests &rarr;</a>
       </figcaption>
     </div>
+
+    <div class="project migrations">
+      <figure class="project__pic">
+        {% comment %}
+        No screenshot for this one — the series itself is the picture, drawn
+        from the same data the index page reads.
+        {% endcomment %}
+        <a class="migration-board" href="{{site.baseurl}}/migrations/"
+          aria-label="The migration series, source platform to target platform">
+          {% for m in site.data.migrations %}
+          {% assign src_logo = m.source.logo %}
+          {% assign src_color = m.source.color %}
+          {% assign tgt_logo = m.target.logo %}
+          {% assign tgt_color = m.target.color %}
+          <span class="migration-board__row{% unless m.status == 'done' %} migration-board__row--planned{% endunless %}">
+            {% include logo.html name=src_logo color=src_color %}
+            <span class="migration-board__node">{{ m.source.name }}</span>
+            <span class="migration-board__arrow" aria-hidden="true">&rarr;</span>
+            {% include logo.html name=tgt_logo color=tgt_color %}
+            <span class="migration-board__node migration-board__node--target">{{ m.target.name }}</span>
+            <span class="migration-board__spacer"></span>
+            <span class="migration-board__tag{% if m.status == 'done' %} migration-board__tag--done{% endif %}">
+              {% if m.status == 'done' %}done{% else %}planned{% endif %}
+            </span>
+          </span>
+          {% endfor %}
+        </a>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a href="{{site.baseurl}}/migrations/">Migrations</a>
+        </div>
+        <p>Moving whole sites between content management systems — pull the old one out into plain data, decide where
+          every piece belongs, then import it.</p>
+        {% assign migrations_done = site.data.migrations | where: 'status', 'done' | size %}
+        <a class="small" href="{{site.baseurl}}/migrations/">
+          {{ migrations_done }} written up, {{ site.data.migrations.size | minus: migrations_done }} planned &rarr;
+        </a>
+      </figcaption>
+    </div>
   </div>
 </section>
