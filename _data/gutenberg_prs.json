@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 215,
+  "total": 216,
   "merged": 117,
-  "open": 53,
+  "open": 54,
   "closed": 45,
   "types": [
     {
@@ -28,11 +28,11 @@
       "count": 9
     },
     {
-      "name": "Automated Testing",
-      "count": 8
+      "name": "Experimental",
+      "count": 9
     },
     {
-      "name": "Experimental",
+      "name": "Automated Testing",
       "count": 8
     },
     {
@@ -71,15 +71,15 @@
     },
     {
       "name": "Block editor",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "Block library",
+      "count": 10
     },
     {
       "name": "Editor",
       "count": 10
-    },
-    {
-      "name": "Block library",
-      "count": 9
     },
     {
       "name": "Edit Site",
@@ -167,6 +167,71 @@
     }
   ],
   "prs": [
+    {
+      "number": 82541,
+      "title": "Block Fields: Fix video not rendering when added from the inspector panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/82541",
+      "state": "open",
+      "created_at": "2026-09-07T13:04:35Z",
+      "dated_at": "2026-09-07T13:04:35Z",
+      "labels": [
+        {
+          "group": "Feature",
+          "name": "Inspector Controls",
+          "full": "[Feature] Inspector Controls",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Block",
+          "name": "Media & Text",
+          "full": "[Block] Media & Text",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        }
+      ],
+      "comments": 3
+    },
     {
       "number": 66961,
       "title": "Add Left, Right, and Full-Width Alignment Options to Code Block (Issue #66960)",
@@ -679,7 +744,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 3
+      "comments": 5
     },
     {
       "number": 78010,
