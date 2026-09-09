@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 216,
+  "total": 217,
   "merged": 117,
   "open": 54,
-  "closed": 45,
+  "closed": 46,
   "types": [
     {
       "name": "Enhancement",
-      "count": 62
+      "count": 63
     },
     {
       "name": "Code Quality",
@@ -67,27 +67,27 @@
   "packages": [
     {
       "name": "Components",
-      "count": 40
+      "count": 41
     },
     {
       "name": "Block editor",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Block library",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Editor",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Edit Site",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Core data",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Edit Post",
@@ -95,30 +95,122 @@
     },
     {
       "name": "Fields",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Format library",
+      "count": 3
+    },
+    {
+      "name": "Blocks",
       "count": 2
+    },
+    {
+      "name": "Boot",
+      "count": 2
+    },
+    {
+      "name": "Compose",
+      "count": 2
+    },
+    {
+      "name": "DataViews",
+      "count": 2
+    },
+    {
+      "name": "Hooks",
+      "count": 2
+    },
+    {
+      "name": "HTML entities",
+      "count": 2
+    },
+    {
+      "name": "Icons",
+      "count": 2
+    },
+    {
+      "name": "Keycodes",
+      "count": 2
+    },
+    {
+      "name": "Lazy import",
+      "count": 2
+    },
+    {
+      "name": "Redux Routine",
+      "count": 2
+    },
+    {
+      "name": "Rich text",
+      "count": 2
+    },
+    {
+      "name": "Sync",
+      "count": 2
+    },
+    {
+      "name": "UI",
+      "count": 2
+    },
+    {
+      "name": "Url",
+      "count": 2
+    },
+    {
+      "name": "A11y",
+      "count": 1
+    },
+    {
+      "name": "Abilities",
+      "count": 1
+    },
+    {
+      "name": "Admin UI",
+      "count": 1
+    },
+    {
+      "name": "API fetch",
+      "count": 1
+    },
+    {
+      "name": "Autop",
+      "count": 1
     },
     {
       "name": "Base styles",
       "count": 1
     },
     {
-      "name": "Blocks",
+      "name": "Blob",
       "count": 1
     },
     {
-      "name": "Boot",
+      "name": "Data",
       "count": 1
     },
     {
-      "name": "Compose",
+      "name": "Data Controls",
       "count": 1
     },
     {
-      "name": "DataViews",
+      "name": "Date",
+      "count": 1
+    },
+    {
+      "name": "Deprecated",
+      "count": 1
+    },
+    {
+      "name": "Design System MCP",
+      "count": 1
+    },
+    {
+      "name": "DOM",
+      "count": 1
+    },
+    {
+      "name": "DOM ready",
       "count": 1
     },
     {
@@ -126,43 +218,123 @@
       "count": 1
     },
     {
-      "name": "Hooks",
+      "name": "Element",
       "count": 1
     },
     {
-      "name": "HTML entities",
+      "name": "Escape HTML",
       "count": 1
     },
     {
-      "name": "Icons",
+      "name": "Grid",
       "count": 1
     },
     {
-      "name": "Keycodes",
+      "name": "i18n",
       "count": 1
     },
     {
-      "name": "Lazy import",
+      "name": "Image Cropper",
       "count": 1
     },
     {
-      "name": "Redux Routine",
+      "name": "Interactivity",
       "count": 1
     },
     {
-      "name": "Rich text",
+      "name": "Interactivity Router",
       "count": 1
     },
     {
-      "name": "Sync",
+      "name": "is-shallow-equal",
       "count": 1
     },
     {
-      "name": "UI",
+      "name": "Keyboard Shortcuts",
       "count": 1
     },
     {
-      "name": "Url",
+      "name": "Media Utils",
+      "count": 1
+    },
+    {
+      "name": "Notices",
+      "count": 1
+    },
+    {
+      "name": "Plugins",
+      "count": 1
+    },
+    {
+      "name": "Preferences",
+      "count": 1
+    },
+    {
+      "name": "Primitives",
+      "count": 1
+    },
+    {
+      "name": "Priority Queue",
+      "count": 1
+    },
+    {
+      "name": "Private APIs",
+      "count": 1
+    },
+    {
+      "name": "Project management automation",
+      "count": 1
+    },
+    {
+      "name": "React i18n",
+      "count": 1
+    },
+    {
+      "name": "Router",
+      "count": 1
+    },
+    {
+      "name": "Server Side Render",
+      "count": 1
+    },
+    {
+      "name": "Style Engine",
+      "count": 1
+    },
+    {
+      "name": "Theme",
+      "count": 1
+    },
+    {
+      "name": "Token List",
+      "count": 1
+    },
+    {
+      "name": "Viewport",
+      "count": 1
+    },
+    {
+      "name": "Views",
+      "count": 1
+    },
+    {
+      "name": "Warning",
+      "count": 1
+    },
+    {
+      "name": "Widget Dashboard",
+      "count": 1
+    },
+    {
+      "name": "Widget primitives",
+      "count": 1
+    },
+    {
+      "name": "Word count",
+      "count": 1
+    },
+    {
+      "name": "wp-build",
       "count": 1
     }
   ],
@@ -171,9 +343,9 @@
       "number": 82541,
       "title": "Block Fields: Fix video not rendering when added from the inspector panel",
       "url": "https://github.com/WordPress/gutenberg/pull/82541",
-      "state": "open",
+      "state": "closed",
       "created_at": "2026-09-07T13:04:35Z",
-      "dated_at": "2026-09-07T13:04:35Z",
+      "dated_at": "2026-09-08T10:41:17Z",
       "labels": [
         {
           "group": "Feature",
@@ -230,7 +402,54 @@
           "text_night": "#9576ca"
         }
       ],
-      "comments": 3
+      "comments": 4
+    },
+    {
+      "number": 82593,
+      "title": "Media & Text Block: Add a Media section to the block inspector panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/82593",
+      "state": "open",
+      "created_at": "2026-09-08T10:39:41Z",
+      "dated_at": "2026-09-08T10:39:41Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Media & Text",
+          "full": "[Block] Media & Text",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
     },
     {
       "number": 66961,
@@ -628,9 +847,639 @@
           "rgb": "17 17 17",
           "text": "#111111",
           "text_night": "#858585"
+        },
+        {
+          "group": "Package",
+          "name": "Element",
+          "full": "[Package] Element",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Date",
+          "full": "[Package] Date",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Data",
+          "full": "[Package] Data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Server Side Render",
+          "full": "[Package] Server Side Render",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "A11y",
+          "full": "[Package] A11y",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Autop",
+          "full": "[Package] Autop",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "DOM ready",
+          "full": "[Package] DOM ready",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Hooks",
+          "full": "[Package] Hooks",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "i18n",
+          "full": "[Package] i18n",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "is-shallow-equal",
+          "full": "[Package] is-shallow-equal",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Tool",
+          "name": "Jest console",
+          "full": "[Tool] Jest console",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Url",
+          "full": "[Package] Url",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Word count",
+          "full": "[Package] Word count",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Deprecated",
+          "full": "[Package] Deprecated",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Blob",
+          "full": "[Package] Blob",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Compose",
+          "full": "[Package] Compose",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "API fetch",
+          "full": "[Package] API fetch",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "HTML entities",
+          "full": "[Package] HTML entities",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Viewport",
+          "full": "[Package] Viewport",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "DOM",
+          "full": "[Package] DOM",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Keycodes",
+          "full": "[Package] Keycodes",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Plugins",
+          "full": "[Package] Plugins",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Blocks",
+          "full": "[Package] Blocks",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Redux Routine",
+          "full": "[Package] Redux Routine",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Notices",
+          "full": "[Package] Notices",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Token List",
+          "full": "[Package] Token List",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Format library",
+          "full": "[Package] Format library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Rich text",
+          "full": "[Package] Rich text",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Tool",
+          "name": "ESLint plugin",
+          "full": "[Tool] ESLint plugin",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Tool",
+          "name": "Docgen",
+          "full": "[Tool] Docgen",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Tool",
+          "name": "E2E Test Utils",
+          "full": "[Tool] E2E Test Utils",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Data Controls",
+          "full": "[Package] Data Controls",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Priority Queue",
+          "full": "[Package] Priority Queue",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Tool",
+          "name": "Prettier config",
+          "full": "[Tool] Prettier config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Project management automation",
+          "full": "[Package] Project management automation",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Escape HTML",
+          "full": "[Package] Escape HTML",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Primitives",
+          "full": "[Package] Primitives",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Icons",
+          "full": "[Package] Icons",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Keyboard Shortcuts",
+          "full": "[Package] Keyboard Shortcuts",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Lazy import",
+          "full": "[Package] Lazy import",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Warning",
+          "full": "[Package] Warning",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "React i18n",
+          "full": "[Package] React i18n",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Style Engine",
+          "full": "[Package] Style Engine",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Preferences",
+          "full": "[Package] Preferences",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Media Utils",
+          "full": "[Package] Media Utils",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Private APIs",
+          "full": "[Package] Private APIs",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Interactivity",
+          "full": "[Package] Interactivity",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "DataViews",
+          "full": "[Package] DataViews",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Interactivity Router",
+          "full": "[Package] Interactivity Router",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Fields",
+          "full": "[Package] Fields",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Router",
+          "full": "[Package] Router",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Theme",
+          "full": "[Package] Theme",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "UI",
+          "full": "[Package] UI",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Boot",
+          "full": "[Package] Boot",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Image Cropper",
+          "full": "[Package] Image Cropper",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "wp-build",
+          "full": "[Package] wp-build",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Sync",
+          "full": "[Package] Sync",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Admin UI",
+          "full": "[Package] Admin UI",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Abilities",
+          "full": "[Package] Abilities",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Design System MCP",
+          "full": "[Package] Design System MCP",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Grid",
+          "full": "[Package] Grid",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Widget primitives",
+          "full": "[Package] Widget primitives",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Widget Dashboard",
+          "full": "[Package] Widget Dashboard",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Views",
+          "full": "[Package] Views",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
         }
       ],
-      "comments": 3
+      "comments": 5
     },
     {
       "number": 79486,
@@ -735,6 +1584,15 @@
           "text_night": "#fef2c0"
         },
         {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
           "group": "Feature",
           "name": "Site Editor",
           "full": "[Feature] Site Editor",
@@ -744,7 +1602,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 5
+      "comments": 6
     },
     {
       "number": 78010,
