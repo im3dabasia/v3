@@ -4,8 +4,8 @@
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 217,
   "merged": 117,
-  "open": 54,
-  "closed": 46,
+  "open": 53,
+  "closed": 47,
   "types": [
     {
       "name": "Enhancement",
@@ -87,7 +87,7 @@
     },
     {
       "name": "Core data",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Edit Post",
@@ -100,6 +100,10 @@
     {
       "name": "Format library",
       "count": 3
+    },
+    {
+      "name": "Admin UI",
+      "count": 2
     },
     {
       "name": "Blocks",
@@ -163,10 +167,6 @@
     },
     {
       "name": "Abilities",
-      "count": 1
-    },
-    {
-      "name": "Admin UI",
       "count": 1
     },
     {
@@ -339,6 +339,35 @@
     }
   ],
   "prs": [
+    {
+      "number": 79046,
+      "title": "Release Tools: Drop the root @wordpress/release-tools dependency",
+      "url": "https://github.com/WordPress/gutenberg/pull/79046",
+      "state": "closed",
+      "created_at": "2026-06-09T10:46:31Z",
+      "dated_at": "2026-09-09T14:11:50Z",
+      "labels": [
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        },
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        }
+      ],
+      "comments": 9
+    },
     {
       "number": 82541,
       "title": "Block Fields: Fix video not rendering when added from the inspector panel",
@@ -1584,15 +1613,6 @@
           "text_night": "#fef2c0"
         },
         {
-          "group": "Package",
-          "name": "Core data",
-          "full": "[Package] Core data",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
           "group": "Feature",
           "name": "Site Editor",
           "full": "[Feature] Site Editor",
@@ -1600,6 +1620,15 @@
           "rgb": "251 202 4",
           "text": "#8c7102",
           "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Admin UI",
+          "full": "[Package] Admin UI",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
         }
       ],
       "comments": 6
@@ -2991,35 +3020,6 @@
         }
       ],
       "comments": 1
-    },
-    {
-      "number": 79046,
-      "title": "Release Tools: Update YAML CI Workflow to use Work Space",
-      "url": "https://github.com/WordPress/gutenberg/pull/79046",
-      "state": "open",
-      "created_at": "2026-06-09T10:46:31Z",
-      "dated_at": "2026-06-09T10:46:31Z",
-      "labels": [
-        {
-          "group": null,
-          "name": "Gutenberg Plugin",
-          "full": "Gutenberg Plugin",
-          "color": "#578eed",
-          "rgb": "87 142 237",
-          "text": "#446fb9",
-          "text_night": "#578eed"
-        },
-        {
-          "group": "Type",
-          "name": "Code Quality",
-          "full": "[Type] Code Quality",
-          "color": "#e5e04b",
-          "rgb": "229 224 75",
-          "text": "#767326",
-          "text_night": "#e5e04b"
-        }
-      ],
-      "comments": 6
     },
     {
       "number": 78764,
