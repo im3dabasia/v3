@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 217,
+  "total": 219,
   "merged": 117,
-  "open": 53,
+  "open": 55,
   "closed": 47,
   "types": [
     {
       "name": "Enhancement",
-      "count": 63
+      "count": 65
     },
     {
       "name": "Code Quality",
@@ -75,11 +75,11 @@
     },
     {
       "name": "Block library",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Editor",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Edit Site",
@@ -87,11 +87,11 @@
     },
     {
       "name": "Core data",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Edit Post",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Fields",
@@ -100,10 +100,6 @@
     {
       "name": "Format library",
       "count": 3
-    },
-    {
-      "name": "Admin UI",
-      "count": 2
     },
     {
       "name": "Blocks",
@@ -167,6 +163,10 @@
     },
     {
       "name": "Abilities",
+      "count": 1
+    },
+    {
+      "name": "Admin UI",
       "count": 1
     },
     {
@@ -340,6 +340,91 @@
   ],
   "prs": [
     {
+      "number": 82751,
+      "title": "Cover Block: Add a Media section to the block inspector panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/82751",
+      "state": "open",
+      "created_at": "2026-09-11T06:43:17Z",
+      "dated_at": "2026-09-11T06:43:17Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 82734,
+      "title": "Collaboration: Name the incompatible plugin in the post locked modal",
+      "url": "https://github.com/WordPress/gutenberg/pull/82734",
+      "state": "open",
+      "created_at": "2026-09-10T12:44:04Z",
+      "dated_at": "2026-09-10T12:44:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Post",
+          "full": "[Package] Edit Post",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Real-time Collaboration",
+          "full": "[Feature] Real-time Collaboration",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
       "number": 79046,
       "title": "Release Tools: Drop the root @wordpress/release-tools dependency",
       "url": "https://github.com/WordPress/gutenberg/pull/79046",
@@ -478,7 +563,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 66961,
@@ -1620,18 +1705,9 @@
           "rgb": "251 202 4",
           "text": "#8c7102",
           "text_night": "#fbca04"
-        },
-        {
-          "group": "Package",
-          "name": "Admin UI",
-          "full": "[Package] Admin UI",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
         }
       ],
-      "comments": 6
+      "comments": 7
     },
     {
       "number": 78010,
