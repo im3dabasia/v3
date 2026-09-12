@@ -246,6 +246,10 @@
       "count": 1
     },
     {
+      "name": "Interface",
+      "count": 1
+    },
+    {
       "name": "is-shallow-equal",
       "count": 1
     },
@@ -422,7 +426,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 2
+      "comments": 4
     },
     {
       "number": 79046,
@@ -1333,6 +1337,15 @@
         },
         {
           "group": "Package",
+          "name": "Interface",
+          "full": "[Package] Interface",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
           "name": "Primitives",
           "full": "[Package] Primitives",
           "color": "#ed2572",
@@ -1593,7 +1606,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 5
+      "comments": 14
     },
     {
       "number": 79486,
