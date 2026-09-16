@@ -3,8 +3,8 @@
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 221,
-  "merged": 118,
-  "open": 55,
+  "merged": 119,
+  "open": 54,
   "closed": 48,
   "types": [
     {
@@ -343,6 +343,53 @@
     }
   ],
   "prs": [
+    {
+      "number": 82593,
+      "title": "Media & Text Block: Add a Media section to the block inspector panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/82593",
+      "state": "merged",
+      "created_at": "2026-09-08T10:39:41Z",
+      "dated_at": "2026-09-15T09:33:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Media & Text",
+          "full": "[Block] Media & Text",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 9
+    },
     {
       "number": 82852,
       "title": " Files: Add experimental Files block for listing multiple files",
@@ -1143,7 +1190,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 1
+      "comments": 4
     },
     {
       "number": 82734,
@@ -1294,53 +1341,6 @@
         }
       ],
       "comments": 4
-    },
-    {
-      "number": 82593,
-      "title": "Media & Text Block: Add a Media section to the block inspector panel",
-      "url": "https://github.com/WordPress/gutenberg/pull/82593",
-      "state": "open",
-      "created_at": "2026-09-08T10:39:41Z",
-      "dated_at": "2026-09-08T10:39:41Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Block",
-          "name": "Media & Text",
-          "full": "[Block] Media & Text",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        },
-        {
-          "group": "Package",
-          "name": "Block editor",
-          "full": "[Package] Block editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 7
     },
     {
       "number": 66961,
