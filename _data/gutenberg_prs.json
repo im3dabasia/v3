@@ -430,7 +430,7 @@
     },
     {
       "number": 82851,
-      "title": "File: Add flex layout support for justifying the download button",
+      "title": "File: Add flex layout and block gap supports",
       "url": "https://github.com/WordPress/gutenberg/pull/82851",
       "state": "open",
       "created_at": "2026-09-14T14:41:28Z",
@@ -464,7 +464,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 7
+      "comments": 8
     },
     {
       "number": 68606,
