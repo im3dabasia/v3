@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 221,
-  "merged": 119,
-  "open": 54,
+  "total": 223,
+  "merged": 120,
+  "open": 55,
   "closed": 48,
   "types": [
     {
       "name": "Enhancement",
-      "count": 67
+      "count": 68
     },
     {
       "name": "Code Quality",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Developer Documentation",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Build Tooling",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Block editor",
@@ -344,6 +344,111 @@
   ],
   "prs": [
     {
+      "number": 82751,
+      "title": "Cover Block: Add a Media section to the block inspector panel",
+      "url": "https://github.com/WordPress/gutenberg/pull/82751",
+      "state": "merged",
+      "created_at": "2026-09-11T06:43:17Z",
+      "dated_at": "2026-09-23T08:56:21Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 83337,
+      "title": "Video, Cover: Don't autoplay in the editor when reduced motion is preferred",
+      "url": "https://github.com/WordPress/gutenberg/pull/83337",
+      "state": "open",
+      "created_at": "2026-09-22T09:52:30Z",
+      "dated_at": "2026-09-22T09:52:30Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Block",
+          "name": "Video",
+          "full": "[Block] Video",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 83335,
+      "title": "Docs: Replace retired reduce-motion mixin in animation guidelines",
+      "url": "https://github.com/WordPress/gutenberg/pull/83335",
+      "state": "open",
+      "created_at": "2026-09-22T09:44:51Z",
+      "dated_at": "2026-09-22T09:44:51Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        }
+      ],
+      "comments": 0
+    },
+    {
       "number": 82593,
       "title": "Media & Text Block: Add a Media section to the block inspector panel",
       "url": "https://github.com/WordPress/gutenberg/pull/82593",
@@ -464,7 +569,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 11
+      "comments": 12
     },
     {
       "number": 68606,
@@ -1162,35 +1267,6 @@
         }
       ],
       "comments": 16
-    },
-    {
-      "number": 82751,
-      "title": "Cover Block: Add a Media section to the block inspector panel",
-      "url": "https://github.com/WordPress/gutenberg/pull/82751",
-      "state": "open",
-      "created_at": "2026-09-11T06:43:17Z",
-      "dated_at": "2026-09-11T06:43:17Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 4
     },
     {
       "number": 82734,
