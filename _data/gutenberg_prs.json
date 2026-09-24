@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 223,
-  "merged": 120,
+  "total": 224,
+  "merged": 121,
   "open": 55,
   "closed": 48,
   "types": [
     {
       "name": "Enhancement",
-      "count": 68
+      "count": 69
     },
     {
       "name": "Code Quality",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Block editor",
@@ -100,6 +100,10 @@
     {
       "name": "Format library",
       "count": 3
+    },
+    {
+      "name": "A11y",
+      "count": 2
     },
     {
       "name": "Blocks",
@@ -156,10 +160,6 @@
     {
       "name": "Url",
       "count": 2
-    },
-    {
-      "name": "A11y",
-      "count": 1
     },
     {
       "name": "Abilities",
@@ -344,6 +344,82 @@
   ],
   "prs": [
     {
+      "number": 83452,
+      "title": "Cover: Don't autoplay embedded background videos when reduced motion is preferred",
+      "url": "https://github.com/WordPress/gutenberg/pull/83452",
+      "state": "open",
+      "created_at": "2026-09-23T14:49:07Z",
+      "dated_at": "2026-09-23T14:49:07Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "A11y",
+          "full": "[Package] A11y",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 83335,
+      "title": "Docs: Replace retired reduce-motion mixin in animation guidelines",
+      "url": "https://github.com/WordPress/gutenberg/pull/83335",
+      "state": "merged",
+      "created_at": "2026-09-22T09:44:51Z",
+      "dated_at": "2026-09-23T10:28:32Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        }
+      ],
+      "comments": 1
+    },
+    {
       "number": 82751,
       "title": "Cover Block: Add a Media section to the block inspector panel",
       "url": "https://github.com/WordPress/gutenberg/pull/82751",
@@ -426,27 +502,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 5
-    },
-    {
-      "number": 83335,
-      "title": "Docs: Replace retired reduce-motion mixin in animation guidelines",
-      "url": "https://github.com/WordPress/gutenberg/pull/83335",
-      "state": "open",
-      "created_at": "2026-09-22T09:44:51Z",
-      "dated_at": "2026-09-22T09:44:51Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Developer Documentation",
-          "full": "[Type] Developer Documentation",
-          "color": "#bfd4f2",
-          "rgb": "191 212 242",
-          "text": "#6b7687",
-          "text_night": "#bfd4f2"
-        }
-      ],
-      "comments": 0
+      "comments": 6
     },
     {
       "number": 82593,
@@ -569,7 +625,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 12
+      "comments": 13
     },
     {
       "number": 68606,
