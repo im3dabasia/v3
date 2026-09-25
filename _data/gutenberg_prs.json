@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 224,
+  "total": 226,
   "merged": 121,
-  "open": 55,
+  "open": 57,
   "closed": 48,
   "types": [
     {
       "name": "Enhancement",
-      "count": 69
+      "count": 70
     },
     {
       "name": "Code Quality",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Developer Documentation",
@@ -71,15 +71,15 @@
     },
     {
       "name": "Block library",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Block editor",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Editor",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Edit Site",
@@ -344,6 +344,109 @@
   ],
   "prs": [
     {
+      "number": 83520,
+      "title": "Layout: Pair physical margins with the physical float on `.alignleft/.alignright`",
+      "url": "https://github.com/WordPress/gutenberg/pull/83520",
+      "state": "open",
+      "created_at": "2026-09-25T09:33:38Z",
+      "dated_at": "2026-09-25T09:33:38Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Internationalization (i18n)",
+          "full": "Internationalization (i18n)",
+          "color": "#e881e2",
+          "rgb": "232 129 226",
+          "text": "#995595",
+          "text_night": "#e881e2"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Design Tools",
+          "full": "[Feature] Design Tools",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": null,
+          "name": "CSS Styling",
+          "full": "CSS Styling",
+          "color": "#63e2d2",
+          "rgb": "99 226 210",
+          "text": "#377e75",
+          "text_night": "#63e2d2"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 83490,
+      "title": "Collaborators Overlay: Hide collaborator avatars while typing",
+      "url": "https://github.com/WordPress/gutenberg/pull/83490",
+      "state": "open",
+      "created_at": "2026-09-24T11:20:17Z",
+      "dated_at": "2026-09-24T11:20:17Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Real-time Collaboration",
+          "full": "[Feature] Real-time Collaboration",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
       "number": 83452,
       "title": "Cover: Don't autoplay embedded background videos when reduced motion is preferred",
       "url": "https://github.com/WordPress/gutenberg/pull/83452",
@@ -502,7 +605,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 6
+      "comments": 7
     },
     {
       "number": 82593,
