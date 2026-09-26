@@ -4,8 +4,8 @@
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 226,
   "merged": 121,
-  "open": 57,
-  "closed": 48,
+  "open": 56,
+  "closed": 49,
   "types": [
     {
       "name": "Enhancement",
@@ -344,6 +344,35 @@
   ],
   "prs": [
     {
+      "number": 81751,
+      "title": "Notes: Keep the clicked thread selected on a block with several notes",
+      "url": "https://github.com/WordPress/gutenberg/pull/81751",
+      "state": "closed",
+      "created_at": "2026-08-17T12:34:43Z",
+      "dated_at": "2026-09-25T11:01:40Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 9
+    },
+    {
       "number": 83520,
       "title": "Layout: Pair physical margins with the physical float on `.alignleft/.alignright`",
       "url": "https://github.com/WordPress/gutenberg/pull/83520",
@@ -406,7 +435,7 @@
           "text_night": "#63e2d2"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 83490,
@@ -444,7 +473,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 83452,
@@ -500,7 +529,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 1
+      "comments": 3
     },
     {
       "number": 83335,
@@ -605,7 +634,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 7
+      "comments": 10
     },
     {
       "number": 82593,
@@ -2427,35 +2456,6 @@
         }
       ],
       "comments": 3
-    },
-    {
-      "number": 81751,
-      "title": "Notes: Keep the clicked thread selected on a block with several notes",
-      "url": "https://github.com/WordPress/gutenberg/pull/81751",
-      "state": "open",
-      "created_at": "2026-08-17T12:34:43Z",
-      "dated_at": "2026-08-17T12:34:43Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": "Feature",
-          "name": "Notes",
-          "full": "[Feature] Notes",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        }
-      ],
-      "comments": 6
     },
     {
       "number": 76035,
