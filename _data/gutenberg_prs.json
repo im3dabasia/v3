@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 226,
+  "total": 228,
   "merged": 121,
-  "open": 56,
+  "open": 58,
   "closed": 49,
   "types": [
     {
       "name": "Enhancement",
-      "count": 70
+      "count": 72
     },
     {
       "name": "Code Quality",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 18
+      "count": 20
     },
     {
       "name": "Block editor",
@@ -343,6 +343,82 @@
     }
   ],
   "prs": [
+    {
+      "number": 83567,
+      "title": "Avatar: Explain that avatars use the Gravatar service",
+      "url": "https://github.com/WordPress/gutenberg/pull/83567",
+      "state": "open",
+      "created_at": "2026-09-28T07:50:46Z",
+      "dated_at": "2026-09-28T07:50:46Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Avatar",
+          "full": "[Block] Avatar",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 6
+    },
+    {
+      "number": 83563,
+      "title": "Media & Text: Lower the specificity of the content padding",
+      "url": "https://github.com/WordPress/gutenberg/pull/83563",
+      "state": "open",
+      "created_at": "2026-09-28T05:39:24Z",
+      "dated_at": "2026-09-28T05:39:24Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Media & Text",
+          "full": "[Block] Media & Text",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
     {
       "number": 81751,
       "title": "Notes: Keep the clicked thread selected on a block with several notes",
