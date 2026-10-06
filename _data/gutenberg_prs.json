@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 230,
+  "total": 231,
   "merged": 125,
-  "open": 55,
+  "open": 56,
   "closed": 50,
   "types": [
     {
       "name": "Enhancement",
-      "count": 73
+      "count": 74
     },
     {
       "name": "Code Quality",
@@ -75,11 +75,11 @@
     },
     {
       "name": "Block editor",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Editor",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Edit Site",
@@ -343,6 +343,71 @@
     }
   ],
   "prs": [
+    {
+      "number": 84082,
+      "title": "Inserter: Add a Files media category to the Media tab",
+      "url": "https://github.com/WordPress/gutenberg/pull/84082",
+      "state": "open",
+      "created_at": "2026-10-05T13:20:00Z",
+      "dated_at": "2026-10-05T13:20:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Inserter",
+          "full": "[Feature] Inserter",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Feature",
+          "name": "Media",
+          "full": "[Feature] Media",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Developer Experience",
+          "full": "Developer Experience",
+          "color": "#29ed9a",
+          "rgb": "41 237 154",
+          "text": "#178456",
+          "text_night": "#29ed9a"
+        }
+      ],
+      "comments": 3
+    },
     {
       "number": 69773,
       "title": "Site Editor: Add `+ button` to add new entity like `page`, `pattern`, `template`",
