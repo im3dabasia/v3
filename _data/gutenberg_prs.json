@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 231,
+  "total": 232,
   "merged": 125,
-  "open": 56,
+  "open": 57,
   "closed": 50,
   "types": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 39
+      "count": 40
     },
     {
       "name": "Developer Documentation",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Block editor",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Editor",
@@ -343,6 +343,53 @@
     }
   ],
   "prs": [
+    {
+      "number": 84115,
+      "title": "List: Keep nested lists when pasting a copied list item into a list",
+      "url": "https://github.com/WordPress/gutenberg/pull/84115",
+      "state": "open",
+      "created_at": "2026-10-06T12:24:58Z",
+      "dated_at": "2026-10-06T12:24:58Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Paste",
+          "full": "[Feature] Paste",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Block",
+          "name": "List",
+          "full": "[Block] List",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 84082,
       "title": "Inserter: Add a Files media category to the Media tab",
@@ -632,7 +679,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 8
+      "comments": 10
     },
     {
       "number": 83563,
@@ -2371,7 +2418,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 7
+      "comments": 8
     },
     {
       "number": 78010,
@@ -6048,7 +6095,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 2
+      "comments": 6
     },
     {
       "number": 69816,
