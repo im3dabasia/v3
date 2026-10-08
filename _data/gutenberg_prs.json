@@ -2,18 +2,18 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 232,
-  "merged": 125,
-  "open": 57,
-  "closed": 50,
+  "total": 234,
+  "merged": 126,
+  "open": 56,
+  "closed": 52,
   "types": [
     {
       "name": "Enhancement",
-      "count": 74
+      "count": 75
     },
     {
       "name": "Code Quality",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Bug",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 22
+      "count": 24
     },
     {
       "name": "Block editor",
@@ -344,6 +344,176 @@
   ],
   "prs": [
     {
+      "number": 84308,
+      "title": "Video: Don't autoplay on the front end when reduced motion is preferred",
+      "url": "https://github.com/WordPress/gutenberg/pull/84308",
+      "state": "open",
+      "created_at": "2026-10-08T09:53:45Z",
+      "dated_at": "2026-10-08T09:53:45Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Video",
+          "full": "[Block] Video",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 77742,
+      "title": "Cover: Enable background image controls",
+      "url": "https://github.com/WordPress/gutenberg/pull/77742",
+      "state": "closed",
+      "created_at": "2026-04-28T12:14:59Z",
+      "dated_at": "2026-10-08T08:46:49Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 76401,
+      "title": "Content Guidelines: Eliminate redux store and use core-store ",
+      "url": "https://github.com/WordPress/gutenberg/pull/76401",
+      "state": "closed",
+      "created_at": "2026-03-11T15:14:13Z",
+      "dated_at": "2026-10-08T08:44:22Z",
+      "labels": [
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Type",
+          "name": "Experimental",
+          "full": "[Type] Experimental",
+          "color": "#4109a0",
+          "rgb": "65 9 160",
+          "text": "#4109a0",
+          "text_night": "#9576ca"
+        },
+        {
+          "group": "Feature",
+          "name": "Guidelines",
+          "full": "[Feature] Guidelines",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 84297,
+      "title": "A11y: Move `prefersReducedMotion` into the block library's shared utils",
+      "url": "https://github.com/WordPress/gutenberg/pull/84297",
+      "state": "merged",
+      "created_at": "2026-10-08T05:20:01Z",
+      "dated_at": "2026-10-08T07:02:42Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "A11y",
+          "full": "[Package] A11y",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 4
+    },
+    {
       "number": 84115,
       "title": "List: Keep nested lists when pasting a copied list item into a list",
       "url": "https://github.com/WordPress/gutenberg/pull/84115",
@@ -521,15 +691,6 @@
         },
         {
           "group": "Package",
-          "name": "A11y",
-          "full": "[Package] A11y",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Package",
           "name": "Block library",
           "full": "[Package] Block library",
           "color": "#ed2572",
@@ -679,7 +840,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 10
+      "comments": 13
     },
     {
       "number": 83563,
@@ -905,7 +1066,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 4
+      "comments": 5
     },
     {
       "number": 83335,
@@ -2418,7 +2579,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 8
+      "comments": 9
     },
     {
       "number": 78010,
@@ -4097,44 +4258,6 @@
       "comments": 3
     },
     {
-      "number": 77742,
-      "title": "Cover: Enable background image controls",
-      "url": "https://github.com/WordPress/gutenberg/pull/77742",
-      "state": "open",
-      "created_at": "2026-04-28T12:14:59Z",
-      "dated_at": "2026-04-28T12:14:59Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Block",
-          "name": "Cover",
-          "full": "[Block] Cover",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        }
-      ],
-      "comments": 1
-    },
-    {
       "number": 77640,
       "title": "Widgets: Add `widget.json` metadata schema",
       "url": "https://github.com/WordPress/gutenberg/pull/77640",
@@ -4457,44 +4580,6 @@
         }
       ],
       "comments": 12
-    },
-    {
-      "number": 76401,
-      "title": "Content Guidelines: Eliminate redux store and use core-store ",
-      "url": "https://github.com/WordPress/gutenberg/pull/76401",
-      "state": "open",
-      "created_at": "2026-03-11T15:14:13Z",
-      "dated_at": "2026-03-11T15:14:13Z",
-      "labels": [
-        {
-          "group": "Package",
-          "name": "Core data",
-          "full": "[Package] Core data",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Type",
-          "name": "Experimental",
-          "full": "[Type] Experimental",
-          "color": "#4109a0",
-          "rgb": "65 9 160",
-          "text": "#4109a0",
-          "text_night": "#9576ca"
-        },
-        {
-          "group": "Feature",
-          "name": "Guidelines",
-          "full": "[Feature] Guidelines",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        }
-      ],
-      "comments": 1
     },
     {
       "number": 75955,
@@ -6095,7 +6180,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 6
+      "comments": 7
     },
     {
       "number": 69816,
