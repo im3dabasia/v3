@@ -1236,9 +1236,18 @@
           "rgb": "103 103 229",
           "text": "#6767e5",
           "text_night": "#7e7ee9"
+        },
+        {
+          "group": null,
+          "name": "Needs Dev Note",
+          "full": "Needs Dev Note",
+          "color": "#b910f2",
+          "rgb": "185 16 242",
+          "text": "#b910f2",
+          "text_night": "#c845f5"
         }
       ],
-      "comments": 13
+      "comments": 15
     },
     {
       "number": 68606,
