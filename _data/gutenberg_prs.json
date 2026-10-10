@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 234,
+  "total": 235,
   "merged": 126,
-  "open": 56,
+  "open": 57,
   "closed": 52,
   "types": [
     {
       "name": "Enhancement",
-      "count": 75
+      "count": 76
     },
     {
       "name": "Code Quality",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Block editor",
@@ -344,6 +344,35 @@
   ],
   "prs": [
     {
+      "number": 84494,
+      "title": "Block Library: Consolidate the Media inspector panel into one component",
+      "url": "https://github.com/WordPress/gutenberg/pull/84494",
+      "state": "open",
+      "created_at": "2026-10-10T06:07:27Z",
+      "dated_at": "2026-10-10T06:07:27Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
       "number": 84308,
       "title": "Video: Don't autoplay on the front end when reduced motion is preferred",
       "url": "https://github.com/WordPress/gutenberg/pull/84308",
@@ -558,7 +587,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 84082,
@@ -623,7 +652,7 @@
           "text_night": "#29ed9a"
         }
       ],
-      "comments": 3
+      "comments": 4
     },
     {
       "number": 69773,
@@ -6189,7 +6218,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 7
+      "comments": 8
     },
     {
       "number": 69816,
