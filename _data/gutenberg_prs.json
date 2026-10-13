@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 235,
-  "merged": 126,
+  "total": 239,
+  "merged": 129,
   "open": 57,
-  "closed": 52,
+  "closed": 53,
   "types": [
     {
       "name": "Enhancement",
-      "count": 76
+      "count": 79
     },
     {
       "name": "Code Quality",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Developer Documentation",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Build Tooling",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 25
+      "count": 28
     },
     {
       "name": "Block editor",
@@ -344,12 +344,50 @@
   ],
   "prs": [
     {
-      "number": 84494,
-      "title": "Block Library: Consolidate the Media inspector panel into one component",
-      "url": "https://github.com/WordPress/gutenberg/pull/84494",
+      "number": 78424,
+      "title": "Editor: Fix the view Revisions menu item to show editor revisions page",
+      "url": "https://github.com/WordPress/gutenberg/pull/78424",
+      "state": "closed",
+      "created_at": "2026-05-19T04:38:55Z",
+      "dated_at": "2026-10-13T10:01:27Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Site Editor",
+          "full": "[Feature] Site Editor",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Fields",
+          "full": "[Package] Fields",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 5
+    },
+    {
+      "number": 84608,
+      "title": "File Block: Add a Media section and a setup-state toolbar option",
+      "url": "https://github.com/WordPress/gutenberg/pull/84608",
       "state": "open",
-      "created_at": "2026-10-10T06:07:27Z",
-      "dated_at": "2026-10-10T06:07:27Z",
+      "created_at": "2026-10-13T08:32:46Z",
+      "dated_at": "2026-10-13T08:32:46Z",
       "labels": [
         {
           "group": "Type",
@@ -368,17 +406,178 @@
           "rgb": "237 37 114",
           "text": "#da2269",
           "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "File",
+          "full": "[Block] File",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
         }
       ],
       "comments": 1
     },
     {
+      "number": 84605,
+      "title": "Audio Block: Add a Media section and a setup-state toolbar option",
+      "url": "https://github.com/WordPress/gutenberg/pull/84605",
+      "state": "open",
+      "created_at": "2026-10-13T08:10:51Z",
+      "dated_at": "2026-10-13T08:10:51Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Audio",
+          "full": "[Block] Audio",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 84602,
+      "title": "Video Block: Add a Media section and a setup-state toolbar option",
+      "url": "https://github.com/WordPress/gutenberg/pull/84602",
+      "state": "open",
+      "created_at": "2026-10-13T07:40:49Z",
+      "dated_at": "2026-10-13T07:40:49Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Video",
+          "full": "[Block] Video",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 84594,
+      "title": "Docs: Note reduced-motion handling for autoplaying media",
+      "url": "https://github.com/WordPress/gutenberg/pull/84594",
+      "state": "merged",
+      "created_at": "2026-10-13T05:12:24Z",
+      "dated_at": "2026-10-13T05:29:01Z",
+      "labels": [
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Type",
+          "name": "Developer Documentation",
+          "full": "[Type] Developer Documentation",
+          "color": "#bfd4f2",
+          "rgb": "191 212 242",
+          "text": "#6b7687",
+          "text_night": "#bfd4f2"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 83853,
+      "title": "Cover: Don't autoplay an uploaded background video when reduced motion is preferred",
+      "url": "https://github.com/WordPress/gutenberg/pull/83853",
+      "state": "merged",
+      "created_at": "2026-09-30T08:23:42Z",
+      "dated_at": "2026-10-13T05:04:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 2
+    },
+    {
       "number": 84308,
       "title": "Video: Don't autoplay on the front end when reduced motion is preferred",
       "url": "https://github.com/WordPress/gutenberg/pull/84308",
-      "state": "open",
+      "state": "merged",
       "created_at": "2026-10-08T09:53:45Z",
-      "dated_at": "2026-10-08T09:53:45Z",
+      "dated_at": "2026-10-13T04:35:15Z",
       "labels": [
         {
           "group": "Type",
@@ -418,6 +617,35 @@
         }
       ],
       "comments": 2
+    },
+    {
+      "number": 84494,
+      "title": "Block Library: Consolidate the Media inspector panel into one component",
+      "url": "https://github.com/WordPress/gutenberg/pull/84494",
+      "state": "open",
+      "created_at": "2026-10-10T06:07:27Z",
+      "dated_at": "2026-10-10T06:07:27Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
     },
     {
       "number": 77742,
@@ -587,7 +815,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 84082,
@@ -691,53 +919,6 @@
         }
       ],
       "comments": 3
-    },
-    {
-      "number": 83853,
-      "title": "Cover: Don't autoplay an uploaded background video when reduced motion is preferred",
-      "url": "https://github.com/WordPress/gutenberg/pull/83853",
-      "state": "open",
-      "created_at": "2026-09-30T08:23:42Z",
-      "dated_at": "2026-09-30T08:23:42Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Focus",
-          "name": "Accessibility (a11y)",
-          "full": "[Focus] Accessibility (a11y)",
-          "color": "#efde5d",
-          "rgb": "239 222 93",
-          "text": "#7b7230",
-          "text_night": "#efde5d"
-        },
-        {
-          "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Block",
-          "name": "Cover",
-          "full": "[Block] Cover",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        }
-      ],
-      "comments": 2
     },
     {
       "number": 83567,
@@ -1095,7 +1276,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 5
+      "comments": 6
     },
     {
       "number": 83335,
@@ -4160,44 +4341,6 @@
         }
       ],
       "comments": 2
-    },
-    {
-      "number": 78424,
-      "title": "Editor: Fix the view Revisions menu item to show editor revisions page",
-      "url": "https://github.com/WordPress/gutenberg/pull/78424",
-      "state": "open",
-      "created_at": "2026-05-19T04:38:55Z",
-      "dated_at": "2026-05-19T04:38:55Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": "Feature",
-          "name": "Site Editor",
-          "full": "[Feature] Site Editor",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Package",
-          "name": "Fields",
-          "full": "[Package] Fields",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 4
     },
     {
       "number": 78096,
