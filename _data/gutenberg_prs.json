@@ -3,8 +3,8 @@
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 239,
-  "merged": 129,
-  "open": 57,
+  "merged": 130,
+  "open": 56,
   "closed": 53,
   "types": [
     {
@@ -344,6 +344,44 @@
   ],
   "prs": [
     {
+      "number": 70214,
+      "title": "Components: Improve accessibility, discoverability of `ColorPicker` inputs",
+      "url": "https://github.com/WordPress/gutenberg/pull/70214",
+      "state": "merged",
+      "created_at": "2025-05-26T06:29:46Z",
+      "dated_at": "2026-10-13T13:29:36Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Needs Accessibility Feedback",
+          "full": "Needs Accessibility Feedback",
+          "color": "#ffbcbd",
+          "rgb": "255 188 189",
+          "text": "#8e6969",
+          "text_night": "#ffbcbd"
+        }
+      ],
+      "comments": 1
+    },
+    {
       "number": 78424,
       "title": "Editor: Fix the view Revisions menu item to show editor revisions page",
       "url": "https://github.com/WordPress/gutenberg/pull/78424",
@@ -417,7 +455,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 84605,
@@ -5709,44 +5747,6 @@
         }
       ],
       "comments": 2
-    },
-    {
-      "number": 70214,
-      "title": "Components: Improve accessibility, discoverability of `ColorPicker` inputs",
-      "url": "https://github.com/WordPress/gutenberg/pull/70214",
-      "state": "open",
-      "created_at": "2025-05-26T06:29:46Z",
-      "dated_at": "2025-05-26T06:29:46Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": null,
-          "name": "Needs Accessibility Feedback",
-          "full": "Needs Accessibility Feedback",
-          "color": "#ffbcbd",
-          "rgb": "255 188 189",
-          "text": "#8e6969",
-          "text_night": "#ffbcbd"
-        }
-      ],
-      "comments": 1
     },
     {
       "number": 70183,
