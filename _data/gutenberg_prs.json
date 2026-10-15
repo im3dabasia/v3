@@ -3,8 +3,8 @@
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 239,
-  "merged": 130,
-  "open": 56,
+  "merged": 131,
+  "open": 55,
   "closed": 53,
   "types": [
     {
@@ -344,6 +344,44 @@
   ],
   "prs": [
     {
+      "number": 83770,
+      "title": "Cover: Decode the oEmbed iframe source before parsing its query string",
+      "url": "https://github.com/WordPress/gutenberg/pull/83770",
+      "state": "merged",
+      "created_at": "2026-09-29T10:35:10Z",
+      "dated_at": "2026-10-15T05:48:31Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Cover",
+          "full": "[Block] Cover",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 4
+    },
+    {
       "number": 70214,
       "title": "Components: Improve accessibility, discoverability of `ColorPicker` inputs",
       "url": "https://github.com/WordPress/gutenberg/pull/70214",
@@ -493,7 +531,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 84602,
@@ -853,7 +891,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 3
+      "comments": 6
     },
     {
       "number": 84082,
@@ -995,44 +1033,6 @@
         }
       ],
       "comments": 7
-    },
-    {
-      "number": 83770,
-      "title": "Cover: Decode the oEmbed iframe source before parsing its query string",
-      "url": "https://github.com/WordPress/gutenberg/pull/83770",
-      "state": "open",
-      "created_at": "2026-09-29T10:35:10Z",
-      "dated_at": "2026-09-29T10:35:10Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Block",
-          "name": "Cover",
-          "full": "[Block] Cover",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        }
-      ],
-      "comments": 3
     },
     {
       "number": 83452,
