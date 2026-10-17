@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 240,
+  "total": 241,
   "merged": 131,
-  "open": 56,
+  "open": 57,
   "closed": 53,
   "types": [
     {
       "name": "Enhancement",
-      "count": 80
+      "count": 81
     },
     {
       "name": "Code Quality",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Editor",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Edit Site",
@@ -343,6 +343,53 @@
     }
   ],
   "prs": [
+    {
+      "number": 84938,
+      "title": "Patterns: Add the Status panel to synced patterns",
+      "url": "https://github.com/WordPress/gutenberg/pull/84938",
+      "state": "open",
+      "created_at": "2026-10-16T13:19:37Z",
+      "dated_at": "2026-10-16T13:19:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Synced Patterns",
+          "full": "[Feature] Synced Patterns",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Patterns",
+          "full": "[Feature] Patterns",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 84891,
       "title": "Button: Allow custom CSS classes on the link",
