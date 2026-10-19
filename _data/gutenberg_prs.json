@@ -3,8 +3,8 @@
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 241,
-  "merged": 131,
-  "open": 57,
+  "merged": 132,
+  "open": 56,
   "closed": 53,
   "types": [
     {
@@ -344,6 +344,35 @@
   ],
   "prs": [
     {
+      "number": 78878,
+      "title": "feat: Add dry-run optional param in cherry-pick script",
+      "url": "https://github.com/WordPress/gutenberg/pull/78878",
+      "state": "merged",
+      "created_at": "2026-06-02T11:32:18Z",
+      "dated_at": "2026-10-19T09:36:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        },
+        {
+          "group": null,
+          "name": "Gutenberg Plugin",
+          "full": "Gutenberg Plugin",
+          "color": "#578eed",
+          "rgb": "87 142 237",
+          "text": "#446fb9",
+          "text_night": "#578eed"
+        }
+      ],
+      "comments": 8
+    },
+    {
       "number": 84938,
       "title": "Patterns: Add the Status panel to synced patterns",
       "url": "https://github.com/WordPress/gutenberg/pull/84938",
@@ -634,7 +663,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 84602,
@@ -672,7 +701,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 1
+      "comments": 3
     },
     {
       "number": 84594,
@@ -1598,7 +1627,7 @@
           "text_night": "#c845f5"
         }
       ],
-      "comments": 15
+      "comments": 16
     },
     {
       "number": 68606,
@@ -4377,35 +4406,6 @@
       "comments": 3
     },
     {
-      "number": 78878,
-      "title": "feat: Add dry-run optional param in cherry-pick script",
-      "url": "https://github.com/WordPress/gutenberg/pull/78878",
-      "state": "open",
-      "created_at": "2026-06-02T11:32:18Z",
-      "dated_at": "2026-06-02T11:32:18Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Build Tooling",
-          "full": "[Type] Build Tooling",
-          "color": "#111111",
-          "rgb": "17 17 17",
-          "text": "#111111",
-          "text_night": "#858585"
-        },
-        {
-          "group": null,
-          "name": "Gutenberg Plugin",
-          "full": "Gutenberg Plugin",
-          "color": "#578eed",
-          "rgb": "87 142 237",
-          "text": "#446fb9",
-          "text_night": "#578eed"
-        }
-      ],
-      "comments": 4
-    },
-    {
       "number": 78809,
       "title": "Content Types: Hide Quick Edit action when quick edit is false",
       "url": "https://github.com/WordPress/gutenberg/pull/78809",
@@ -5294,15 +5294,6 @@
           "rgb": "229 224 75",
           "text": "#767326",
           "text_night": "#e5e04b"
-        },
-        {
-          "group": "Tool",
-          "name": "stylelint config",
-          "full": "[Tool] stylelint config",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
         }
       ],
       "comments": 1
