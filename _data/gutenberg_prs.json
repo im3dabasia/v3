@@ -2,10 +2,10 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 241,
+  "total": 242,
   "merged": 135,
   "open": 53,
-  "closed": 53,
+  "closed": 54,
   "types": [
     {
       "name": "Enhancement",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 40
+      "count": 41
     },
     {
       "name": "Developer Documentation",
@@ -94,15 +94,15 @@
       "count": 4
     },
     {
+      "name": "Fields",
+      "count": 4
+    },
+    {
       "name": "Format library",
       "count": 4
     },
     {
       "name": "A11y",
-      "count": 3
-    },
-    {
-      "name": "Fields",
       "count": 3
     },
     {
@@ -343,6 +343,64 @@
     }
   ],
   "prs": [
+    {
+      "number": 71138,
+      "title": "List Block: Add support for `core/image` and `core/gallery` inner blocks to List Item Block",
+      "url": "https://github.com/WordPress/gutenberg/pull/71138",
+      "state": "closed",
+      "created_at": "2025-08-08T11:34:18Z",
+      "dated_at": "2026-10-20T11:56:09Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Block",
+          "name": "List",
+          "full": "[Block] List",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 85185,
+      "title": "Global Styles: Keep custom colors when applying a style variation or palette",
+      "url": "https://github.com/WordPress/gutenberg/pull/85185",
+      "state": "open",
+      "created_at": "2026-10-20T11:31:21Z",
+      "dated_at": "2026-10-20T11:31:21Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Feature",
+          "name": "Colors",
+          "full": "[Feature] Colors",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 69264,
       "title": "Tests: Add Component Tests for DuotonePicker Component",
@@ -703,7 +761,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 4
+      "comments": 5
     },
     {
       "number": 84605,
@@ -741,7 +799,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 3
+      "comments": 4
     },
     {
       "number": 84602,
@@ -779,7 +837,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 3
+      "comments": 4
     },
     {
       "number": 84594,
@@ -1336,7 +1394,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 83337,
@@ -3044,9 +3102,18 @@
           "rgb": "251 202 4",
           "text": "#8c7102",
           "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Fields",
+          "full": "[Package] Fields",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
         }
       ],
-      "comments": 10
+      "comments": 15
     },
     {
       "number": 78010,
@@ -5348,35 +5415,6 @@
           "group": "Block",
           "name": "Video",
           "full": "[Block] Video",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
-        }
-      ],
-      "comments": 2
-    },
-    {
-      "number": 71138,
-      "title": "List Block: Add support for `core/image` and `core/gallery` inner blocks to List Item Block",
-      "url": "https://github.com/WordPress/gutenberg/pull/71138",
-      "state": "open",
-      "created_at": "2025-08-08T11:34:18Z",
-      "dated_at": "2025-08-08T11:34:18Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Block",
-          "name": "List",
-          "full": "[Block] List",
           "color": "#6767e5",
           "rgb": "103 103 229",
           "text": "#6767e5",
