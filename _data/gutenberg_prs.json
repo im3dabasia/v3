@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 242,
+  "total": 243,
   "merged": 135,
-  "open": 53,
+  "open": 54,
   "closed": 54,
   "types": [
     {
       "name": "Enhancement",
-      "count": 81
+      "count": 82
     },
     {
       "name": "Code Quality",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Editor",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Edit Site",
@@ -344,6 +344,44 @@
   ],
   "prs": [
     {
+      "number": 85288,
+      "title": "Style revisions: Compare the selected revision with the current version side by side",
+      "url": "https://github.com/WordPress/gutenberg/pull/85288",
+      "state": "open",
+      "created_at": "2026-10-21T12:55:37Z",
+      "dated_at": "2026-10-21T12:55:37Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "History",
+          "full": "[Feature] History",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 5
+    },
+    {
       "number": 71138,
       "title": "List Block: Add support for `core/image` and `core/gallery` inner blocks to List Item Block",
       "url": "https://github.com/WordPress/gutenberg/pull/71138",
@@ -399,7 +437,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 69264,
