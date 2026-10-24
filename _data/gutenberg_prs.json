@@ -2,10 +2,10 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 243,
-  "merged": 136,
-  "open": 53,
-  "closed": 54,
+  "total": 244,
+  "merged": 137,
+  "open": 52,
+  "closed": 55,
   "types": [
     {
       "name": "Enhancement",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Build Tooling",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Experimental",
@@ -344,6 +344,64 @@
   ],
   "prs": [
     {
+      "number": 85465,
+      "title": "Release: Add `--dry-run` usage for `npm run other:cherry-pick`",
+      "url": "https://github.com/WordPress/gutenberg/pull/85465",
+      "state": "merged",
+      "created_at": "2026-10-23T12:22:24Z",
+      "dated_at": "2026-10-23T14:01:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Build Tooling",
+          "full": "[Type] Build Tooling",
+          "color": "#111111",
+          "rgb": "17 17 17",
+          "text": "#111111",
+          "text_night": "#858585"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 68592,
+      "title": "Tools panel: Synced the visible label and accessible name ",
+      "url": "https://github.com/WordPress/gutenberg/pull/68592",
+      "state": "closed",
+      "created_at": "2025-01-10T10:07:45Z",
+      "dated_at": "2026-10-23T10:05:19Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 9
+    },
+    {
       "number": 70288,
       "title": "Components: Add fallback units for input slider in `BoxControl`",
       "url": "https://github.com/WordPress/gutenberg/pull/70288",
@@ -441,7 +499,7 @@
     },
     {
       "number": 85185,
-      "title": "Global Styles: Keep custom colors when applying a style variation or palette",
+      "title": "Global Styles: Keep custom presets when applying a style variation",
       "url": "https://github.com/WordPress/gutenberg/pull/85185",
       "state": "open",
       "created_at": "2026-10-20T11:31:21Z",
@@ -466,7 +524,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 3
+      "comments": 4
     },
     {
       "number": 69264,
@@ -573,7 +631,7 @@
           "text_night": "#578eed"
         }
       ],
-      "comments": 9
+      "comments": 10
     },
     {
       "number": 84938,
@@ -1611,7 +1669,7 @@
           "text_night": "#63e2d2"
         }
       ],
-      "comments": 2
+      "comments": 6
     },
     {
       "number": 83490,
@@ -3180,7 +3238,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 16
+      "comments": 18
     },
     {
       "number": 78010,
@@ -7792,44 +7850,6 @@
         }
       ],
       "comments": 3
-    },
-    {
-      "number": 68592,
-      "title": "Tools panel: Synced the visible label and accessible name ",
-      "url": "https://github.com/WordPress/gutenberg/pull/68592",
-      "state": "open",
-      "created_at": "2025-01-10T10:07:45Z",
-      "dated_at": "2025-01-10T10:07:45Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": "Focus",
-          "name": "Accessibility (a11y)",
-          "full": "[Focus] Accessibility (a11y)",
-          "color": "#efde5d",
-          "rgb": "239 222 93",
-          "text": "#7b7230",
-          "text_night": "#efde5d"
-        },
-        {
-          "group": "Package",
-          "name": "Components",
-          "full": "[Package] Components",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 8
     },
     {
       "number": 68270,
