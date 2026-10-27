@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 244,
+  "total": 245,
   "merged": 137,
-  "open": 52,
+  "open": 53,
   "closed": 55,
   "types": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 41
+      "count": 42
     },
     {
       "name": "Developer Documentation",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Block editor",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Editor",
@@ -344,6 +344,44 @@
   ],
   "prs": [
     {
+      "number": 85725,
+      "title": "Block Editor: Align URL submit buttons with Consistent Identification",
+      "url": "https://github.com/WordPress/gutenberg/pull/85725",
+      "state": "open",
+      "created_at": "2026-10-27T07:06:04Z",
+      "dated_at": "2026-10-27T07:06:04Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
       "number": 85465,
       "title": "Release: Add `--dry-run` usage for `npm run other:cherry-pick`",
       "url": "https://github.com/WordPress/gutenberg/pull/85465",
@@ -448,6 +486,15 @@
           "text_night": "#fef2c0"
         },
         {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
           "group": "Package",
           "name": "Editor",
           "full": "[Package] Editor",
@@ -466,7 +513,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 5
+      "comments": 6
     },
     {
       "number": 71138,
@@ -1284,7 +1331,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 8
+      "comments": 9
     },
     {
       "number": 84082,
@@ -3238,7 +3285,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 18
+      "comments": 19
     },
     {
       "number": 78010,
