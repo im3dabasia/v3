@@ -3,8 +3,8 @@
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
   "total": 248,
-  "merged": 139,
-  "open": 54,
+  "merged": 142,
+  "open": 51,
   "closed": 55,
   "types": [
     {
@@ -83,7 +83,7 @@
     },
     {
       "name": "Edit Site",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Core data",
@@ -344,50 +344,88 @@
   ],
   "prs": [
     {
-      "number": 85821,
-      "title": "Media & Text: Restore content padding (7.2 backport)",
-      "url": "https://github.com/WordPress/gutenberg/pull/85821",
+      "number": 85725,
+      "title": "Block Editor: Align URL submit buttons with Consistent Identification",
+      "url": "https://github.com/WordPress/gutenberg/pull/85725",
       "state": "merged",
-      "created_at": "2026-10-28T08:33:38Z",
-      "dated_at": "2026-10-28T09:42:54Z",
+      "created_at": "2026-10-27T07:06:04Z",
+      "dated_at": "2026-10-29T08:32:07Z",
       "labels": [
         {
           "group": "Type",
-          "name": "Regression",
-          "full": "[Type] Regression",
+          "name": "Bug",
+          "full": "[Type] Bug",
           "color": "#d93f0b",
           "rgb": "217 63 11",
           "text": "#d93f0b",
           "text_night": "#df5c30"
         },
         {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
           "group": "Package",
-          "name": "Block library",
-          "full": "[Package] Block library",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 83490,
+      "title": "Collaborators Overlay: Hide collaborator avatars while typing",
+      "url": "https://github.com/WordPress/gutenberg/pull/83490",
+      "state": "merged",
+      "created_at": "2026-09-24T11:20:17Z",
+      "dated_at": "2026-10-28T12:18:32Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
           "color": "#ed2572",
           "rgb": "237 37 114",
           "text": "#da2269",
           "text_night": "#f04688"
         },
         {
-          "group": "Block",
-          "name": "Media & Text",
-          "full": "[Block] Media & Text",
-          "color": "#6767e5",
-          "rgb": "103 103 229",
-          "text": "#6767e5",
-          "text_night": "#7e7ee9"
+          "group": "Feature",
+          "name": "Real-time Collaboration",
+          "full": "[Feature] Real-time Collaboration",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
         }
       ],
-      "comments": 1
+      "comments": 8
     },
     {
       "number": 85824,
       "title": "Layout: Use physical margins on floated alignments (7.2 backport)",
       "url": "https://github.com/WordPress/gutenberg/pull/85824",
-      "state": "open",
+      "state": "merged",
       "created_at": "2026-10-28T09:11:15Z",
-      "dated_at": "2026-10-28T09:11:15Z",
+      "dated_at": "2026-10-28T12:10:36Z",
       "labels": [
         {
           "group": "Type",
@@ -442,6 +480,44 @@
           "rgb": "99 226 210",
           "text": "#377e75",
           "text_night": "#63e2d2"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 85821,
+      "title": "Media & Text: Restore content padding (7.2 backport)",
+      "url": "https://github.com/WordPress/gutenberg/pull/85821",
+      "state": "merged",
+      "created_at": "2026-10-28T08:33:38Z",
+      "dated_at": "2026-10-28T09:42:54Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Regression",
+          "full": "[Type] Regression",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Block",
+          "name": "Media & Text",
+          "full": "[Block] Media & Text",
+          "color": "#6767e5",
+          "rgb": "103 103 229",
+          "text": "#6767e5",
+          "text_night": "#7e7ee9"
         }
       ],
       "comments": 1
@@ -510,17 +586,8 @@
         },
         {
           "group": null,
-          "name": "Backport to Gutenberg RC",
-          "full": "Backport to Gutenberg RC",
-          "color": "#5319e7",
-          "rgb": "83 25 231",
-          "text": "#5319e7",
-          "text_night": "#9774f0"
-        },
-        {
-          "group": null,
-          "name": "Backport to WP 7.2 Beta/RC",
-          "full": "Backport to WP 7.2 Beta/RC",
+          "name": "Backported to WP Core",
+          "full": "Backported to WP Core",
           "color": "#491d8e",
           "rgb": "73 29 142",
           "text": "#491d8e",
@@ -536,44 +603,6 @@
       "state": "open",
       "created_at": "2026-10-27T09:58:27Z",
       "dated_at": "2026-10-27T09:58:27Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Bug",
-          "full": "[Type] Bug",
-          "color": "#d93f0b",
-          "rgb": "217 63 11",
-          "text": "#d93f0b",
-          "text_night": "#df5c30"
-        },
-        {
-          "group": "Focus",
-          "name": "Accessibility (a11y)",
-          "full": "[Focus] Accessibility (a11y)",
-          "color": "#efde5d",
-          "rgb": "239 222 93",
-          "text": "#7b7230",
-          "text_night": "#efde5d"
-        },
-        {
-          "group": "Package",
-          "name": "Block editor",
-          "full": "[Package] Block editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 1
-    },
-    {
-      "number": 85725,
-      "title": "Block Editor: Align URL submit buttons with Consistent Identification",
-      "url": "https://github.com/WordPress/gutenberg/pull/85725",
-      "state": "open",
-      "created_at": "2026-10-27T07:06:04Z",
-      "dated_at": "2026-10-27T07:06:04Z",
       "labels": [
         {
           "group": "Type",
@@ -737,7 +766,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 9
+      "comments": 12
     },
     {
       "number": 71138,
@@ -1876,44 +1905,6 @@
         }
       ],
       "comments": 9
-    },
-    {
-      "number": 83490,
-      "title": "Collaborators Overlay: Hide collaborator avatars while typing",
-      "url": "https://github.com/WordPress/gutenberg/pull/83490",
-      "state": "open",
-      "created_at": "2026-09-24T11:20:17Z",
-      "dated_at": "2026-09-24T11:20:17Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Editor",
-          "full": "[Package] Editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Feature",
-          "name": "Real-time Collaboration",
-          "full": "[Feature] Real-time Collaboration",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        }
-      ],
-      "comments": 7
     },
     {
       "number": 83335,
@@ -3426,6 +3417,15 @@
           "text_night": "#fef2c0"
         },
         {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
           "group": "Feature",
           "name": "Site Editor",
           "full": "[Feature] Site Editor",
@@ -3444,7 +3444,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 20
+      "comments": 23
     },
     {
       "number": 78010,
