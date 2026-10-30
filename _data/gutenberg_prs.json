@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Block editor",
@@ -951,6 +951,15 @@
           "text_night": "#fef2c0"
         },
         {
+          "group": null,
+          "name": "Needs Design Feedback",
+          "full": "Needs Design Feedback",
+          "color": "#0e8a16",
+          "rgb": "14 138 22",
+          "text": "#0e8a16",
+          "text_night": "#339c3a"
+        },
+        {
           "group": "Feature",
           "name": "Synced Patterns",
           "full": "[Feature] Synced Patterns",
@@ -978,7 +987,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 1
+      "comments": 3
     },
     {
       "number": 84891,
@@ -2085,7 +2094,7 @@
           "text_night": "#c845f5"
         }
       ],
-      "comments": 16
+      "comments": 17
     },
     {
       "number": 68606,
@@ -6334,6 +6343,15 @@
           "text_night": "#fef2c0"
         },
         {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
           "group": "Block",
           "name": "Query Pagination",
           "full": "[Block] Query Pagination",
@@ -6343,7 +6361,7 @@
           "text_night": "#7e7ee9"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 70133,
@@ -7132,7 +7150,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 67097,
