@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 248,
+  "total": 249,
   "merged": 142,
-  "open": 51,
+  "open": 52,
   "closed": 55,
   "types": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Bug",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Developer Documentation",
@@ -343,6 +343,44 @@
     }
   ],
   "prs": [
+    {
+      "number": 86044,
+      "title": "theme.json schema: Allow separate row and column block gaps in block styles",
+      "url": "https://github.com/WordPress/gutenberg/pull/86044",
+      "state": "open",
+      "created_at": "2026-10-30T11:35:34Z",
+      "dated_at": "2026-10-30T11:35:34Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Bug",
+          "full": "[Type] Bug",
+          "color": "#d93f0b",
+          "rgb": "217 63 11",
+          "text": "#d93f0b",
+          "text_night": "#df5c30"
+        },
+        {
+          "group": null,
+          "name": "Global Styles",
+          "full": "Global Styles",
+          "color": "#2100b7",
+          "rgb": "33 0 183",
+          "text": "#2100b7",
+          "text_night": "#8d7cda"
+        },
+        {
+          "group": "Feature",
+          "name": "Layout",
+          "full": "[Feature] Layout",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 1
+    },
     {
       "number": 85725,
       "title": "Block Editor: Align URL submit buttons with Consistent Identification",
