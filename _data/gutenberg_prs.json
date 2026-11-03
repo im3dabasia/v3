@@ -2,9 +2,9 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 252,
+  "total": 254,
   "merged": 145,
-  "open": 52,
+  "open": 54,
   "closed": 55,
   "types": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "Code Quality",
-      "count": 48
+      "count": 50
     },
     {
       "name": "Bug",
@@ -71,7 +71,7 @@
     },
     {
       "name": "Block library",
-      "count": 34
+      "count": 35
     },
     {
       "name": "Block editor",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Editor",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Edit Site",
@@ -87,14 +87,14 @@
     },
     {
       "name": "Core data",
+      "count": 7
+    },
+    {
+      "name": "Fields",
       "count": 5
     },
     {
       "name": "Edit Post",
-      "count": 4
-    },
-    {
-      "name": "Fields",
       "count": 4
     },
     {
@@ -266,6 +266,10 @@
       "count": 1
     },
     {
+      "name": "Patterns",
+      "count": 1
+    },
+    {
       "name": "Plugins",
       "count": 1
     },
@@ -343,6 +347,100 @@
     }
   ],
   "prs": [
+    {
+      "number": 86232,
+      "title": "Core Data: Infer the record type in getEditedEntityRecord and getRawEntityRecord",
+      "url": "https://github.com/WordPress/gutenberg/pull/86232",
+      "state": "open",
+      "created_at": "2026-11-03T06:26:47Z",
+      "dated_at": "2026-11-03T06:26:47Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
+    {
+      "number": 86224,
+      "title": "Core Data: Infer record types in the entity record hooks",
+      "url": "https://github.com/WordPress/gutenberg/pull/86224",
+      "state": "open",
+      "created_at": "2026-11-03T04:11:19Z",
+      "dated_at": "2026-11-03T04:11:19Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Code Quality",
+          "full": "[Type] Code Quality",
+          "color": "#e5e04b",
+          "rgb": "229 224 75",
+          "text": "#767326",
+          "text_night": "#e5e04b"
+        },
+        {
+          "group": "Package",
+          "name": "Core data",
+          "full": "[Package] Core data",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block library",
+          "full": "[Package] Block library",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Patterns",
+          "full": "[Package] Patterns",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Fields",
+          "full": "[Package] Fields",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 4
+    },
     {
       "number": 86186,
       "title": "Global Styles: Show a contrast warning for the site's text color",
@@ -2302,7 +2400,7 @@
           "text_night": "#c845f5"
         }
       ],
-      "comments": 17
+      "comments": 18
     },
     {
       "number": 68606,
@@ -5241,7 +5339,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 2
+      "comments": 3
     },
     {
       "number": 71099,
@@ -7320,7 +7418,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 4
+      "comments": 5
     },
     {
       "number": 67097,
