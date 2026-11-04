@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 254,
-  "merged": 145,
+  "total": 255,
+  "merged": 146,
   "open": 54,
   "closed": 55,
   "types": [
     {
       "name": "Enhancement",
-      "count": 85
+      "count": 86
     },
     {
       "name": "Code Quality",
@@ -67,7 +67,7 @@
   "packages": [
     {
       "name": "Components",
-      "count": 41
+      "count": 42
     },
     {
       "name": "Block library",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Block editor",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Editor",
@@ -106,6 +106,14 @@
       "count": 3
     },
     {
+      "name": "DataViews",
+      "count": 3
+    },
+    {
+      "name": "Base styles",
+      "count": 2
+    },
+    {
       "name": "Blocks",
       "count": 2
     },
@@ -115,10 +123,6 @@
     },
     {
       "name": "Compose",
-      "count": 2
-    },
-    {
-      "name": "DataViews",
       "count": 2
     },
     {
@@ -175,10 +179,6 @@
     },
     {
       "name": "Autop",
-      "count": 1
-    },
-    {
-      "name": "Base styles",
       "count": 1
     },
     {
@@ -347,6 +347,100 @@
     }
   ],
   "prs": [
+    {
+      "number": 86292,
+      "title": "Stylelint: Enforce at-rule-empty-line-before in Gutenberg",
+      "url": "https://github.com/WordPress/gutenberg/pull/86292",
+      "state": "open",
+      "created_at": "2026-11-04T10:21:31Z",
+      "dated_at": "2026-11-04T10:21:31Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Components",
+          "full": "[Package] Components",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Base styles",
+          "full": "[Package] Base styles",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "DataViews",
+          "full": "[Package] DataViews",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 1
+    },
+    {
+      "number": 69606,
+      "title": "Stylelint: Relax `at-rule-empty-line-before` for `SCSS`",
+      "url": "https://github.com/WordPress/gutenberg/pull/69606",
+      "state": "merged",
+      "created_at": "2025-03-18T09:12:08Z",
+      "dated_at": "2026-11-04T10:13:36Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Tool",
+          "name": "stylelint config",
+          "full": "[Tool] stylelint config",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 6
+    },
     {
       "number": 86232,
       "title": "Core Data: Infer the record type in getEditedEntityRecord and getRawEntityRecord",
@@ -3759,7 +3853,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 24
+      "comments": 25
     },
     {
       "number": 78010,
@@ -7390,35 +7484,6 @@
         }
       ],
       "comments": 4
-    },
-    {
-      "number": 69606,
-      "title": "Stylelint: Relax `at-rule-empty-line-before` for `SCSS`",
-      "url": "https://github.com/WordPress/gutenberg/pull/69606",
-      "state": "open",
-      "created_at": "2025-03-18T09:12:08Z",
-      "dated_at": "2025-03-18T09:12:08Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Tool",
-          "name": "stylelint config",
-          "full": "[Tool] stylelint config",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 5
     },
     {
       "number": 67097,
