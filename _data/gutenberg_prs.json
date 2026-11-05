@@ -383,15 +383,6 @@
           "text_night": "#f04688"
         },
         {
-          "group": "Tool",
-          "name": "stylelint config",
-          "full": "[Tool] stylelint config",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
           "group": "Package",
           "name": "Base styles",
           "full": "[Package] Base styles",
@@ -410,7 +401,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 1
+      "comments": 2
     },
     {
       "number": 69606,
@@ -1166,7 +1157,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 12
+      "comments": 15
     },
     {
       "number": 71138,
@@ -2058,7 +2049,7 @@
           "text_night": "#29ed9a"
         }
       ],
-      "comments": 5
+      "comments": 6
     },
     {
       "number": 69773,
