@@ -2,14 +2,14 @@
   "repo": "WordPress/gutenberg",
   "author": "im3dabasia",
   "search_url": "https://github.com/WordPress/gutenberg/pulls?q=is%3Apr+author%3Aim3dabasia",
-  "total": 262,
-  "merged": 151,
-  "open": 54,
+  "total": 263,
+  "merged": 154,
+  "open": 52,
   "closed": 57,
   "types": [
     {
       "name": "Enhancement",
-      "count": 89
+      "count": 90
     },
     {
       "name": "Code Quality",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Editor",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Edit Site",
@@ -348,6 +348,212 @@
   ],
   "prs": [
     {
+      "number": 87390,
+      "title": "DataForm: Add a headingLevel option to the card layout",
+      "url": "https://github.com/WordPress/gutenberg/pull/87390",
+      "state": "merged",
+      "created_at": "2026-11-25T11:05:39Z",
+      "dated_at": "2026-11-26T11:33:06Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Feature",
+          "name": "DataViews",
+          "full": "[Feature] DataViews",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "DataViews",
+          "full": "[Package] DataViews",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 3
+    },
+    {
+      "number": 87442,
+      "title": "Notes: Remove the note ID from the reply and edit field labels",
+      "url": "https://github.com/WordPress/gutenberg/pull/87442",
+      "state": "open",
+      "created_at": "2026-11-26T06:44:39Z",
+      "dated_at": "2026-11-26T06:44:39Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Focus",
+          "name": "Accessibility (a11y)",
+          "full": "[Focus] Accessibility (a11y)",
+          "color": "#efde5d",
+          "rgb": "239 222 93",
+          "text": "#7b7230",
+          "text_night": "#efde5d"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Notes",
+          "full": "[Feature] Notes",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        }
+      ],
+      "comments": 2
+    },
+    {
+      "number": 84082,
+      "title": "Inserter: Add a Files media category to the Media tab",
+      "url": "https://github.com/WordPress/gutenberg/pull/84082",
+      "state": "merged",
+      "created_at": "2026-10-05T13:20:00Z",
+      "dated_at": "2026-11-26T06:36:54Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Feature",
+          "name": "Inserter",
+          "full": "[Feature] Inserter",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Feature",
+          "name": "Media",
+          "full": "[Feature] Media",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Editor",
+          "full": "[Package] Editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Package",
+          "name": "Block editor",
+          "full": "[Package] Block editor",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": null,
+          "name": "Developer Experience",
+          "full": "Developer Experience",
+          "color": "#29ed9a",
+          "rgb": "41 237 154",
+          "text": "#178456",
+          "text_night": "#29ed9a"
+        }
+      ],
+      "comments": 8
+    },
+    {
+      "number": 82247,
+      "title": "Site editor: Add item counts to post list status tabs",
+      "url": "https://github.com/WordPress/gutenberg/pull/82247",
+      "state": "merged",
+      "created_at": "2026-08-31T12:38:01Z",
+      "dated_at": "2026-11-26T04:42:00Z",
+      "labels": [
+        {
+          "group": "Type",
+          "name": "Enhancement",
+          "full": "[Type] Enhancement",
+          "color": "#fef2c0",
+          "rgb": "254 242 192",
+          "text": "#78725b",
+          "text_night": "#fef2c0"
+        },
+        {
+          "group": "Package",
+          "name": "Edit Site",
+          "full": "[Package] Edit Site",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        },
+        {
+          "group": "Feature",
+          "name": "Site Editor",
+          "full": "[Feature] Site Editor",
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
+        },
+        {
+          "group": "Package",
+          "name": "Fields",
+          "full": "[Package] Fields",
+          "color": "#ed2572",
+          "rgb": "237 37 114",
+          "text": "#da2269",
+          "text_night": "#f04688"
+        }
+      ],
+      "comments": 30
+    },
+    {
       "number": 87395,
       "title": "DataForm: Fix the header summary of a card that can't be collapsed",
       "url": "https://github.com/WordPress/gutenberg/pull/87395",
@@ -422,53 +628,6 @@
         }
       ],
       "comments": 9
-    },
-    {
-      "number": 87390,
-      "title": "DataForm: Add a headingLevel option to the card layout",
-      "url": "https://github.com/WordPress/gutenberg/pull/87390",
-      "state": "open",
-      "created_at": "2026-11-25T11:05:39Z",
-      "dated_at": "2026-11-25T11:05:39Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Focus",
-          "name": "Accessibility (a11y)",
-          "full": "[Focus] Accessibility (a11y)",
-          "color": "#efde5d",
-          "rgb": "239 222 93",
-          "text": "#7b7230",
-          "text_night": "#efde5d"
-        },
-        {
-          "group": "Feature",
-          "name": "DataViews",
-          "full": "[Feature] DataViews",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Package",
-          "name": "DataViews",
-          "full": "[Package] DataViews",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 2
     },
     {
       "number": 76676,
@@ -1039,8 +1198,8 @@
         },
         {
           "group": "Block",
-          "name": "Comment Pagination Next",
-          "full": "[Block] Comment Pagination Next",
+          "name": "Comments Pagination Next",
+          "full": "[Block] Comments Pagination Next",
           "color": "#6767e5",
           "rgb": "103 103 229",
           "text": "#6767e5",
@@ -1376,7 +1535,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 2
+      "comments": 4
     },
     {
       "number": 85465,
@@ -2290,72 +2449,7 @@
           "text_night": "#f04688"
         }
       ],
-      "comments": 11
-    },
-    {
-      "number": 84082,
-      "title": "Inserter: Add a Files media category to the Media tab",
-      "url": "https://github.com/WordPress/gutenberg/pull/84082",
-      "state": "open",
-      "created_at": "2026-10-05T13:20:00Z",
-      "dated_at": "2026-10-05T13:20:00Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Feature",
-          "name": "Inserter",
-          "full": "[Feature] Inserter",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Feature",
-          "name": "Media",
-          "full": "[Feature] Media",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Package",
-          "name": "Editor",
-          "full": "[Package] Editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Package",
-          "name": "Block editor",
-          "full": "[Package] Block editor",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": null,
-          "name": "Developer Experience",
-          "full": "Developer Experience",
-          "color": "#29ed9a",
-          "rgb": "41 237 154",
-          "text": "#178456",
-          "text_night": "#29ed9a"
-        }
-      ],
-      "comments": 8
+      "comments": 12
     },
     {
       "number": 69773,
@@ -4106,53 +4200,6 @@
       "comments": 6
     },
     {
-      "number": 82247,
-      "title": "Site editor: Add item counts to post list status tabs",
-      "url": "https://github.com/WordPress/gutenberg/pull/82247",
-      "state": "open",
-      "created_at": "2026-08-31T12:38:01Z",
-      "dated_at": "2026-08-31T12:38:01Z",
-      "labels": [
-        {
-          "group": "Type",
-          "name": "Enhancement",
-          "full": "[Type] Enhancement",
-          "color": "#fef2c0",
-          "rgb": "254 242 192",
-          "text": "#78725b",
-          "text_night": "#fef2c0"
-        },
-        {
-          "group": "Package",
-          "name": "Edit Site",
-          "full": "[Package] Edit Site",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        },
-        {
-          "group": "Feature",
-          "name": "Site Editor",
-          "full": "[Feature] Site Editor",
-          "color": "#fbca04",
-          "rgb": "251 202 4",
-          "text": "#8c7102",
-          "text_night": "#fbca04"
-        },
-        {
-          "group": "Package",
-          "name": "Fields",
-          "full": "[Package] Fields",
-          "color": "#ed2572",
-          "rgb": "237 37 114",
-          "text": "#da2269",
-          "text_night": "#f04688"
-        }
-      ],
-      "comments": 30
-    },
-    {
       "number": 78010,
       "title": "Components: Add `defaultShown`, `onShownChange` to `ToolsPanelItem`",
       "url": "https://github.com/WordPress/gutenberg/pull/78010",
@@ -4973,10 +5020,10 @@
           "group": "Feature",
           "name": "Font Library",
           "full": "[Feature] Font Library",
-          "color": "#e0c503",
-          "rgb": "224 197 3",
-          "text": "#7d6e02",
-          "text_night": "#e0c503"
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
         }
       ],
       "comments": 7
@@ -5920,7 +5967,7 @@
           "text_night": "#fbca04"
         }
       ],
-      "comments": 10
+      "comments": 11
     },
     {
       "number": 76394,
@@ -6019,10 +6066,10 @@
           "group": "Feature",
           "name": "Connectors screen",
           "full": "[Feature] Connectors screen",
-          "color": "#3dfdc1",
-          "rgb": "61 253 193",
-          "text": "#1f8263",
-          "text_night": "#3dfdc1"
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
         }
       ],
       "comments": 12
@@ -6162,10 +6209,10 @@
           "group": "Feature",
           "name": "Font Library",
           "full": "[Feature] Font Library",
-          "color": "#e0c503",
-          "rgb": "224 197 3",
-          "text": "#7d6e02",
-          "text_night": "#e0c503"
+          "color": "#fbca04",
+          "rgb": "251 202 4",
+          "text": "#8c7102",
+          "text_night": "#fbca04"
         }
       ],
       "comments": 2
